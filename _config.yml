@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /noah-albinism
+exclude: ['README.md']
