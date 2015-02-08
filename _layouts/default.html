@@ -7,16 +7,7 @@
 <body>
 	<header>
 		<strong>NOAH nav</strong>
-		<nav>
-			<ul>
-				<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-				<li><a href="{{site.baseurl}}/who.html">Who we are</a></li>
-				<li><a href="{{site.baseurl}}/albinism.html">Albinism</a></li>
-				<li><a href="{{site.baseurl}}/whats-going-on.html">What's Going On</a></li>
-				<li><a href="{{site.baseurl}}/get-involved.html">Get Involved</a></li>
-				<li><a href="{{site.baseurl}}/donate.html">Donate</a></li>
-			</ul>
-		</nav>
+		{% include nav.html %}
 	</header>
 
   {{content}}
