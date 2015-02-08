@@ -1,4 +1,9 @@
 
+html {
+	margin: 0;
+	paddi: 0;
+	font: normal;
+}
 
 *, *:after, *:before {
 	-webkit-box-sizing: border-box;
@@ -7,126 +12,4 @@
 }
 
 
-
-.global-header {
-	background: $grey;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	z-index: 100;
-}
-
-.inner {
-	width: 90%;
-	margin-left: 5%;
-	margin-right: 5%;
-	clear: both;
-}
-
-.logo {
-    padding: 1em 0;
-    width: 100px;
-}
-
-.main-navigation {
-	float: right;
-  background: #f2f2f2;
-	-webkit-transition: all 0.3s ease-out;
-	-moz-transition: all 0.3s ease-out;
-	-ms-transition: all 0.3s ease-out;
-	-o-transition: all 0.3s ease-out;
-	transition: all 0.3s ease-out;
-	ul {
-		@include clearfix;
-		display: block;
-    list-style: none;
-    padding-top: 40px;
-    padding-left: 0;
-		li {
-			float: left;
-			a {
-				display: block;
-				font-family: Helvetica, sans-serif;
-				padding: 20px 12px 20px 12px;
-				font-size: 16px;
-				color: #000;
-        text-decoration: none;
-				&:hover {
-					color: #000;
-				}
-			}
-		}
-	}
-}
-
-.nav-toggle {
-	display: none;
-  text-decoration: none;
-}
-
-@media only screen and (max-width : 1024px) {
-
-	.global-header {
-		  position: relative;
-      .inner {
-	        width: 100%;
-	        margin-left: 0;
-	        margin-right: 0;
-      }
-	}
-
-	article.main-content {
-		margin-top: 0;
-	}
-
-	.main-navigation {
-		width: 100%;
-		overflow: hidden;
-		height: 0;
-		ul {
-      padding-top: 0;
-      margin: 0;
-			li {
-				width: 50%;
-				text-align: center;
-        border-bottom: 1px solid #ccc;
-        &:nth-child(2n-1) {
-            border-right: 1px solid #ccc;
-        }
-				a {
-					  padding: 30px 13px 30px 13px;
-				}
-				&:last-of-type {
-					  margin-left: 0;
-				}
-			}
-		}
-		&.nav-visible {
-			overflow: hidden;
-			height: 239px;
-		}
-	}
-
-  .logo {
-      margin-left: 5%;
-  }
-
-	.nav-toggle {
-		display: block;
-		float: right;
-    margin-right: 5%;
-		i {
-			padding: 68px 25px 30px 25px;
-			color: #000;
-			font-size: 28px;
-			margin: 0;
-			margin-right: -25px;
-			display: none;
-			&.visible {
-				display: block;
-			}
-		}
-	}
-}
 
