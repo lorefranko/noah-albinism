@@ -1,10 +1,14 @@
 // Import mixins, variables, and other modules, usually compass related
 @import "base";
 @import "mixins";
+@import "colors";
+@import "sizing";
+@import "variables";
 
 // Component rules
 @import "components/push-menu-custom";
 @import "components/fontello";
 @import "components/main";
+
 
 // Vendor
