@@ -1,15 +1,39 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
 html {
-	margin: 0;
-	paddi: 0;
-	font: normal;
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 
-*, *:after, *:before {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
+
+
+body{
+  font-family: 'futura' sans-serif;
+  @include zero;
+  // Hides close button if there is no js
+  &.noscript .close-btn,
+  &.noscript .toggle-btn{
+    display: none;
+  }
+}
+
+header {
+  padding: 0 1em;
+  position: relative;
+}
+
+
 
 
 

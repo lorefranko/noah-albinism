@@ -1,10 +1,14 @@
-		<nav>
-			<ul>
-				<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-				<li><a href="{{site.baseurl}}/who.html">Who we are</a></li>
-				<li><a href="{{site.baseurl}}/albinism.html">Albinism</a></li>
-				<li><a href="{{site.baseurl}}/whats-going-on.html">What's Going On</a></li>
-				<li><a href="{{site.baseurl}}/get-involved.html">Get Involved</a></li>
-				<li><a href="{{site.baseurl}}/donate.html">Donate</a></li>
+
+    <a class="toggle-btn" href="#"><i class="i-menu"></i><span>Menu</span></a>
+    <nav class="navigation slide-menu">
+    <a class="close-btn" href="#"><i class="i-close"></i><span>Close</span></a>
+			<ul class="nav {{include.navclass}}">
+				<li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% end %}">Home</a></li>
+				<li><a href="{{site.baseurl}}/who.html" class="{% if page.url == '/who.html' %}current{% end %}">Who we are</a></li>
+				<li><a href="{{site.baseurl}}/albinism.html" class="{% if page.url == '/albinism.html' %}current{% end %}">Albinism</a></li>
+				<li><a href="{{site.baseurl}}/whats-going-on.html" class="{% if page.url == '/whats-going-on.html' %}current{% end %}">What's Going On</a></li>
+				<li><a href="{{site.baseurl}}/get-involved.html" class="{% if page.url == '/get-involved.html' %}current{% end %}">Get Involved</a></li>
+				<li><a href="{{site.baseurl}}/donate.html" class="{% if page.url == '/donate.html' %}current{% end %}">Donate</a></li>
 			</ul>
 		</nav>
+
