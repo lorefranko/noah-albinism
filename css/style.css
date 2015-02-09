@@ -1,0 +1,359 @@
+@font-face {
+  font-family: 'push-menu-custom';
+  src: url('../font/push-menu-custom.eot?95902514');
+  src: url('../font/push-menu-custom.eot?95902514#iefix') format('embedded-opentype'), url('../font/push-menu-custom.woff?95902514') format('woff'), url('../font/push-menu-custom.ttf?95902514') format('truetype'), url('../font/push-menu-custom.svg?95902514#push-menu-custom') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'push-menu-custom';
+    src: url('../font/push-menu-custom.svg?95902514#push-menu-custom') format('svg');
+  }
+}
+*/
+/* line 22, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/push-menu-custom */
+[class^="i-"]:before, [class*=" i-"]:before {
+  font-family: "push-menu-custom";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 53, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/push-menu-custom */
+.i-menu:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 54, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/push-menu-custom */
+.i-close:before {
+  content: '\e801'; }
+
+/* '' */
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?58849019');
+  src: url('../fonts/fontello.eot?58849019#iefix') format('embedded-opentype'), url('../fonts/fontello.woff?58849019') format('woff'), url('../fonts/fontello.ttf?58849019') format('truetype'), url('../fonts/fontello.svg?58849019#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal; }
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?58849019#fontello') format('svg');
+  }
+}
+*/
+/* line 22, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: 0.2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: 0.2em
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
+
+/* line 53, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+.icon-facebook:before {
+  content: '\e800'; }
+
+/* '' */
+/* line 54, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+.icon-twitter:before {
+  content: '\e801'; }
+
+/* '' */
+/* line 55, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+.icon-youtube:before {
+  content: '\e802'; }
+
+/* '' */
+/* line 56, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+.icon-blog:before {
+  content: '\e803'; }
+
+/* '' */
+@-moz-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-o-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1; }
+
+@viewport {
+  width: device-width;
+  scale: 1; }
+
+/* line 7, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; }
+
+/* line 16, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 21, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+* {
+  margin: 0;
+  padding: 0; }
+
+/* line 27, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+body, html {
+  height: 100%; }
+
+/* line 31, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+body {
+  font: 13px/18px "futura", Arial, Helvetica, Geneva, sans-serif;
+  /*
+   * Relates to the pseudo class & sibling bug, see
+   * http://css-tricks.com/webkit-sibling-bug/ for more details
+   */
+  -webkit-animation: bugfix infinite 1s; }
+
+/* Also relates to the pseudo class & sibling bug */
+@-webkit-keyframes bugfix {
+  /* line 42, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  from {
+    padding: 0; }
+
+  /* line 42, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  to {
+    padding: 0; } }
+
+/* line 44, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.outer {
+  overflow: hidden; }
+
+/* line 48, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+img {
+  width: 100%; }
+
+/* line 52, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.slide {
+  background: transparent url("..images/truck.jpg") no-repeat fixed center;
+  background-size: cover;
+  padding: 20px; }
+
+/* line 58, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.content {
+  margin-top: 30px; }
+
+/* line 63, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.content ul, .content ol {
+  margin: 10px 40px; }
+
+/* line 67, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+h1, h2, h3, p {
+  margin-bottom: 18px; }
+
+/* line 71, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+h1 {
+  line-height: 26px; }
+
+/* @group .nav */
+/* line 76, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.nav {
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 5px 0;
+  background: #F4A460;
+  border-radius: 3px;
+  overflow: hidden; }
+
+/* line 85, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  float: left; }
+
+/* line 92, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.nav li a {
+  display: block;
+  padding: 5px 20px;
+  text-decoration: none;
+  background: #F4A460;
+  color: #f9f9f9; }
+
+/* line 100, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.nav li a:hover {
+  background: #8B7D6B; }
+
+/* @end nav */
+/* This is the clickable label */
+/* line 107, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.slide-toggle {
+  float: right;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  display: none;
+  margin: 10px 10px 0 0; }
+
+/* Kill the nasty outlines everywhere */
+/* line 119, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.slide-toggle, .slide-toggle:active, .slide-toggle:focus {
+  border: none !important;
+  outline: none !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+
+/* The :after pseudo element has an icon that covers the checkbox */
+/* line 126, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.slide-toggle:after {
+  content: "+";
+  color: #F4A460;
+  background: #333;
+  display: block;
+  height: 30px;
+  width: 38px;
+  border-radius: 3px;
+  padding-top: 8px;
+  font-size: 2em;
+  weight: 700;
+  text-align: center;
+  margin-left: -19px; }
+
+/* This is the checkbox */
+/* line 142, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.slide-checkbox {
+  position: absolute;
+  top: -9999px;
+  left: -9999px; }
+
+/* When it's checked replace the menu icon with a close icon */
+/* line 149, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.slide-checkbox:checked ~ .slide-toggle:after {
+  content: '"'; }
+
+/*
+ * I set the width pretty high because I wanted to test on an Ipad in portrait mode,
+ * depending on your website you can probably make this narrower
+ */
+@media handheld, only screen and (max-width: 980px) {
+  /* Only show the menu link on smaller screens */
+  /* line 160, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .slide-toggle {
+    display: block; }
+
+  /*
+   * The transition value determines the speed
+   * at which the content will slide over
+   */
+  /* line 168, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .slide {
+    transition: -webkit-transform 500ms ease;
+    transition: transform 500ms ease; }
+
+  /*
+   * Enable hardware acceleration and stop flickering
+   * More details: http://indiegamr.com/ios6-html-hardware-acceleration-changes-and-how-to-fix-them/
+   * Add more browser prefixes as required for your environment
+   */
+  /* line 178, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .slide, .nav {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden; }
+
+  /*
+   * When the checkbox is checked slide the content
+   * over and the checkbox with it
+   */
+  /* line 186, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .slide-checkbox:checked ~ .slide {
+    -webkit-transform: translateX(70%) scale(1);
+    -ms-transform: translateX(70%) scale(1);
+    transform: translateX(70%) scale(1); }
+
+  /* line 191, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .nav {
+    border-radius: 0;
+    /*
+     * The width determines how much of the page you want to
+     * remain visible once the menu slides over
+     */
+    width: 70%;
+    /*
+     * Must be absolutely positioned otherwise it won't sit
+     * side by side with the content but instead above it
+     * */
+    position: absolute;
+    left: 0;
+    top: 0;
+    /* Keeps the menu hidden off-canvas to the left */
+    -webkit-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    transform: translateX(-100%); }
+
+  /* line 212, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .nav li {
+    float: none; }
+
+  /* line 216, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .nav li a {
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #444;
+    padding: 12px 12px; }
+
+  /* line 222, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .nav li:first-child a {
+    border-top: none; }
+
+  /* line 226, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .nav li:last-child a {
+    border-bottom: none; }
+ }

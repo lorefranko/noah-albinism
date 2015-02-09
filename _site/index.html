@@ -2,7 +2,10 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <link href="/css/main.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  <script src="path/to/jquery.js" type="text/javascript"></script>
+  <script src="path/to/jquery.mmenu.min.js" type="text/javascript"></script>
+  <link href="path/to/jquery.mmenu.css" type="text/css" rel="stylesheet" />
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -12,34 +15,20 @@
 	<header>
 		<strong>NOAH nav</strong>
 		
-		<div class="outer">
-      <input type="checkbox" id="slide-checkbox" class="slide-checkbox" role="button">
-      <label for="slide-checkbox" class="slide-toggle" onclick></label>
-      <div class="slide">
-        <ul class="nav">
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/who.html">Who we are</a></li>
-        <li><a href="/albinism.html">Albinism</a></li>
-        <li><a href="/whats-going-on.html">What's Going On</a></li>
-        <li><a href="/get-involved.html">Get Involved</a></li>
-        <li><a href="/donate.html">Donate</a></li>
-        </ul>
-        <div class="content">
-            <img src="images/truck.jpg" alt="truck">
-            <h1>NOAH Non-Profit Albinism Organization</h1>
-            <h1>HOME PAGE</h1>
-            <p>Testing Jekyll</p>
-            <p>Nav and footer template</p>
+ <nav id="my-menu">
+       <ul>
+        <li><a href="/index.html" class="current">Home</a>
+					<ul>
+						<li><a href="/community.html" class="">On-Line Community</a></li>
+        </li>
 
-            <p>Welcome to NOAH's Albinism On-line Community — a place where people and families affected by albinism and others interested in learning more about the condition can ask questions and share experiences.
-          Before participating in the Albinism On-line Community, please take a few minutes to familarize yourself with our policies and proceedures by following the links below.
-            • NOAH's Albinism On-line Community Usage Policy
-            • Why Should I register for the Albinism On-line Community?
-          Thanks for reading, we hope you visit often!
-          </p>
-        </div>
-      </div>
-    </div>
+        <li><a href="/who.html" class="">Who we are</a></li>
+        <li><a href="/albinism.html" class="">Albinism</a></li>
+        <li><a href="/whats-going-on.html" class="">What's Going On</a></li>
+        <li><a href="/get-involved.html" class="">Get Involved</a></li>
+        <li><a href="/donate.html" class="">Donate</a></li>
+       </ul>
+ </nav>
 
 
 	</header>
@@ -49,6 +38,7 @@
 	<p>Testing Jekyll</p>
 	<p>Nav and footer template</p>
 
+	<img src="images/blue.jpg" alt="blue">
 	<p>Welcome to NOAH's Albinism On-line Community — a place where people and families affected by albinism and others interested in learning more about the condition can ask questions and share experiences.
 Before participating in the Albinism On-line Community, please take a few minutes to familarize yourself with our policies and proceedures by following the links below.
 	•	NOAH's Albinism On-line Community Usage Policy
@@ -60,10 +50,10 @@ Thanks for reading, we hope you visit often!
   <footer>
       <div>
   		<ul>
-				<li><a href="https://www.facebook.com/NOAH.Albinism"><i class="facebook"></i><span>Facebook</span></a></li>
-				<li><a href="https://twitter.com/AlbinismCanada"><i class="twitter"></i><span>Twitter</span></a></li>
-				<li><a href="http://community.albinism.org/blogs/"><i class="blog"></i><span>Blog</span></a></li>
-				<li><a href="https://www.youtube.com/user/NOAHAlbinism"><i class="youtube"></i><span>YouTube</span></a></li>
+				<li><a href="https://www.facebook.com/NOAH.Albinism"><i class="icon-facebook"></i><span>Facebook</span></a></li>
+				<li><a href="https://twitter.com/AlbinismCanada"><i class="icon-twitter"></i><span>Twitter</span></a></li>
+				<li><a href="http://community.albinism.org/blogs/"><i class="icon-blog"></i><span>Blog</span></a></li>
+				<li><a href="https://www.youtube.com/user/NOAHAlbinism"><i class="icon-youtube"></i><span>YouTube</span></a></li>
 			</ul>
 	</div>
 	<strong>©2015 All Rights Reserved NOAH</strong>
