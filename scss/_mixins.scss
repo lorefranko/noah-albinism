@@ -26,3 +26,36 @@
   white-space: normal;
   overflow: visible;
 }
+
+@mixin slide {
+    -webkit-transition: -webkit-transform 500ms ease;
+    -moz-transition: -moz-transform 500ms ease;
+    -o-transition: -o-transform 500ms ease;
+    transition: transform 500ms ease;
+  }
+
+@mixin slide-nav {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+  }
+
+@mixin slide-checkbox{
+    -webkit-transform: translateX(70%) scale(1);
+    -moz-transform: translateX(70%) scale(1);
+    -ms-transform: translateX(70%) scale(1);
+    -o-transform: translateX(70%) scale(1);
+    transform: translateX(70%) scale(1);
+
+  }
+
+@mixin nav{
+      -webkit-transform: translateX(-100%);
+    -moz-transform: translateX(-100%);
+    -ms-transform: translateX(-100%);
+    -o-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
