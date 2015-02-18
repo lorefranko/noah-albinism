@@ -1,238 +1,35 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-	box-sizing: border-box;
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
+.ul-nav-width li{
+	list-style-type: none;
+	font-family: 'futura' sans-serif;
+	display: inline-block;
+	padding: 1%;
+	float: left;
+	&:hover{
+		background-color: red;
+	}
 }
 
-
-*, *:before, *:after {
-	box-sizing: inherit;
+  .ul-nav-width{
+		float: right;
+	}
+a{
+	text-decoration: none;
 }
 
-
-* {
-  margin: 0;
-  padding: 0;
+#full-width-menu{
+	margin-top: -10px;
+	position: fixed;
+	width: 100%;
+	background: #ff6600;
 }
 
-body,
-html {
-    height: 100%;
+.logo{
+	width: 200px;
+	position: absolute;
+	float: left;
+	padding-right: 20px;
 }
 
-body {
-  font: 13px/18px "futura", Arial, Helvetica, Geneva, sans-serif;
-
-  /*
-   * Relates to the pseudo class & sibling bug, see
-   * http://css-tricks.com/webkit-sibling-bug/ for more details
-   */
-  -webkit-animation: bugfix infinite 1s;
+.main-photo{
+	width: 100%;
 }
-
-/* Also relates to the pseudo class & sibling bug */
-@-webkit-keyframes bugfix { from { padding: 0; } to { padding: 0; } }
-
-.outer {
-  overflow: hidden;
-}
-
-img{
-  width: 100%;
-}
-
-.slide {
-  background: transparent url("..images/truck.jpg") no-repeat fixed center;
-  background-size: cover;
-  padding: 20px;
-}
-
-.content {
-  margin-top: 30px;
-}
-
-.content ul,
-.content ol {
-  margin: 10px 40px;
-}
-
-h1,h2,h3,p {
-  margin-bottom: 18px;
-}
-
-h1 {
-  line-height: 26px;
-}
-
-/* @group .nav */
-.nav {
-  width: 100%;
-  margin: 0 0 20px 0;
-  padding: 5px 0;
-  background: $background-slide;
-  border-radius: 3px;
-  overflow: hidden;
-}
-
-.nav li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  float: left;
-}
-
-.nav li a {
-  display: block;
-  padding: 5px 20px;
-  text-decoration: none;
-  background: $background-slide;
-  color: #f9f9f9;
-}
-
-.nav li a:hover {
-  background: $background-hover;
-}
-
-/* @end nav */
-
-/* This is the clickable label */
-.slide-toggle {
-  float: right;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-  display: none;
-  margin: 10px 10px 0 0;
-}
-
-/* Kill the nasty outlines everywhere */
-.slide-toggle,
-.slide-toggle:active,
-.slide-toggle:focus {
-  border: none !important;
-  outline: none !important;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
-}
-
-/* The :after pseudo element has an icon that covers the checkbox */
-.slide-toggle:after {
-  content: "+";
-  color: $background-slide;
-  background: #333;
-  display: block;
-  height: 30px;
-  width: 38px;
-  border-radius: 3px;
-  padding-top: 8px;
-  font-size: 2em;
-  weight: 700;
-  text-align: center;
-  margin-left: -19px;
-}
-
-/* This is the checkbox */
-.slide-checkbox {
-  position: absolute;
-  top: -9999px;
-  left: -9999px;
-}
-
-/* When it's checked replace the menu icon with a close icon */
-.slide-checkbox:checked ~ .slide-toggle:after {
-  content: '"';
-}
-
-/*
- * I set the width pretty high because I wanted to test on an Ipad in portrait mode,
- * depending on your website you can probably make this narrower
- */
-@media handheld, only screen and (max-width: 980px) {
-
-  /* Only show the menu link on smaller screens */
-  .slide-toggle {
-    display: block;
-  }
-
-  /*
-   * The transition value determines the speed
-   * at which the content will slide over
-   */
-  .slide {
-   @include slide;
-  }
-
-  /*
-   * Enable hardware acceleration and stop flickering
-   * More details: http://indiegamr.com/ios6-html-hardware-acceleration-changes-and-how-to-fix-them/
-   * Add more browser prefixes as required for your environment
-   */
-  .slide,
-  .nav {
-    @include slide-nav;
-  }
-
-  /*
-   * When the checkbox is checked slide the content
-   * over and the checkbox with it
-   */
-  .slide-checkbox:checked ~ .slide {
-   @include slide-checkbox;
-
-  }
-
-  .nav {
-    border-radius: 0;
-
-    /*
-     * The width determines how much of the page you want to
-     * remain visible once the menu slides over
-     */
-    width: 70%;
-
-    /*
-     * Must be absolutely positioned otherwise it won't sit
-     * side by side with the content but instead above it
-     * */
-    position: absolute;
-    left: 0;
-    top: 0;
-
-    /* Keeps the menu hidden off-canvas to the left */
-    @include nav;
-  }
-
-  .nav li {
-    float: none;
-  }
-
-  .nav li a {
-    border-top: 1px solid #222;
-    border-bottom: 1px solid #444;
-    padding: 12px 12px;
-  }
-
-  .nav li:first-child a {
-    border-top: none;
-  }
-
-  .nav li:last-child a {
-    border-bottom: none;
-  }
-
-}
-
-
-
-
-
-
-
-

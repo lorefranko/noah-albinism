@@ -1,9 +1,12 @@
-<div>
- <nav id="my-menu">
-       <ul>
+
+ <nav id="{{include.navid}}">
+ 	   <a href="#top"><img class="logo" src="images/logo-noah.svg" alt="logo"></a>
+
+       <ul class="ul-nav-width">
         <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a>
 					<ul>
 						<li><a href="{{site.baseurl}}/community.html" class="{% if page.url == '/community.html' %}current{% endif %}">On-Line Community</a></li>
+					</ul>
         </li>
 
         <li><a href="{{site.baseurl}}/who.html" class="{% if page.url == '/who.html' %}current{% endif %}">Who we are</a></li>
@@ -13,5 +16,4 @@
         <li><a href="{{site.baseurl}}/donate.html" class="{% if page.url == '/donate.html' %}current{% endif %}">Donate</a></li>
        </ul>
  </nav>
-</div>
 

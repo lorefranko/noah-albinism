@@ -112,248 +112,1887 @@
   content: '\e803'; }
 
 /* '' */
-@-moz-viewport {
-  width: device-width;
-  scale: 1; }
+/* line 1, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.ul-nav-width li {
+  list-style-type: none;
+  font-family: 'futura' sans-serif;
+  display: inline-block;
+  padding: 1%;
+  float: left; }
+  /* line 7, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  .ul-nav-width li:hover {
+    background-color: red; }
 
-@-ms-viewport {
-  width: device-width;
-  scale: 1; }
+/* line 12, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.ul-nav-width {
+  float: right; }
 
-@-o-viewport {
-  width: device-width;
-  scale: 1; }
+/* line 15, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+a {
+  text-decoration: none; }
 
-@-webkit-viewport {
-  width: device-width;
-  scale: 1; }
+/* line 19, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+#full-width-menu {
+  margin-top: -10px;
+  position: fixed;
+  width: 100%;
+  background: #ff6600; }
 
-@viewport {
-  width: device-width;
-  scale: 1; }
+/* line 26, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.logo {
+  width: 200px;
+  position: absolute;
+  float: left;
+  padding-right: 20px; }
 
-/* line 7, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-html {
-  box-sizing: border-box;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%; }
-
-/* line 16, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-*, *:before, *:after {
-  box-sizing: inherit; }
-
-/* line 21, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-* {
-  margin: 0;
-  padding: 0; }
-
-/* line 27, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-body, html {
-  height: 100%; }
-
-/* line 31, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-body {
-  font: 13px/18px "futura", Arial, Helvetica, Geneva, sans-serif;
-  /*
-   * Relates to the pseudo class & sibling bug, see
-   * http://css-tricks.com/webkit-sibling-bug/ for more details
-   */
-  -webkit-animation: bugfix infinite 1s; }
-
-/* Also relates to the pseudo class & sibling bug */
-@-webkit-keyframes bugfix {
-  /* line 42, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  from {
-    padding: 0; }
-
-  /* line 42, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  to {
-    padding: 0; } }
-
-/* line 44, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.outer {
-  overflow: hidden; }
-
-/* line 48, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-img {
+/* line 33, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.main-photo {
   width: 100%; }
 
-/* line 52, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.slide {
-  background: transparent url("..images/truck.jpg") no-repeat fixed center;
-  background-size: cover;
-  padding: 20px; }
+/*
+  jQuery.mmenu CSS
+*/
+/*
+  jQuery.mmenu panels CSS
+*/
+/* line 7, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-horizontal > .mm-panel {
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease; }
 
-/* line 58, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.content {
-  margin-top: 30px; }
+/* line 11, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-hidden {
+  display: none; }
 
-/* line 63, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.content ul, .content ol {
-  margin: 10px 40px; }
+/* line 14, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-wrapper {
+  overflow-x: hidden;
+  position: relative; }
 
-/* line 67, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-h1, h2, h3, p {
-  margin-bottom: 18px; }
-
-/* line 71, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-h1 {
-  line-height: 26px; }
-
-/* @group .nav */
-/* line 76, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.nav {
+/* line 19, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu, .mm-menu > .mm-panel {
   width: 100%;
-  margin: 0 0 20px 0;
-  padding: 5px 0;
-  background: #F4A460;
-  border-radius: 3px;
-  overflow: hidden; }
-
-/* line 85, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.nav li {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  float: left; }
-
-/* line 92, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.nav li a {
-  display: block;
-  padding: 5px 20px;
-  text-decoration: none;
-  background: #F4A460;
-  color: #f9f9f9; }
-
-/* line 100, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.nav li a:hover {
-  background: #8B7D6B; }
-
-/* @end nav */
-/* This is the clickable label */
-/* line 107, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.slide-toggle {
-  float: right;
-  cursor: pointer;
-  position: relative;
-  z-index: 1;
-  display: none;
-  margin: 10px 10px 0 0; }
-
-/* Kill the nasty outlines everywhere */
-/* line 119, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.slide-toggle, .slide-toggle:active, .slide-toggle:focus {
-  border: none !important;
-  outline: none !important;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
-
-/* The :after pseudo element has an icon that covers the checkbox */
-/* line 126, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.slide-toggle:after {
-  content: "+";
-  color: #F4A460;
-  background: #333;
-  display: block;
-  height: 30px;
-  width: 38px;
-  border-radius: 3px;
-  padding-top: 8px;
-  font-size: 2em;
-  weight: 700;
-  text-align: center;
-  margin-left: -19px; }
-
-/* This is the checkbox */
-/* line 142, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.slide-checkbox {
+  height: 100%;
   position: absolute;
-  top: -9999px;
-  left: -9999px; }
+  left: 0;
+  top: 0;
+  z-index: 0; }
 
-/* When it's checked replace the menu icon with a close icon */
-/* line 149, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.slide-checkbox:checked ~ .slide-toggle:after {
-  content: '"'; }
+/* line 27, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu {
+  background: inherit;
+  display: block;
+  overflow: hidden;
+  padding: 0; }
+
+/* line 32, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-panel {
+  background: inherit;
+  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0); }
+
+/* line 45, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-panel.mm-opened {
+  -webkit-transform: translate(0%, 0);
+  -ms-transform: translate(0%, 0);
+  transform: translate(0%, 0); }
+
+/* line 51, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-panel.mm-subopened {
+  -webkit-transform: translate(-30%, 0);
+  -ms-transform: translate(-30%, 0);
+  transform: translate(-30%, 0); }
+
+/* line 57, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-panel.mm-highest {
+  z-index: 1; }
+
+/* line 59, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list {
+  padding: 20px 0; }
+
+/* line 61, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-list {
+  padding-bottom: 0; }
+
+/* line 63, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-list:after {
+  content: '';
+  display: block;
+  height: 40px; }
+
+/* line 68, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-panel > .mm-list {
+  margin-left: -20px;
+  margin-right: -20px; }
+
+/* line 71, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-panel > .mm-list:first-child {
+  padding-top: 0; }
+
+/* line 75, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list, .mm-list > li {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+/* line 81, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list {
+  font: inherit;
+  font-size: 14px; }
+
+/* line 85, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a, .mm-list a:hover {
+  text-decoration: none; }
+
+/* line 87, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li {
+  position: relative; }
+
+/* line 90, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li > a, .mm-list > li > span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: inherit;
+  line-height: 20px;
+  display: block;
+  padding: 10px 10px 10px 20px;
+  margin: 0; }
+
+/* line 99, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+  content: '';
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+/* line 108, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+  width: auto;
+  margin-left: 20px;
+  position: relative;
+  left: auto; }
+
+/* line 113, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen {
+  background: rgba(3, 2, 1, 0);
+  width: 40px;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2; }
+
+/* line 122, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen:before {
+  content: '';
+  border-left-width: 1px;
+  border-left-style: solid;
+  display: block;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+/* line 131, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen.mm-fullsubopen {
+  width: 100%; }
+
+/* line 133, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen.mm-fullsubopen:before {
+  border-left: none; }
+
+/* line 136, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen + a, .mm-list a.mm-subopen + span {
+  padding-right: 5px;
+  margin-right: 40px; }
+
+/* line 139, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-selected > a.mm-subopen {
+  background: transparent; }
+
+/* line 142, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-selected > a.mm-fullsubopen + a, .mm-list > li.mm-selected > a.mm-fullsubopen + span {
+  padding-right: 45px;
+  margin-right: 0; }
+
+/* line 145, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subclose {
+  text-indent: 20px;
+  padding-top: 30px;
+  margin-top: -20px; }
+
+/* line 149, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-label {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-indent: 20px;
+  line-height: 25px;
+  padding-right: 5px; }
+
+/* line 158, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-spacer {
+  padding-top: 40px; }
+
+/* line 160, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-spacer.mm-label {
+  padding-top: 25px; }
+
+/* line 163, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen:after, .mm-list a.mm-subclose:before {
+  content: '';
+  border: 2px solid transparent;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-bottom: -5px;
+  position: absolute;
+  bottom: 50%; }
+
+/* line 177, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen:after {
+  border-top: none;
+  border-left: none;
+  right: 18px; }
+
+/* line 181, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subclose:before {
+  border-right: none;
+  border-bottom: none;
+  margin-bottom: -15px;
+  left: 22px; }
+
+/* line 187, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list .mm-panel {
+  display: none;
+  padding: 10px 0 10px 10px; }
+
+/* line 190, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list .mm-panel li:last-child:after {
+  border-color: transparent; }
+
+/* line 192, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list li.mm-opened > .mm-panel {
+  display: block; }
+
+/* line 194, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li > a.mm-subopen {
+  height: 40px; }
+
+/* line 196, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li > a.mm-subopen:after {
+  top: 16px;
+  bottom: auto; }
+
+/* line 199, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li.mm-opened > a.mm-subopen:after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 205, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li.mm-label > a.mm-subopen {
+  height: 25px; }
+
+/* line 208, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened .mm-page {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+
+/* line 211, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu {
+  background: #333333;
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 214, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li:after {
+  border-color: rgba(0, 0, 0, 0.15); }
+
+/* line 216, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li > a.mm-subclose {
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.3); }
+
+/* line 219, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before {
+  border-color: rgba(255, 255, 255, 0.3); }
+
+/* line 221, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li > a.mm-subopen:before {
+  border-color: rgba(0, 0, 0, 0.15); }
+
+/* line 224, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu .mm-list > li.mm-selected > span {
+  background: rgba(0, 0, 0, 0.1); }
+
+/* line 226, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li.mm-label {
+  background: rgba(255, 255, 255, 0.05); }
+
+/* line 229, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-vertical .mm-list li.mm-opened > ul {
+  background: rgba(255, 255, 255, 0.05); }
 
 /*
- * I set the width pretty high because I wanted to test on an Ipad in portrait mode,
- * depending on your website you can probably make this narrower
- */
-@media handheld, only screen and (max-width: 980px) {
-  /* Only show the menu link on smaller screens */
-  /* line 160, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .slide-toggle {
-    display: block; }
+  jQuery.mmenu offcanvas addon CSS
+*/
+/* line 235, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-page {
+  box-sizing: border-box;
+  position: relative; }
 
-  /*
-   * The transition value determines the speed
-   * at which the content will slide over
-   */
-  /* line 168, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .slide {
-    transition: -webkit-transform 500ms ease;
-    transition: transform 500ms ease; }
+/* line 239, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-slideout {
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease; }
 
-  /*
-   * Enable hardware acceleration and stop flickering
-   * More details: http://indiegamr.com/ios6-html-hardware-acceleration-changes-and-how-to-fix-them/
-   * Add more browser prefixes as required for your environment
-   */
-  /* line 178, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .slide, .nav {
-    -webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -webkit-perspective: 1000;
-    -moz-perspective: 1000;
-    -webkit-backface-visibility: hidden;
-    -moz-backface-visibility: hidden; }
+/* line 244, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened {
+  overflow: hidden;
+  position: relative; }
 
-  /*
-   * When the checkbox is checked slide the content
-   * over and the checkbox with it
-   */
-  /* line 186, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .slide-checkbox:checked ~ .slide {
-    -webkit-transform: translateX(70%) scale(1);
-    -ms-transform: translateX(70%) scale(1);
-    transform: translateX(70%) scale(1); }
+/* line 247, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened body {
+  overflow: hidden; }
 
-  /* line 191, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .nav {
-    border-radius: 0;
-    /*
-     * The width determines how much of the page you want to
-     * remain visible once the menu slides over
-     */
-    width: 70%;
-    /*
-     * Must be absolutely positioned otherwise it won't sit
-     * side by side with the content but instead above it
-     * */
-    position: absolute;
-    left: 0;
-    top: 0;
-    /* Keeps the menu hidden off-canvas to the left */
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%); }
+/* line 250, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-background .mm-page {
+  background: inherit; }
 
-  /* line 212, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .nav li {
-    float: none; }
+/* line 253, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+#mm-blocker {
+  background: rgba(3, 2, 1, 0);
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999999; }
 
-  /* line 216, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .nav li a {
-    border-top: 1px solid #222;
-    border-bottom: 1px solid #444;
-    padding: 12px 12px; }
+/* line 264, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened #mm-blocker, html.mm-blocking #mm-blocker {
+  display: block; }
 
-  /* line 222, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .nav li:first-child a {
-    border-top: none; }
+/* line 267, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-offcanvas {
+  display: none;
+  position: fixed; }
 
-  /* line 226, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .nav li:last-child a {
-    border-bottom: none; }
+/* line 270, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-current {
+  display: block; }
+
+/* line 273, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu {
+  width: 80%;
+  min-width: 140px;
+  max-width: 440px; }
+
+/* line 278, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opening .mm-slideout {
+  -webkit-transform: translate(80%, 0);
+  -ms-transform: translate(80%, 0);
+  transform: translate(80%, 0); }
+
+@media all and (max-width: 175px) {
+  /* line 286, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  html.mm-opening .mm-slideout {
+    -webkit-transform: translate(140px, 0);
+    -ms-transform: translate(140px, 0);
+    transform: translate(140px, 0); }
  }
+
+@media all and (min-width: 550px) {
+  /* line 293, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  html.mm-opening .mm-slideout {
+    -webkit-transform: translate(440px, 0);
+    -ms-transform: translate(440px, 0);
+    transform: translate(440px, 0); }
+ }
+
+/*
+  jQuery.mmenu buttonbars addon CSS
+*/
+/* line 302, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 20px;
+  overflow: hidden;
+  display: block;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+/* line 312, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar:after {
+  content: '';
+  display: block;
+  clear: both; }
+
+/* line 316, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar > * {
+  border-left: 1px solid transparent;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+  float: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+/* line 326, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar > a {
+  text-decoration: none; }
+
+/* line 328, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar > input {
+  position: absolute;
+  left: -1000px;
+  top: -1000px; }
+
+/* line 332, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar > input:checked + label {
+  border-color: transparent !important; }
+
+/* line 335, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar > *:first-child, .mm-buttonbar > input:first-child + * {
+  border-left: none; }
+
+/* line 337, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar.mm-buttonbar-2 > * {
+  width: 50%; }
+
+/* line 339, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar.mm-buttonbar-3 > * {
+  width: 33.33%; }
+
+/* line 341, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar.mm-buttonbar-4 > * {
+  width: 25%; }
+
+/* line 343, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-buttonbar.mm-buttonbar-5 > * {
+  width: 20%; }
+
+/* line 346, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header .mm-buttonbar {
+  margin-top: 20px;
+  margin-left: -30px;
+  margin-right: -30px; }
+
+/* line 351, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-footer .mm-buttonbar {
+  border: none;
+  border-radius: none;
+  line-height: 40px;
+  margin: -10px -10px 0 -20px; }
+
+/* line 356, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-footer .mm-buttonbar > * {
+  border-left: none; }
+
+/* line 359, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li > .mm-buttonbar {
+  margin: 10px 20px; }
+
+/* line 362, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-buttonbar {
+  border-color: rgba(255, 255, 255, 0.6);
+  background: #333333; }
+
+/* line 365, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-buttonbar > * {
+  border-color: rgba(255, 255, 255, 0.6); }
+
+/* line 367, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-buttonbar > input:checked + label {
+  background: rgba(255, 255, 255, 0.6);
+  color: #333333; }
+
+/*
+  jQuery.mmenu counters addon CSS
+*/
+/* line 374, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+em.mm-counter {
+  font: inherit;
+  font-size: 14px;
+  font-style: normal;
+  text-indent: 0;
+  line-height: 20px;
+  display: block;
+  margin-top: -10px;
+  position: absolute;
+  right: 40px;
+  top: 50%; }
+
+/* line 385, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+em.mm-counter + a.mm-subopen {
+  padding-left: 40px; }
+
+/* line 388, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+em.mm-counter + a.mm-subopen + a, em.mm-counter + a.mm-subopen + span {
+  margin-right: 80px; }
+
+/* line 390, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+em.mm-counter + a.mm-fullsubopen {
+  padding-left: 0; }
+
+/* line 393, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-vertical em.mm-counter {
+  top: 12px;
+  margin-top: 0; }
+
+/* line 397, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-nosubresults > em.mm-counter {
+  display: none; }
+
+/* line 400, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu em.mm-counter {
+  color: rgba(255, 255, 255, 0.3); }
+
+/*
+  jQuery.mmenu dragOpen addon CSS
+*/
+/* line 410, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.mm-opened.mm-dragging .mm-fixed-top, html.mm-opened.mm-dragging .mm-fixed-bottom, html.mm-opened.mm-dragging #mm-blocker {
+  transition-duration: 0s; }
+
+/*
+  jQuery.mmenu footer addon CSS
+*/
+/* line 420, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-footer {
+  background: inherit;
+  border-top: 1px solid transparent;
+  text-align: center;
+  line-height: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 40px;
+  padding: 10px 10px 0 20px;
+  position: absolute;
+  z-index: 2;
+  bottom: 0;
+  left: 0; }
+
+/* line 434, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasfooter > .mm-panel:after {
+  height: 80px; }
+
+/* line 437, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-footer {
+  border-color: rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.3); }
+
+/*
+  jQuery.mmenu header addon CSS
+*/
+/* line 444, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header {
+  background: inherit;
+  border-bottom: 1px solid transparent;
+  text-align: center;
+  line-height: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  height: 60px;
+  padding: 0 50px;
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0; }
+
+/* line 460, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header .mm-title, .mm-header .mm-prev, .mm-header .mm-next, .mm-header .mm-close {
+  padding-top: 30px; }
+
+/* line 462, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header .mm-title {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  width: 100%;
+  position: relative; }
+
+/* line 471, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header .mm-prev, .mm-header .mm-next, .mm-header .mm-close {
+  text-decoration: none;
+  display: block;
+  box-sizing: border-box;
+  min-width: 10px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1; }
+
+/* line 480, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header .mm-prev {
+  padding-left: 20px;
+  padding-right: 10px;
+  left: 0; }
+
+/* line 485, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header .mm-next, .mm-header .mm-close {
+  padding-left: 10px;
+  padding-right: 20px;
+  right: 0; }
+
+/* line 489, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header [href].mm-prev:before, .mm-header [href].mm-next:after {
+  content: '';
+  border: 2px solid transparent;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 500, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header [href].mm-prev:before {
+  border-right: none;
+  border-bottom: none;
+  margin-left: 2px;
+  margin-right: 5px; }
+
+/* line 505, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header [href].mm-next:after, .mm-header [href].mm-close:after {
+  margin-left: 5px;
+  margin-right: -2px; }
+
+/* line 508, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header [href].mm-next:after {
+  border-top: none;
+  border-left: none; }
+
+/* line 511, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-header [href].mm-close:after {
+  content: 'x'; }
+
+/* line 514, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hassearch .mm-header {
+  height: 50px;
+  top: 50px; }
+
+/* line 520, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hassearch .mm-header .mm-title, .mm-menu.mm-hassearch .mm-header .mm-prev, .mm-menu.mm-hassearch .mm-header .mm-next, .mm-menu.mm-hassearch .mm-header .mm-close {
+  padding-top: 20px; }
+
+/* line 523, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader li.mm-subtitle {
+  display: none; }
+
+/* line 525, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader > .mm-panel {
+  padding-top: 80px; }
+
+/* line 527, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader > .mm-panel.mm-list {
+  padding-top: 60px; }
+
+/* line 529, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader > .mm-panel > .mm-list:first-child {
+  margin-top: -20px; }
+
+/* line 531, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader.mm-hassearch > .mm-panel {
+  padding-top: 120px; }
+
+/* line 533, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader.mm-hassearch > .mm-panel.mm-list {
+  padding-top: 100px; }
+
+/* line 536, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-header {
+  border-color: rgba(0, 0, 0, 0.15);
+  color: rgba(255, 255, 255, 0.3); }
+
+/* line 541, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-header .mm-prev:before, .mm-menu .mm-header .mm-next:after, .mm-menu .mm-header .mm-close:after {
+  border-color: rgba(255, 255, 255, 0.3); }
+
+/*
+  jQuery.mmenu labels addon CSS
+*/
+/* line 547, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list li.mm-label > span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  padding: 0;
+  line-height: 25px; }
+
+/* line 553, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list li.mm-label.mm-opened a.mm-subopen:after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 559, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list li.mm-collapsed:not(.mm-uncollapsed) {
+  display: none; }
+
+/* line 562, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li.mm-label > a.mm-subopen:after {
+  top: 8.5px; }
+
+/* line 565, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list li.mm-label > div > div {
+  background: rgba(255, 255, 255, 0.05); }
+
+/*
+  jQuery.mmenu searchfield addon CSS
+*/
+/* line 572, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-search, .mm-search input {
+  box-sizing: border-box; }
+
+/* line 575, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-search {
+  padding: 10px;
+  margin-top: -20px; }
+
+/* line 578, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-subtitle + li.mm-search {
+  margin-top: 0; }
+
+/* line 581, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+div.mm-panel > div.mm-search {
+  padding: 0 0 10px 0; }
+
+/* line 584, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader .mm-list > li.mm-search {
+  margin-top: 0; }
+
+/* line 587, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-search {
+  background: inherit;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+
+/* line 595, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-search {
+  padding: 10px; }
+
+/* line 597, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-search input {
+  border: none;
+  border-radius: 30px;
+  font: inherit;
+  font-size: 14px;
+  line-height: 30px;
+  outline: none;
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  padding: 0 10px; }
+
+/* line 609, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-search input::-ms-clear {
+  display: none; }
+
+/* line 612, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-noresultsmsg {
+  text-align: center;
+  font-size: 21px;
+  display: none;
+  padding: 60px 0; }
+
+/* line 617, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-noresultsmsg:after {
+  border: none !important; }
+
+/* line 620, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-noresults .mm-noresultsmsg {
+  display: block; }
+
+/* line 623, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu li.mm-nosubresults > a.mm-subopen {
+  display: none; }
+
+/* line 626, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu li.mm-nosubresults > a.mm-subopen + a, .mm-menu li.mm-nosubresults > a.mm-subopen + span {
+  padding-right: 10px; }
+
+/* line 628, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hassearch > .mm-panel {
+  padding-top: 70px; }
+
+/* line 630, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hassearch > .mm-panel > .mm-list:first-child {
+  margin-top: -20px; }
+
+/* line 632, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader > .mm-panel > div.mm-search:first-child {
+  margin-top: -10px; }
+
+/* line 634, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-hasheader > .mm-panel > div.mm-search:first-child + .mm-list {
+  padding-top: 0; }
+
+/* line 637, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-search input {
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 640, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-noresultsmsg {
+  color: rgba(255, 255, 255, 0.3); }
+
+/*
+  jQuery.mmenu toggles addon CSS
+*/
+/* line 647, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+input.mm-toggle, input.mm-check {
+  position: absolute;
+  left: -10000px; }
+
+/* line 652, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-toggle, label.mm-check {
+  margin: 0;
+  position: absolute;
+  bottom: 50%;
+  z-index: 2; }
+
+/* line 658, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-toggle:before, label.mm-check:before {
+  content: '';
+  display: block; }
+
+/* line 662, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-toggle {
+  border-radius: 30px;
+  width: 50px;
+  height: 30px;
+  margin-bottom: -15px; }
+
+/* line 667, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-toggle:before {
+  border-radius: 30px;
+  width: 28px;
+  height: 28px;
+  margin: 1px; }
+
+/* line 673, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+input.mm-toggle:checked ~ label.mm-toggle:before {
+  float: right; }
+
+/* line 676, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-check {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -15px; }
+
+/* line 680, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-check:before {
+  border-left: 3px solid;
+  border-bottom: 3px solid;
+  width: 40%;
+  height: 20%;
+  margin: 25% 0 0 20%;
+  opacity: 0.1;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 693, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+input.mm-check:checked ~ label.mm-check:before {
+  opacity: 1; }
+
+/* line 696, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li label.mm-toggle, .mm-menu.mm-vertical .mm-list > li label.mm-check {
+  bottom: auto;
+  margin-bottom: 0; }
+
+/* line 699, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li label.mm-toggle {
+  top: 5px; }
+
+/* line 701, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li label.mm-check {
+  top: 5px; }
+
+/* line 704, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-toggle, label.mm-check {
+  right: 20px; }
+
+/* line 708, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-toggle + a, label.mm-toggle + span {
+  margin-right: 70px; }
+
+/* line 712, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+label.mm-check + a, label.mm-check + span {
+  margin-right: 50px; }
+
+/* line 715, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+a.mm-subopen + label.mm-toggle, a.mm-subopen + label.mm-check {
+  right: 50px; }
+
+/* line 719, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+a.mm-subopen + label.mm-toggle + a, a.mm-subopen + label.mm-toggle + span {
+  margin-right: 100px; }
+
+/* line 723, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+a.mm-subopen + label.mm-check + a, a.mm-subopen + label.mm-check + span {
+  margin-right: 80px; }
+
+/* line 726, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+em.mm-counter + a.mm-subopen + label.mm-toggle, em.mm-counter + a.mm-subopen + label.mm-check {
+  right: 90px; }
+
+/* line 730, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+em.mm-counter + a.mm-subopen + label.mm-toggle + a, em.mm-counter + a.mm-subopen + label.mm-toggle + span {
+  margin-right: 140px; }
+
+/* line 734, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+em.mm-counter + a.mm-subopen + label.mm-check + a, em.mm-counter + a.mm-subopen + label.mm-check + span {
+  margin-right: 120px; }
+
+/* line 737, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu label.mm-toggle {
+  background: rgba(0, 0, 0, 0.15); }
+
+/* line 739, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu label.mm-toggle:before {
+  background: #333333; }
+
+/* line 741, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu input.mm-toggle:checked ~ label.mm-toggle {
+  background: #4bd963; }
+
+/* line 744, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu label.mm-check:before {
+  border-color: rgba(255, 255, 255, 0.6); }
+
+/*
+  jQuery.mmenu effects extension CSS
+*/
+/* line 750, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide .mm-menu {
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease; }
+
+/* line 753, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide.mm-opened .mm-menu {
+  -webkit-transform: translateX(-30%);
+  -ms-transform: translateX(-30%);
+  transform: translateX(-30%); }
+
+/* line 759, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide.mm-opening .mm-menu {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%); }
+
+/* line 765, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide.mm-right.mm-opened .mm-menu {
+  -webkit-transform: translateX(30%);
+  -ms-transform: translateX(30%);
+  transform: translateX(30%); }
+
+/* line 771, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide.mm-right.mm-opening .mm-menu {
+  -webkit-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  transform: translateX(0%); }
+
+/* line 777, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide.mm-top.mm-opened .mm-menu {
+  -webkit-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  transform: translateY(-30%); }
+
+/* line 783, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide.mm-top.mm-opening .mm-menu {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%); }
+
+/* line 789, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide.mm-bottom.mm-opened .mm-menu {
+  -webkit-transform: translateY(30%);
+  -ms-transform: translateY(30%);
+  transform: translateY(30%); }
+
+/* line 795, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-slide.mm-bottom.mm-opening .mm-menu {
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%); }
+
+/* line 802, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu .mm-menu {
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease; }
+
+/* line 805, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu.mm-opened .mm-menu {
+  -webkit-transform: scale(0.7, 0.7) translateX(-30%);
+  -ms-transform: scale(0.7, 0.7) translateX(-30%);
+  transform: scale(0.7, 0.7) translateX(-30%);
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center; }
+
+/* line 816, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu.mm-opening .mm-menu {
+  -webkit-transform: scale(1, 1) translateX(0%);
+  -ms-transform: scale(1, 1) translateX(0%);
+  transform: scale(1, 1) translateX(0%); }
+
+/* line 822, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu.mm-right.mm-opened .mm-menu {
+  -webkit-transform: scale(0.7, 0.7) translateX(30%);
+  -ms-transform: scale(0.7, 0.7) translateX(30%);
+  transform: scale(0.7, 0.7) translateX(30%);
+  -webkit-transform-origin: right center;
+  -ms-transform-origin: right center;
+  transform-origin: right center; }
+
+/* line 833, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu.mm-right.mm-opening .mm-menu {
+  -webkit-transform: scale(1, 1) translateX(0%);
+  -ms-transform: scale(1, 1) translateX(0%);
+  transform: scale(1, 1) translateX(0%); }
+
+/* line 839, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu.mm-top.mm-opened .mm-menu {
+  -webkit-transform: scale(0.7, 0.7) translateY(-30%);
+  -ms-transform: scale(0.7, 0.7) translateY(-30%);
+  transform: scale(0.7, 0.7) translateY(-30%);
+  -webkit-transform-origin: center top;
+  -ms-transform-origin: center top;
+  transform-origin: center top; }
+
+/* line 850, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu.mm-top.mm-opening .mm-menu {
+  -webkit-transform: scale(1, 1) translateY(0%);
+  -ms-transform: scale(1, 1) translateY(0%);
+  transform: scale(1, 1) translateY(0%); }
+
+/* line 856, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu.mm-bottom.mm-opened .mm-menu {
+  -webkit-transform: scale(0.7, 0.7) translateY(30%);
+  -ms-transform: scale(0.7, 0.7) translateY(30%);
+  transform: scale(0.7, 0.7) translateY(30%);
+  -webkit-transform-origin: center bottom;
+  -ms-transform-origin: center bottom;
+  transform-origin: center bottom; }
+
+/* line 867, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-menu.mm-bottom.mm-opening .mm-menu {
+  -webkit-transform: scale(1, 1) translateY(0%);
+  -ms-transform: scale(1, 1) translateY(0%);
+  transform: scale(1, 1) translateY(0%); }
+
+/* line 874, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel {
+  -webkit-transform: scale(1.5, 1.5) translateX(100%);
+  -ms-transform: scale(1.5, 1.5) translateX(100%);
+  transform: scale(1.5, 1.5) translateX(100%);
+  -webkit-transform-origin: left center;
+  -ms-transform-origin: left center;
+  transform-origin: left center;
+  transition-property: -webkit-transform, left;
+  transition-property: transform, left; }
+
+/* line 887, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel.mm-opened {
+  -webkit-transform: scale(1, 1) translateX(0%);
+  -ms-transform: scale(1, 1) translateX(0%);
+  transform: scale(1, 1) translateX(0%); }
+
+/* line 893, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel.mm-opened.mm-subopened {
+  -webkit-transform: scale(0.7, 0.7) translateX(-30%);
+  -ms-transform: scale(0.7, 0.7) translateX(-30%);
+  transform: scale(0.7, 0.7) translateX(-30%); }
+
+/*
+  jQuery.mmenu fullscreen extension CSS
+*/
+/* line 903, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-fullscreen {
+  width: 100%;
+  min-width: 140px;
+  max-width: 10000px; }
+
+/* line 908, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opening.mm-fullscreen .mm-slideout {
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0); }
+
+@media all and (max-width: 140px) {
+  /* line 916, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  html.mm-opening.mm-fullscreen .mm-slideout {
+    -webkit-transform: translate(140px, 0);
+    -ms-transform: translate(140px, 0);
+    transform: translate(140px, 0); }
+ }
+
+@media all and (min-width: 10000px) {
+  /* line 923, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  html.mm-opening.mm-fullscreen .mm-slideout {
+    -webkit-transform: translate(10000px, 0);
+    -ms-transform: translate(10000px, 0);
+    transform: translate(10000px, 0); }
+ }
+
+/* line 929, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
+  -webkit-transform: translate(-100%, 0);
+  -ms-transform: translate(-100%, 0);
+  transform: translate(-100%, 0); }
+
+@media all and (max-width: 140px) {
+  /* line 937, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
+    -webkit-transform: translate(-140px, 0);
+    -ms-transform: translate(-140px, 0);
+    transform: translate(-140px, 0); }
+ }
+
+@media all and (min-width: 10000px) {
+  /* line 944, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
+    -webkit-transform: translate(-10000px, 0);
+    -ms-transform: translate(-10000px, 0);
+    transform: translate(-10000px, 0); }
+ }
+
+/* line 950, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-front.mm-fullscreen.mm-top, .mm-menu.mm-front.mm-fullscreen.mm-bottom {
+  height: 100%;
+  min-height: 140px;
+  max-height: 10000px; }
+
+/* line 955, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened.mm-fullscreen .mm-page {
+  box-shadow: none !important; }
+
+/*
+  jQuery.mmenu position extension CSS
+*/
+/* line 962, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-top, .mm-menu.mm-bottom {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%; }
+
+/* line 967, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-right {
+  left: auto;
+  right: 0; }
+
+/* line 971, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-bottom {
+  top: auto;
+  bottom: 0; }
+
+/* line 975, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-right.mm-opening .mm-slideout {
+  -webkit-transform: translate(-80%, 0);
+  -ms-transform: translate(-80%, 0);
+  transform: translate(-80%, 0); }
+
+@media all and (max-width: 175px) {
+  /* line 983, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  html.mm-right.mm-opening .mm-slideout {
+    -webkit-transform: translate(-140px, 0);
+    -ms-transform: translate(-140px, 0);
+    transform: translate(-140px, 0); }
+ }
+
+@media all and (min-width: 550px) {
+  /* line 990, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  html.mm-right.mm-opening .mm-slideout {
+    -webkit-transform: translate(-440px, 0);
+    -ms-transform: translate(-440px, 0);
+    transform: translate(-440px, 0); }
+ }
+
+/*
+  jQuery.mmenu z-position extension CSS
+*/
+/* line 999, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-front .mm-slideout {
+  -webkit-transform: none !important;
+  -ms-transform: none !important;
+  transform: none !important;
+  z-index: 0 !important; }
+
+/* line 1007, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-front {
+  z-index: 1;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
+
+/* line 1011, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened.mm-next .mm-page {
+  box-shadow: none; }
+
+/* line 1014, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-front, .mm-menu.mm-next {
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease;
+  -webkit-transform: translate(-100%, 0);
+  -ms-transform: translate(-100%, 0);
+  transform: translate(-100%, 0); }
+
+/* line 1023, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-front.mm-right, .mm-menu.mm-next.mm-right {
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0); }
+
+/* line 1029, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-front.mm-top {
+  -webkit-transform: translate(0, -100%);
+  -ms-transform: translate(0, -100%);
+  transform: translate(0, -100%); }
+
+/* line 1035, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-front.mm-bottom {
+  -webkit-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  transform: translate(0, 100%); }
+
+/* line 1042, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opening .mm-menu.mm-front, html.mm-opening .mm-menu.mm-next {
+  -webkit-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  transform: translate(0, 0); }
+
+/* line 1049, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-front.mm-top, .mm-menu.mm-front.mm-bottom {
+  height: 80%;
+  min-height: 140px;
+  max-height: 880px; }
+
+/*
+  jQuery.mmenu themes extension CSS
+*/
+/* line 1057, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened.mm-light .mm-page {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+
+/* line 1060, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light {
+  background: #f3f3f3;
+  color: rgba(0, 0, 0, 0.6); }
+
+/* line 1063, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-list > li:after {
+  border-color: rgba(0, 0, 0, 0.1); }
+
+/* line 1065, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-list > li > a.mm-subclose {
+  background: rgba(255, 255, 255, 0.6);
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1068, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-list > li > a.mm-subopen:after, .mm-menu.mm-light .mm-list > li > a.mm-subclose:before {
+  border-color: rgba(0, 0, 0, 0.3); }
+
+/* line 1070, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-list > li > a.mm-subopen:before {
+  border-color: rgba(0, 0, 0, 0.1); }
+
+/* line 1073, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-light .mm-list > li.mm-selected > span {
+  background: rgba(255, 255, 255, 0.6); }
+
+/* line 1075, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-list > li.mm-label {
+  background: rgba(0, 0, 0, 0.03); }
+
+/* line 1078, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-light.mm-vertical .mm-list li.mm-opened > ul {
+  background: rgba(0, 0, 0, 0.03); }
+
+/* line 1081, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-buttonbar {
+  border-color: rgba(0, 0, 0, 0.6);
+  background: #f3f3f3; }
+
+/* line 1084, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-buttonbar > * {
+  border-color: rgba(0, 0, 0, 0.6); }
+
+/* line 1086, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-buttonbar > input:checked + label {
+  background: rgba(0, 0, 0, 0.6);
+  color: #f3f3f3; }
+
+/* line 1090, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light label.mm-check:before {
+  border-color: rgba(0, 0, 0, 0.6); }
+
+/* line 1093, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light em.mm-counter {
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1096, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-footer {
+  border-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1100, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-header {
+  border-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1105, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-header .mm-prev:before, .mm-menu.mm-light .mm-header .mm-next:after, .mm-menu.mm-light .mm-header .mm-close:after {
+  border-color: rgba(0, 0, 0, 0.3); }
+
+/* line 1108, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-list li.mm-label > div > div {
+  background: rgba(0, 0, 0, 0.03); }
+
+/* line 1111, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-search input {
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.6); }
+
+/* line 1114, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light .mm-noresultsmsg {
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1117, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light label.mm-toggle {
+  background: rgba(0, 0, 0, 0.1); }
+
+/* line 1119, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light label.mm-toggle:before {
+  background: #f3f3f3; }
+
+/* line 1121, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-light input.mm-toggle:checked ~ label.mm-toggle {
+  background: #4bd963; }
+
+/* line 1124, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened.mm-white .mm-page {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
+
+/* line 1127, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white {
+  background: white;
+  color: rgba(0, 0, 0, 0.6); }
+
+/* line 1130, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-list > li:after {
+  border-color: rgba(0, 0, 0, 0.1); }
+
+/* line 1132, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-list > li > a.mm-subclose {
+  background: rgba(0, 0, 0, 0.06);
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1135, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-list > li > a.mm-subopen:after, .mm-menu.mm-white .mm-list > li > a.mm-subclose:before {
+  border-color: rgba(0, 0, 0, 0.3); }
+
+/* line 1137, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-list > li > a.mm-subopen:before {
+  border-color: rgba(0, 0, 0, 0.1); }
+
+/* line 1140, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-white .mm-list > li.mm-selected > span {
+  background: rgba(0, 0, 0, 0.06); }
+
+/* line 1142, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-list > li.mm-label {
+  background: rgba(0, 0, 0, 0.03); }
+
+/* line 1145, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-white.mm-vertical .mm-list li.mm-opened > ul {
+  background: rgba(0, 0, 0, 0.03); }
+
+/* line 1148, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-buttonbar {
+  border-color: rgba(0, 0, 0, 0.6);
+  background: white; }
+
+/* line 1151, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-buttonbar > * {
+  border-color: rgba(0, 0, 0, 0.6); }
+
+/* line 1153, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-buttonbar > input:checked + label {
+  background: rgba(0, 0, 0, 0.6);
+  color: white; }
+
+/* line 1157, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white label.mm-check:before {
+  border-color: rgba(0, 0, 0, 0.6); }
+
+/* line 1160, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white em.mm-counter {
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1163, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-footer {
+  border-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1167, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-header {
+  border-color: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1172, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-header .mm-prev:before, .mm-menu.mm-white .mm-header .mm-next:after, .mm-menu.mm-white .mm-header .mm-close:after {
+  border-color: rgba(0, 0, 0, 0.3); }
+
+/* line 1175, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-list li.mm-label > div > div {
+  background: rgba(0, 0, 0, 0.03); }
+
+/* line 1178, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-search input {
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.6); }
+
+/* line 1181, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white .mm-noresultsmsg {
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 1184, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white label.mm-toggle {
+  background: rgba(0, 0, 0, 0.1); }
+
+/* line 1186, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white label.mm-toggle:before {
+  background: white; }
+
+/* line 1188, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-white input.mm-toggle:checked ~ label.mm-toggle {
+  background: #4bd963; }
+
+/* line 1191, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened.mm-black .mm-page {
+  box-shadow: none; }
+
+/* line 1194, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black {
+  background: black;
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 1197, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-list > li:after {
+  border-color: rgba(255, 255, 255, 0.2); }
+
+/* line 1199, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-list > li > a.mm-subclose {
+  background: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.3); }
+
+/* line 1202, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-list > li > a.mm-subopen:after, .mm-menu.mm-black .mm-list > li > a.mm-subclose:before {
+  border-color: rgba(255, 255, 255, 0.3); }
+
+/* line 1204, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-list > li > a.mm-subopen:before {
+  border-color: rgba(255, 255, 255, 0.2); }
+
+/* line 1207, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-black .mm-list > li.mm-selected > span {
+  background: rgba(255, 255, 255, 0.25); }
+
+/* line 1209, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-list > li.mm-label {
+  background: rgba(255, 255, 255, 0.15); }
+
+/* line 1212, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > ul {
+  background: rgba(255, 255, 255, 0.15); }
+
+/* line 1215, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-buttonbar {
+  border-color: rgba(255, 255, 255, 0.6);
+  background: black; }
+
+/* line 1218, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-buttonbar > * {
+  border-color: rgba(255, 255, 255, 0.6); }
+
+/* line 1220, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-buttonbar > input:checked + label {
+  background: rgba(255, 255, 255, 0.6);
+  color: black; }
+
+/* line 1224, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black label.mm-check:before {
+  border-color: rgba(255, 255, 255, 0.6); }
+
+/* line 1227, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black em.mm-counter {
+  color: rgba(255, 255, 255, 0.3); }
+
+/* line 1230, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-footer {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.3); }
+
+/* line 1234, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-header {
+  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.3); }
+
+/* line 1239, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-header .mm-prev:before, .mm-menu.mm-black .mm-header .mm-next:after, .mm-menu.mm-black .mm-header .mm-close:after {
+  border-color: rgba(255, 255, 255, 0.3); }
+
+/* line 1242, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-list li.mm-label > div > div {
+  background: rgba(255, 255, 255, 0.15); }
+
+/* line 1245, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-search input {
+  background: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 1248, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black .mm-noresultsmsg {
+  color: rgba(255, 255, 255, 0.3); }
+
+/* line 1251, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black label.mm-toggle {
+  background: rgba(255, 255, 255, 0.2); }
+
+/* line 1253, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black label.mm-toggle:before {
+  background: black; }
+
+/* line 1255, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-black input.mm-toggle:checked ~ label.mm-toggle {
+  background: #4bd963; }
+
+/*
+  jQuery.mmenu panels CSS
+*/
+/* line 1262, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-horizontal > .mm-panel {
+  transition: -webkit-transform 0.4s ease;
+  transition: transform 0.4s ease; }
+
+/* line 1266, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-hidden {
+  display: none; }
+
+/* line 1269, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-wrapper {
+  overflow-x: hidden;
+  position: relative; }
+
+/* line 1274, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu, .mm-menu > .mm-panel {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0; }
+
+/* line 1282, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu {
+  background: inherit;
+  display: block;
+  overflow: hidden;
+  padding: 0; }
+
+/* line 1287, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-panel {
+  background: inherit;
+  -webkit-overflow-scrolling: touch;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 20px;
+  -webkit-transform: translate(100%, 0);
+  -ms-transform: translate(100%, 0);
+  transform: translate(100%, 0); }
+
+/* line 1300, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-panel.mm-opened {
+  -webkit-transform: translate(0%, 0);
+  -ms-transform: translate(0%, 0);
+  transform: translate(0%, 0); }
+
+/* line 1306, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-panel.mm-subopened {
+  -webkit-transform: translate(-30%, 0);
+  -ms-transform: translate(-30%, 0);
+  transform: translate(-30%, 0); }
+
+/* line 1312, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-panel.mm-highest {
+  z-index: 1; }
+
+/* line 1314, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list {
+  padding: 20px 0; }
+
+/* line 1316, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-list {
+  padding-bottom: 0; }
+
+/* line 1318, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu > .mm-list:after {
+  content: '';
+  display: block;
+  height: 40px; }
+
+/* line 1323, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-panel > .mm-list {
+  margin-left: -20px;
+  margin-right: -20px; }
+
+/* line 1326, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-panel > .mm-list:first-child {
+  padding-top: 0; }
+
+/* line 1330, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list, .mm-list > li {
+  list-style: none;
+  display: block;
+  padding: 0;
+  margin: 0; }
+
+/* line 1336, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list {
+  font: inherit;
+  font-size: 14px; }
+
+/* line 1340, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a, .mm-list a:hover {
+  text-decoration: none; }
+
+/* line 1342, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li {
+  position: relative; }
+
+/* line 1345, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li > a, .mm-list > li > span {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  color: inherit;
+  line-height: 20px;
+  display: block;
+  padding: 10px 10px 10px 20px;
+  margin: 0; }
+
+/* line 1354, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+  content: '';
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  display: block;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+/* line 1363, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
+  width: auto;
+  margin-left: 20px;
+  position: relative;
+  left: auto; }
+
+/* line 1368, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen {
+  background: rgba(3, 2, 1, 0);
+  width: 40px;
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2; }
+
+/* line 1377, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen:before {
+  content: '';
+  border-left-width: 1px;
+  border-left-style: solid;
+  display: block;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0; }
+
+/* line 1386, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen.mm-fullsubopen {
+  width: 100%; }
+
+/* line 1388, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen.mm-fullsubopen:before {
+  border-left: none; }
+
+/* line 1391, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen + a, .mm-list a.mm-subopen + span {
+  padding-right: 5px;
+  margin-right: 40px; }
+
+/* line 1394, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-selected > a.mm-subopen {
+  background: transparent; }
+
+/* line 1397, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-selected > a.mm-fullsubopen + a, .mm-list > li.mm-selected > a.mm-fullsubopen + span {
+  padding-right: 45px;
+  margin-right: 0; }
+
+/* line 1400, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subclose {
+  text-indent: 20px;
+  padding-top: 30px;
+  margin-top: -20px; }
+
+/* line 1404, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-label {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-indent: 20px;
+  line-height: 25px;
+  padding-right: 5px; }
+
+/* line 1413, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-spacer {
+  padding-top: 40px; }
+
+/* line 1415, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list > li.mm-spacer.mm-label {
+  padding-top: 25px; }
+
+/* line 1418, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen:after, .mm-list a.mm-subclose:before {
+  content: '';
+  border: 2px solid transparent;
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  margin-bottom: -5px;
+  position: absolute;
+  bottom: 50%; }
+
+/* line 1432, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subopen:after {
+  border-top: none;
+  border-left: none;
+  right: 18px; }
+
+/* line 1436, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-list a.mm-subclose:before {
+  border-right: none;
+  border-bottom: none;
+  margin-bottom: -15px;
+  left: 22px; }
+
+/* line 1442, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list .mm-panel {
+  display: none;
+  padding: 10px 0 10px 10px; }
+
+/* line 1445, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list .mm-panel li:last-child:after {
+  border-color: transparent; }
+
+/* line 1447, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list li.mm-opened > .mm-panel {
+  display: block; }
+
+/* line 1449, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li > a.mm-subopen {
+  height: 40px; }
+
+/* line 1451, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li > a.mm-subopen:after {
+  top: 16px;
+  bottom: auto; }
+
+/* line 1454, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li.mm-opened > a.mm-subopen:after {
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 1460, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list > li.mm-label > a.mm-subopen {
+  height: 25px; }
+
+/* line 1463, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+html.mm-opened .mm-page {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
+
+/* line 1466, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu {
+  background: #333333;
+  color: rgba(255, 255, 255, 0.6); }
+
+/* line 1469, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li:after {
+  border-color: rgba(0, 0, 0, 0.15); }
+
+/* line 1471, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li > a.mm-subclose {
+  background: rgba(0, 0, 0, 0.1);
+  color: rgba(255, 255, 255, 0.3); }
+
+/* line 1474, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before {
+  border-color: rgba(255, 255, 255, 0.3); }
+
+/* line 1476, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li > a.mm-subopen:before {
+  border-color: rgba(0, 0, 0, 0.15); }
+
+/* line 1479, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu .mm-list > li.mm-selected > span {
+  background: rgba(0, 0, 0, 0.1); }
+
+/* line 1481, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu .mm-list > li.mm-label {
+  background: rgba(255, 255, 255, 0.05); }
+
+/* line 1484, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+.mm-menu.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-vertical .mm-list li.mm-opened > ul {
+  background: rgba(255, 255, 255, 0.05); }
