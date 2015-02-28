@@ -158,6 +158,22 @@ a {
   width: 100%;
   margin-top: -20px; }
 
+/* ----------FOOTER-----------*/
+/* line 49, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+footer {
+  background-color: #3a3835;
+  /*background: url("...images/dark_dotted_@2X.png");
+	background-size: cover;*/
+  padding: 50px 0px 50px 0px; }
+  /* line 54, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  footer li {
+    list-style-type: none; }
+
+/* line 59, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+#my-footer a {
+  color: #fff;
+  font-size: 3em; }
+
 /*
   jQuery.mmenu CSS
 */

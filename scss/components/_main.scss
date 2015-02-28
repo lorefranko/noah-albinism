@@ -43,3 +43,22 @@ body {
 	width: 100%;
 	margin-top: -20px;
 }
+
+/* ----------FOOTER-----------*/
+
+footer{
+	background-color: #3a3835;
+	/*background: url("...images/dark_dotted_@2X.png");
+	background-size: cover;*/
+	padding: 50px 0px 50px 0px;
+	li{
+		list-style-type: none;
+	}
+}
+
+#my-footer a{
+	color: #fff;
+	font-size: 3em;
+}
+
+
