@@ -113,41 +113,50 @@
 
 /* '' */
 /* line 1, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+body {
+  margin: 0; }
+
+/* line 5, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .ul-nav-width li {
   list-style-type: none;
-  font-family: 'futura' sans-serif;
-  display: inline-block;
-  padding: 1%;
+  font-family: 'helvetica' sans-serif;
+  display: block;
+  padding: 8px;
   float: left; }
-  /* line 7, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 11, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   .ul-nav-width li:hover {
     background-color: red; }
 
-/* line 12, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-.ul-nav-width {
-  float: right; }
-
-/* line 15, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 16, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 a {
   text-decoration: none; }
 
-/* line 19, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-#full-width-menu {
-  margin-top: -10px;
-  position: fixed;
-  width: 100%;
-  background: #ff6600; }
+/* line 20, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+.subs {
+  display: none; }
 
-/* line 26, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 24, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+#full-width-menu {
+  margin-top: -20px;
+  position: absolute;
+  width: 100%;
+  background-color: #3a3835; }
+  /* line 29, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  #full-width-menu a {
+    color: #fff; }
+
+/* line 34, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .logo {
-  width: 200px;
+  width: 150px;
   position: absolute;
   float: left;
-  padding-right: 20px; }
+  margin-left: 0;
+  margin-top: -10px; }
 
-/* line 33, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 42, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .main-photo {
-  width: 100%; }
+  width: 100%;
+  margin-top: -20px; }
 
 /*
   jQuery.mmenu CSS
