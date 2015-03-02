@@ -1,18 +1,37 @@
 
  <nav id="{{include.navid}}">
        <ul class="ul-nav-width">
-        <li><a href="#top"><img class="logo" src="images/logo-noah-white.svg" alt="logo"></a></li>
-        <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a>
-					<ul>
-						<li><a href="{{site.baseurl}}/community.html" class="{% if page.url == '/community.html' %}current{% endif %} subs">On-Line Community</a></li>
-					</ul>
-        </li>
+        <li><a href="{{site.baseurl}}/index.html"><img class="logo" src="images/logo-noah-white.svg" alt="logo"></a></li>
+        <li><a href="{{site.baseurl}}/index.html" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
 
         <li><a href="{{site.baseurl}}/who.html" class="{% if page.url == '/who.html' %}current{% endif %}">Who we are</a></li>
-        <li><a href="{{site.baseurl}}/albinism.html" class="{% if page.url == '/albinism.html' %}current{% endif %}">Albinism</a></li>
-        <li><a href="{{site.baseurl}}/whats-going-on.html" class="{% if page.url == '/whats-going-on.html' %}current{% endif %}">What's Going On</a></li>
-        <li><a href="{{site.baseurl}}/get-involved.html" class="{% if page.url == '/get-involved.html' %}current{% endif %}">Get Involved</a></li>
-        <li><a href="{{site.baseurl}}/donate.html" class="{% if page.url == '/donate.html' %}current{% endif %}">Donate</a></li>
+
+        <li><a href="{{site.baseurl}}/albinism.html" class="{% if page.url == '/albinism.html' %}current{% endif %}">Albinism</a>
+          <ul>
+            <li><a href="{{site.baseurl}}/children.html" class="{% if page.url == '/children.html' %}current{% endif %}">Children</a></li>
+            <li><a href="{{site.baseurl}}/students.html" class="{% if page.url == '/students.html' %}current{% endif %}">Students</a></li>
+          </ul>
+        </li>
+
+        <li><a href="{{site.baseurl}}/whats-going-on.html" class="{% if page.url == '/whats-going-on.html' %}current{% endif %}">What's Going On</a>
+          <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#blog">Blog</a></li>
+          </ul>
+        </li>
+
+        <li><a href="{{site.baseurl}}/get-involved.html" class="{% if page.url == '/get-involved.html' %}current{% endif %}">Get Involved</a>
+          <ul>
+            <li><a href="#membership">Membership</a></li>
+            <li><a href="#fundraising">Fundraising</a></li>
+            <li><a href="#volunteer">Volunteer</a></li>
+          </ul>
+        </li>
+
+        <li><a href="{{site.baseurl}}/donate.html" class="{% if page.url == '/donate.html' %}current{% endif %}">Donate</a>
+        </li>
+
        </ul>
  </nav>
 
