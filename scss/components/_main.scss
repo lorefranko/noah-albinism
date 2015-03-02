@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	background-color: #fff;
 }
 
@@ -120,13 +120,26 @@ body {
 	}
 }
 
+.donate-footer{
+	font-size: 2em;
+	background-size: 200px;
+	background-color: rgba(218, 138, 11, 0.5);
+	margin-left: 5%;
+	width: 160px;
+	text-align: center;
+	a{
+		text-decoration: none;
+		color: #fff;
+	}
+}
+
 /* ----------FOOTER-----------*/
 
 footer{
 	background-color: #3a3835;
 	/*background: url("...images/dark_dotted_@2X.png");
 	background-size: cover;*/
-	padding: 50px 0px 50px 0px;
+	padding: 40px 0px 20px 0px;
 	li{
 		list-style-type: none;
 	margin: 5px;
@@ -136,6 +149,15 @@ footer{
 #my-footer a{
 	color: #fff;
 	font-size: 3em;
+}
+
+.touch{
+	float: right;
+	margin: -20px;
+	font-size: 1em;
+	font-weight: 400;
+	padding-right: 10%;
+	color: #fff;
 }
 
 .social{
@@ -161,6 +183,7 @@ footer{
 	color: #fff;
 	font-size: .5em;
 	text-align: center;
+	margin-top: 60px;
 }
 
 /* MEdia queries
