@@ -9,7 +9,7 @@ header{
 	@include clearfix-micro();
 	background: transparent url("../images/angel.jpg") no-repeat  center;
   background-size: cover;
-  padding: 350px;
+  height: 850px;
 }
 
 .ul-nav-width li{
@@ -104,10 +104,11 @@ ul li:hover ul {
 	right: 0;
 	top: 0;
 	z-index: 1000;
-	@media only screen and (min-width: 60em){
+	@media only screen and (min-width: 50em){
 		display: none;
 	}
 }
+
 
 #top{
 	display: block;
@@ -126,7 +127,7 @@ ul li:hover ul {
 
 
 #my-menu{
-		@media only screen and (min-width: 60em){
+		@media only screen and (min-width: 50em){
 		display: none;
 	}
 }
@@ -139,8 +140,10 @@ ul li:hover ul {
 		margin-top: 100px;
 	border: red;
 	}
+	@include clearfix-micro();
+
 }
-/*
+
 .screen-1-3{
 	width: 25%;
 	height: auto;
@@ -153,7 +156,7 @@ ul li:hover ul {
 	height: auto;
 	float: left;
 }
-*/
+
 
 .image-2-3{
 	width: 60%;
@@ -223,7 +226,6 @@ ul li:hover ul {
 /* ----------FOOTER-----------*/
 
 footer{
-	@include clearfix-micro();
 	background-color: #3a3835;
 	background: url("../images/footer-bg-dark_dotted.png");
 	background-size: cover;
