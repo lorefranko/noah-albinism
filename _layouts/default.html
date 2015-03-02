@@ -9,16 +9,15 @@
   <title>NOAH Albinism Organization</title>
 </head>
 <body>
+  <a href="#menu" id="my-button">Menu</a>
+
   <div>
 	 <header>
-
-      {% include nav.html navid='my-menu' %}
-      <a href="#menu" id="my-button">Menu</a>
-     {% include nav.html navid='full-width-menu' %}
-     <img class="main-photo" src="images/angel.jpg" alt="homeangel">
+    {% include nav.html navid='my-menu' %}
+    {% include nav.html navid='full-width-menu' %}
 	 </header>
-   {% include donate-button.html %}
-  </div>
+    {% include donate-button.html %}
+
 
   <section class="section-1">
   {{content}}
@@ -27,6 +26,7 @@
   <footer>
     {% include footer.html %}
   </footer>
+  </div>
   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script src="{{site.baseurl}}/js/jquery.mmenu.min.js" type="text/javascript"></script>
   <script type="text/javascript">

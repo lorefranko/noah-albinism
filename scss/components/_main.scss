@@ -5,6 +5,13 @@ body {
 	background-color: #fff;
 }
 
+header{
+	@include clearfix-micro();
+	  background: transparent url("../images/angel.jpg") no-repeat fixed center;
+  background-size: cover;
+  padding: 20px;
+}
+
 .ul-nav-width li{
 	list-style-type: none;
 	display: inline-block;
@@ -20,14 +27,11 @@ body {
 	padding-right: 5%;
 }
 
-.subs{
-	display: none;
-}
 
-#my-menu{
-	z-index: 999;
-	margin: 5%;
-}
+// #my-menu{
+// 	z-index: 999;
+// 	// margin: 5%;
+// }
 
 #full-width-menu{
 	margin-top: 0;
@@ -38,19 +42,42 @@ body {
 		color: #fff;
 		text-decoration: none;
 	}
+	.subs{
+	display: none;
+	}
+
 }
 
+#my-button{
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	@media only screen and (min-width: 60em){
+		display: none;
+	}
+}
+
+#top{
+	display: block;
+}
 .logo{
 	z-index: 999;
 	width: 150px;
-	position: absolute;
-	margin-top: -85px;
 }
 
-.main-photo{
-	width: 100%;
-	margin-top: -22px;
+
+#my-menu .mm-list a.mm-subopen{
+	right: 40px;
 }
+
+
+#my-menu{
+		@media only screen and (min-width: 60em){
+		display: none;
+	}
+}
+
 /* ----------Section-1--------*/
 
 .section-1{
@@ -95,6 +122,10 @@ body {
 	z-index: 2;
 	display: block;
   }
+
+  .donate-here{
+  	width:50%;
+  }
   .donate:hover + .rays {
     height: 200px;
     width: 200px;
@@ -131,14 +162,18 @@ body {
 		text-decoration: none;
 		color: #fff;
 	}
+	&:hover{
+		background-color: rgba(218, 138, 11, 1);
+	}
 }
 
 /* ----------FOOTER-----------*/
 
 footer{
+	@include clearfix-micro();
 	background-color: #3a3835;
-	/*background: url("...images/dark_dotted_@2X.png");
-	background-size: cover;*/
+	background: url("../images/footer-bg-dark_dotted.png");
+	background-size: cover;
 	padding: 40px 0px 20px 0px;
 	li{
 		list-style-type: none;
@@ -186,30 +221,3 @@ footer{
 	margin-top: 60px;
 }
 
-/* MEdia queries
-
-@media only screen and (min-width: 17em) {
-
-
-#full-width-menu{
-	display: none;
-	}
-
-}
-
-
-
-@media only screen and (min-width: 48em) {
-
-#my-menu{
-	display: none;
-
-	}
-
-	#full-width-menu{
-	display: inline-block;
-	}
-
-
-}
-*/
