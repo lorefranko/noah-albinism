@@ -223,6 +223,141 @@ ul li:hover ul {
 	}
 }
 
+/* ----------SOCIAL-FEED--------*/
+
+
+
+@keyframes orangeBG {
+  0%{background-size:0%;}
+  100%{background-color:$doaneOrange;background-size:100%;}
+}
+
+@keyframes slideInLeft {
+  0% {
+    opacity:0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px);
+  }
+
+  100% {
+    opacity:1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft;
+}
+
+body{
+  background-color:#f3f3f3;
+}
+#socialFeed{
+  background-color:#d7d7d7;
+  margin: 50px auto;
+  overflow:hidden;
+  padding: 10px;
+  width: 320px;
+  
+  .update {
+    background-color:#fff;
+    border-left:5px solid #888;
+    margin: 10px 0px;
+    max-height:100px;
+    overflow:hidden;
+    //padding: 5px 10px;
+    
+    &:hover{
+      border-left: 5px solid $doaneOrange;
+    }
+    
+    .bodyText{
+      margin:.5% 0 0;
+      padding: 5px 10px .5%;
+    }
+    
+    .account{
+      font-size:.70em;
+      margin: 0;      
+      padding: 0 10px 5px;
+      
+      a{
+        color: $doaneOrange;
+        font-weight: 700;
+        text-decoration: none;
+        
+        &:hover{
+          color:#000;
+        }
+      }
+    }
+    
+    .socialNet{
+      background-color:#b7b7b7;
+      color: #fff;
+      //height:30px;
+      margin: 0;
+      overflow:hidden;
+      //padding: 5px 10px;
+      position:relative;
+      font-size: .75em;
+      font-weight: 700;
+      
+      .socialBG{
+        background-color:$doaneOrange;
+        height:30px;
+        width:100%;
+        //opacity:0;
+        position:absolute;
+        z-index:1;
+      }
+      
+      p{
+        margin:0;
+       //margin: 5px 10px;
+        padding: 5px 10px;
+        text-shadow: 2px 2px 3px #555;
+        position:relative;
+        z-index:5;
+      }
+      
+      .icon{
+        font-size:1.2em;
+        margin-right:10px;
+        text-shadow: 1px 1px 1px #888;
+      }
+    }
+  }
+  
+  .selected {
+    border-left-color: #888;
+  }
+  
+  .facebook {
+    
+    .socialNet{
+      .icon{color:#3B5998;}
+    }
+  }
+  
+  .twitter {
+    .socialNet{
+      .icon{color:#55ACEE;}
+    }
+  }
+}
+
 /* ----------FOOTER-----------*/
 
 footer{

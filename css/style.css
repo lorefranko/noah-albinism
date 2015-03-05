@@ -16,7 +16,7 @@
   }
 }
 */
-/* line 22, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/push-menu-custom */
+/* line 22, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/push-menu-custom */
 [class^="i-"]:before, [class*=" i-"]:before {
   font-family: "push-menu-custom";
   font-style: normal;
@@ -41,12 +41,12 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/push-menu-custom */
+/* line 53, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/push-menu-custom */
 .i-menu:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/push-menu-custom */
+/* line 54, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/push-menu-custom */
 .i-close:before {
   content: '\e801'; }
 
@@ -68,7 +68,7 @@
   }
 }
 */
-/* line 22, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+/* line 22, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/fontello */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
@@ -93,81 +93,81 @@
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */ }
 
-/* line 53, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+/* line 53, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/fontello */
 .icon-facebook:before {
   content: '\e800'; }
 
 /* '' */
-/* line 54, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+/* line 54, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/fontello */
 .icon-twitter:before {
   content: '\e801'; }
 
 /* '' */
-/* line 55, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+/* line 55, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/fontello */
 .icon-youtube:before {
   content: '\e802'; }
 
 /* '' */
-/* line 56, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/fontello */
+/* line 56, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/fontello */
 .icon-blog:before {
   content: '\e803'; }
 
 /* '' */
-/* line 1, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 1, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   background-color: #fff; }
 
-/* line 8, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 8, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 header {
   background: transparent url("../images/angel.jpg") no-repeat center;
   background-size: cover;
   height: 850px; }
-  /* line 91, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/mixins */
+  /* line 91, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/mixins */
   header {
     *zoom: 1; }
-  /* line 95, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/mixins */
+  /* line 95, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/mixins */
   header:before, header:after {
     content: "";
     display: table; }
-  /* line 99, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/mixins */
+  /* line 99, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/mixins */
   header:after {
     clear: both; }
 
-/* line 15, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 15, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .ul-nav-width li {
   list-style-type: none;
   display: inline-block;
   font-weight: 300;
   padding: 8px; }
-  /* line 20, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 20, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   .ul-nav-width li:hover {
     background-color: rgba(218, 138, 11, 0.5); }
 
-/* line 25, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 25, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .ul-nav-width {
   float: right;
   padding-right: 5%; }
 
-/* line 36, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 36, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 #full-width-menu {
   margin-top: 0;
   position: absolute;
   width: 100%; }
-  /* line 41, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 41, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #full-width-menu a {
     color: #fff;
     text-decoration: none; }
-  /* line 45, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 45, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #full-width-menu ul {
     text-align: left;
     display: inline;
     margin: 0;
     padding: 15px 4px 17px 0;
     list-style: none; }
-  /* line 53, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 53, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #full-width-menu ul li {
     display: inline-block;
     margin-right: -4px;
@@ -175,11 +175,11 @@ header {
     padding: 15px 20px;
     cursor: pointer;
     transition: all 0.2s; }
-  /* line 65, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 65, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #full-width-menu ul li:hover {
     background: #555;
     color: #fff; }
-  /* line 69, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 69, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #full-width-menu ul li ul {
     padding: 0;
     position: absolute;
@@ -195,22 +195,22 @@ header {
     -ms-transition: opacity 0.2s;
     -o-transition: opacity 0.2s;
     -transition: opacity 0.2s; }
-  /* line 87, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 87, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #full-width-menu ul li ul li {
     background: #555;
     display: block;
     color: #fff;
     text-shadow: 0 -1px 0 #000; }
-  /* line 93, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 93, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #full-width-menu ul li ul li:hover {
     background: #666; }
-  /* line 94, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 94, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #full-width-menu ul li:hover ul {
     display: block;
     opacity: 1;
     visibility: visible; }
 
-/* line 102, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 102, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 #my-button {
   position: absolute;
   right: 0;
@@ -220,17 +220,17 @@ header {
     #my-button {
       display: none; } }
 
-/* line 113, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 113, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 #top {
   display: block; }
 
-/* line 116, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 116, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .logo {
   z-index: 999;
   width: 150px;
   float: left; }
 
-/* line 124, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 124, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 #my-menu .mm-list a.mm-subopen {
   right: 40px; }
 
@@ -239,50 +239,50 @@ header {
     display: none; } }
 
 /* ----------Section-1--------*/
-/* line 137, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 137, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .section-1 {
   margin: 5%; }
-  /* line 139, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 139, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   .section-1 h1 {
     margin-top: 100px;
     border: red; }
-  /* line 91, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/mixins */
+  /* line 91, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/mixins */
   .section-1 {
     *zoom: 1; }
-  /* line 95, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/mixins */
+  /* line 95, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/mixins */
   .section-1:before, .section-1:after {
     content: "";
     display: table; }
-  /* line 99, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/mixins */
+  /* line 99, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/mixins */
   .section-1:after {
     clear: both; }
 
-/* line 147, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 147, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .screen-1-3 {
   width: 25%;
   height: auto;
   float: right;
   margin-top: 100px; }
 
-/* line 154, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 154, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .screen-2-3 {
   width: 55%;
   height: auto;
   float: left; }
 
-/* line 161, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 161, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .image-2-3 {
   width: 60%; }
 
 /* ----------Donate Button-----------*/
-/* line 167, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 167, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .donateContainer {
   position: relative;
   width: 207px;
   margin: -140px 100px 0 20px;
   z-index: 999; }
 
-/* line 173, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 173, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .donate {
   margin: auto;
   position: relative;
@@ -291,18 +291,18 @@ header {
   z-index: 2;
   display: block; }
 
-/* line 182, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 182, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .donate-here {
   width: 50%; }
 
-/* line 185, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 185, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .donate:hover + .rays {
   height: 200px;
   width: 200px;
   opacity: 1;
   margin-top: -105px; }
 
-/* line 191, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 191, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .rays {
   -webkit-transform-origin: center;
       -ms-transform-origin: center;
@@ -323,18 +323,18 @@ header {
           animation: godrays 10s ease-in-out alternate infinite; }
 
 @-webkit-keyframes godrays {
-  /* line 205, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 205, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
 @keyframes godrays {
-  /* line 205, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 205, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
-/* line 210, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 210, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .donate-footer {
   font-size: 2em;
   background-size: 200px;
@@ -342,32 +342,170 @@ header {
   margin-left: 5%;
   width: 160px;
   text-align: center; }
-  /* line 217, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 217, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   .donate-footer a {
     text-decoration: none;
     color: #fff; }
-  /* line 221, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 221, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   .donate-footer:hover {
     background-color: #da8a0b; }
 
+/* ----------SOCIAL-FEED--------*/
+@-webkit-keyframes orangeBG {
+  /* line 231, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  0% {
+    background-size: 0%; }
+
+  /* line 232, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  100% {
+    background-color: #FF8300;
+    background-size: 100%; } }
+@keyframes orangeBG {
+  /* line 231, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  0% {
+    background-size: 0%; }
+
+  /* line 232, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  100% {
+    background-color: #FF8300;
+    background-size: 100%; } }
+
+@-webkit-keyframes slideInLeft {
+  /* line 236, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px); }
+
+  /* line 243, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0); } }
+
+@keyframes slideInLeft {
+  /* line 236, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-2000px);
+    -ms-transform: translateX(-2000px);
+    transform: translateX(-2000px); }
+
+  /* line 243, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  100% {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0); } }
+
+/* line 251, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+/* line 258, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+.slideInLeft {
+  -webkit-animation-name: slideInLeft;
+  animation-name: slideInLeft; }
+
+/* line 263, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+body {
+  background-color: #f3f3f3; }
+
+/* line 266, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+#socialFeed {
+  background-color: #d7d7d7;
+  margin: 50px auto;
+  overflow: hidden;
+  padding: 10px;
+  width: 320px; }
+  /* line 273, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  #socialFeed .update {
+    background-color: #fff;
+    border-left: 5px solid #888;
+    margin: 10px 0px;
+    max-height: 100px;
+    overflow: hidden; }
+    /* line 281, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    #socialFeed .update:hover {
+      border-left: 5px solid #FF8300; }
+    /* line 285, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    #socialFeed .update .bodyText {
+      margin: 0.5% 0 0;
+      padding: 5px 10px 0.5%; }
+    /* line 290, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    #socialFeed .update .account {
+      font-size: 0.7em;
+      margin: 0;
+      padding: 0 10px 5px; }
+      /* line 295, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+      #socialFeed .update .account a {
+        color: #FF8300;
+        font-weight: 700;
+        text-decoration: none; }
+        /* line 300, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+        #socialFeed .update .account a:hover {
+          color: #000; }
+    /* line 306, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    #socialFeed .update .socialNet {
+      background-color: #b7b7b7;
+      color: #fff;
+      margin: 0;
+      overflow: hidden;
+      position: relative;
+      font-size: 0.75em;
+      font-weight: 700; }
+      /* line 317, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+      #socialFeed .update .socialNet .socialBG {
+        background-color: #FF8300;
+        height: 30px;
+        width: 100%;
+        position: absolute;
+        z-index: 1; }
+      /* line 326, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+      #socialFeed .update .socialNet p {
+        margin: 0;
+        padding: 5px 10px;
+        text-shadow: 2px 2px 3px #555;
+        position: relative;
+        z-index: 5; }
+      /* line 335, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+      #socialFeed .update .socialNet .icon {
+        font-size: 1.2em;
+        margin-right: 10px;
+        text-shadow: 1px 1px 1px #888; }
+  /* line 343, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  #socialFeed .selected {
+    border-left-color: #888; }
+  /* line 350, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  #socialFeed .facebook .socialNet .icon {
+    color: #3B5998; }
+  /* line 356, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  #socialFeed .twitter .socialNet .icon {
+    color: #55ACEE; }
+
 /* ----------FOOTER-----------*/
-/* line 228, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 363, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 footer {
   background-color: #3a3835;
   background: url("../images/footer-bg-dark_dotted.png");
   background-size: cover;
   padding: 40px 0px 20px 0px; }
-  /* line 233, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 368, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   footer li {
     list-style-type: none;
     margin: 5px; }
 
-/* line 239, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 374, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 #my-footer a {
   color: #fff;
   font-size: 3em; }
 
-/* line 244, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 379, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .touch {
   float: right;
   margin: -20px;
@@ -376,25 +514,25 @@ footer {
   padding-right: 10%;
   color: #fff; }
 
-/* line 253, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 388, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .social {
   font-size: 0.3em;
   font-weight: 300;
   float: right;
   padding-right: 5%; }
-  /* line 258, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 393, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   .social a {
     text-decoration: none; }
-  /* line 261, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 396, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   .social li {
     border: solid #fff 1px;
     display: inline-block;
     padding: 6px; }
-    /* line 265, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 400, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
     .social li:hover {
       background-color: rgba(218, 138, 11, 0.5); }
 
-/* line 271, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 406, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .copyright {
   font-weight: 300;
   color: #fff;
@@ -408,21 +546,21 @@ footer {
 /*
   jQuery.mmenu panels CSS
 */
-/* line 7, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 7, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-horizontal > .mm-panel {
   transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease; }
 
-/* line 11, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 11, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-hidden {
   display: none; }
 
-/* line 14, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 14, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-wrapper {
   overflow-x: hidden;
   position: relative; }
 
-/* line 19, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 19, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu, .mm-menu > .mm-panel {
   width: 100%;
   height: 100%;
@@ -431,14 +569,14 @@ footer {
   top: 0;
   z-index: 0; }
 
-/* line 27, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 27, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu {
   background: inherit;
   display: block;
   overflow: hidden;
   padding: 0; }
 
-/* line 32, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 32, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-panel {
   background: inherit;
   -webkit-overflow-scrolling: touch;
@@ -451,66 +589,66 @@ footer {
   -ms-transform: translate(100%, 0);
   transform: translate(100%, 0); }
 
-/* line 45, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 45, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-panel.mm-opened {
   -webkit-transform: translate(0%, 0);
   -ms-transform: translate(0%, 0);
   transform: translate(0%, 0); }
 
-/* line 51, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 51, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-panel.mm-subopened {
   -webkit-transform: translate(-30%, 0);
   -ms-transform: translate(-30%, 0);
   transform: translate(-30%, 0); }
 
-/* line 57, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 57, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-panel.mm-highest {
   z-index: 1; }
 
-/* line 59, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 59, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list {
   padding: 20px 0; }
 
-/* line 61, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 61, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-list {
   padding-bottom: 0; }
 
-/* line 63, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 63, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-list:after {
   content: '';
   display: block;
   height: 40px; }
 
-/* line 68, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 68, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-panel > .mm-list {
   margin-left: -20px;
   margin-right: -20px; }
 
-/* line 71, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 71, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-panel > .mm-list:first-child {
   padding-top: 0; }
 
-/* line 75, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 75, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list, .mm-list > li {
   list-style: none;
   display: block;
   padding: 0;
   margin: 0; }
 
-/* line 81, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 81, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list {
   font: inherit;
   font-size: 14px; }
 
-/* line 85, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 85, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a, .mm-list a:hover {
   text-decoration: none; }
 
-/* line 87, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 87, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li {
   position: relative; }
 
-/* line 90, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 90, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li > a, .mm-list > li > span {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -521,7 +659,7 @@ footer {
   padding: 10px 10px 10px 20px;
   margin: 0; }
 
-/* line 99, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 99, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
   content: '';
   border-bottom-width: 1px;
@@ -532,14 +670,14 @@ footer {
   bottom: 0;
   left: 0; }
 
-/* line 108, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 108, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
   width: auto;
   margin-left: 20px;
   position: relative;
   left: auto; }
 
-/* line 113, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 113, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen {
   background: rgba(3, 2, 1, 0);
   width: 40px;
@@ -550,7 +688,7 @@ footer {
   top: 0;
   z-index: 2; }
 
-/* line 122, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 122, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen:before {
   content: '';
   border-left-width: 1px;
@@ -561,35 +699,35 @@ footer {
   left: 0;
   top: 0; }
 
-/* line 131, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 131, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen.mm-fullsubopen {
   width: 100%; }
 
-/* line 133, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 133, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen.mm-fullsubopen:before {
   border-left: none; }
 
-/* line 136, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 136, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen + a, .mm-list a.mm-subopen + span {
   padding-right: 5px;
   margin-right: 40px; }
 
-/* line 139, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 139, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-selected > a.mm-subopen {
   background: transparent; }
 
-/* line 142, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 142, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-selected > a.mm-fullsubopen + a, .mm-list > li.mm-selected > a.mm-fullsubopen + span {
   padding-right: 45px;
   margin-right: 0; }
 
-/* line 145, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 145, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subclose {
   text-indent: 20px;
   padding-top: 30px;
   margin-top: -20px; }
 
-/* line 149, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 149, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-label {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -600,15 +738,15 @@ footer {
   line-height: 25px;
   padding-right: 5px; }
 
-/* line 158, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 158, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-spacer {
   padding-top: 40px; }
 
-/* line 160, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 160, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-spacer.mm-label {
   padding-top: 25px; }
 
-/* line 163, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 163, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen:after, .mm-list a.mm-subclose:before {
   content: '';
   border: 2px solid transparent;
@@ -622,116 +760,116 @@ footer {
   position: absolute;
   bottom: 50%; }
 
-/* line 177, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 177, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen:after {
   border-top: none;
   border-left: none;
   right: 18px; }
 
-/* line 181, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 181, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subclose:before {
   border-right: none;
   border-bottom: none;
   margin-bottom: -15px;
   left: 22px; }
 
-/* line 187, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 187, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list .mm-panel {
   display: none;
   padding: 10px 0 10px 10px; }
 
-/* line 190, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 190, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list .mm-panel li:last-child:after {
   border-color: transparent; }
 
-/* line 192, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 192, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list li.mm-opened > .mm-panel {
   display: block; }
 
-/* line 194, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 194, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li > a.mm-subopen {
   height: 40px; }
 
-/* line 196, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 196, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li > a.mm-subopen:after {
   top: 16px;
   bottom: auto; }
 
-/* line 199, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 199, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li.mm-opened > a.mm-subopen:after {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 205, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 205, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li.mm-label > a.mm-subopen {
   height: 25px; }
 
-/* line 208, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 208, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened .mm-page {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
-/* line 211, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 211, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu {
   background: #333333;
   color: rgba(255, 255, 255, 0.6); }
 
-/* line 214, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 214, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li:after {
   border-color: rgba(0, 0, 0, 0.15); }
 
-/* line 216, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 216, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li > a.mm-subclose {
   background: rgba(0, 0, 0, 0.1);
   color: rgba(255, 255, 255, 0.3); }
 
-/* line 219, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 219, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before {
   border-color: rgba(255, 255, 255, 0.3); }
 
-/* line 221, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 221, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li > a.mm-subopen:before {
   border-color: rgba(0, 0, 0, 0.15); }
 
-/* line 224, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 224, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu .mm-list > li.mm-selected > span {
   background: rgba(0, 0, 0, 0.1); }
 
-/* line 226, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 226, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li.mm-label {
   background: rgba(255, 255, 255, 0.05); }
 
-/* line 229, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 229, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-vertical .mm-list li.mm-opened > ul {
   background: rgba(255, 255, 255, 0.05); }
 
 /*
   jQuery.mmenu offcanvas addon CSS
 */
-/* line 235, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 235, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-page {
   box-sizing: border-box;
   position: relative; }
 
-/* line 239, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 239, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-slideout {
   transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease; }
 
-/* line 244, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 244, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened {
   overflow: hidden;
   position: relative; }
 
-/* line 247, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 247, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened body {
   overflow: hidden; }
 
-/* line 250, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 250, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-background .mm-page {
   background: inherit; }
 
-/* line 253, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 253, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 #mm-blocker {
   background: rgba(3, 2, 1, 0);
   display: none;
@@ -742,33 +880,33 @@ html.mm-background .mm-page {
   left: 0;
   z-index: 999999; }
 
-/* line 264, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 264, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened #mm-blocker, html.mm-blocking #mm-blocker {
   display: block; }
 
-/* line 267, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 267, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-offcanvas {
   display: none;
   position: fixed; }
 
-/* line 270, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 270, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-current {
   display: block; }
 
-/* line 273, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 273, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu {
   width: 80%;
   min-width: 140px;
   max-width: 440px; }
 
-/* line 278, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 278, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opening .mm-slideout {
   -webkit-transform: translate(80%, 0);
   -ms-transform: translate(80%, 0);
   transform: translate(80%, 0); }
 
 @media all and (max-width: 175px) {
-  /* line 286, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  /* line 286, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
   html.mm-opening .mm-slideout {
     -webkit-transform: translate(140px, 0);
     -ms-transform: translate(140px, 0);
@@ -776,7 +914,7 @@ html.mm-opening .mm-slideout {
  }
 
 @media all and (min-width: 550px) {
-  /* line 293, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  /* line 293, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
   html.mm-opening .mm-slideout {
     -webkit-transform: translate(440px, 0);
     -ms-transform: translate(440px, 0);
@@ -786,7 +924,7 @@ html.mm-opening .mm-slideout {
 /*
   jQuery.mmenu buttonbars addon CSS
 */
-/* line 302, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 302, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar {
   border: 1px solid transparent;
   border-radius: 5px;
@@ -798,13 +936,13 @@ html.mm-opening .mm-slideout {
   margin: 0;
   position: relative; }
 
-/* line 312, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 312, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar:after {
   content: '';
   display: block;
   clear: both; }
 
-/* line 316, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 316, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar > * {
   border-left: 1px solid transparent;
   box-sizing: border-box;
@@ -816,71 +954,71 @@ html.mm-opening .mm-slideout {
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 326, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 326, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar > a {
   text-decoration: none; }
 
-/* line 328, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 328, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar > input {
   position: absolute;
   left: -1000px;
   top: -1000px; }
 
-/* line 332, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 332, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar > input:checked + label {
   border-color: transparent !important; }
 
-/* line 335, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 335, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar > *:first-child, .mm-buttonbar > input:first-child + * {
   border-left: none; }
 
-/* line 337, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 337, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar.mm-buttonbar-2 > * {
   width: 50%; }
 
-/* line 339, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 339, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar.mm-buttonbar-3 > * {
   width: 33.33%; }
 
-/* line 341, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 341, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar.mm-buttonbar-4 > * {
   width: 25%; }
 
-/* line 343, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 343, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-buttonbar.mm-buttonbar-5 > * {
   width: 20%; }
 
-/* line 346, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 346, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header .mm-buttonbar {
   margin-top: 20px;
   margin-left: -30px;
   margin-right: -30px; }
 
-/* line 351, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 351, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-footer .mm-buttonbar {
   border: none;
   border-radius: none;
   line-height: 40px;
   margin: -10px -10px 0 -20px; }
 
-/* line 356, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 356, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-footer .mm-buttonbar > * {
   border-left: none; }
 
-/* line 359, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 359, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li > .mm-buttonbar {
   margin: 10px 20px; }
 
-/* line 362, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 362, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-buttonbar {
   border-color: rgba(255, 255, 255, 0.6);
   background: #333333; }
 
-/* line 365, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 365, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-buttonbar > * {
   border-color: rgba(255, 255, 255, 0.6); }
 
-/* line 367, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 367, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-buttonbar > input:checked + label {
   background: rgba(255, 255, 255, 0.6);
   color: #333333; }
@@ -888,7 +1026,7 @@ html.mm-opening .mm-slideout {
 /*
   jQuery.mmenu counters addon CSS
 */
-/* line 374, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 374, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 em.mm-counter {
   font: inherit;
   font-size: 14px;
@@ -901,42 +1039,42 @@ em.mm-counter {
   right: 40px;
   top: 50%; }
 
-/* line 385, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 385, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 em.mm-counter + a.mm-subopen {
   padding-left: 40px; }
 
-/* line 388, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 388, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 em.mm-counter + a.mm-subopen + a, em.mm-counter + a.mm-subopen + span {
   margin-right: 80px; }
 
-/* line 390, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 390, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 em.mm-counter + a.mm-fullsubopen {
   padding-left: 0; }
 
-/* line 393, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 393, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-vertical em.mm-counter {
   top: 12px;
   margin-top: 0; }
 
-/* line 397, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 397, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-nosubresults > em.mm-counter {
   display: none; }
 
-/* line 400, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 400, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu em.mm-counter {
   color: rgba(255, 255, 255, 0.3); }
 
 /*
   jQuery.mmenu dragOpen addon CSS
 */
-/* line 410, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 410, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.mm-opened.mm-dragging .mm-fixed-top, html.mm-opened.mm-dragging .mm-fixed-bottom, html.mm-opened.mm-dragging #mm-blocker {
   transition-duration: 0s; }
 
 /*
   jQuery.mmenu footer addon CSS
 */
-/* line 420, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 420, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-footer {
   background: inherit;
   border-top: 1px solid transparent;
@@ -951,11 +1089,11 @@ html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.m
   bottom: 0;
   left: 0; }
 
-/* line 434, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 434, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasfooter > .mm-panel:after {
   height: 80px; }
 
-/* line 437, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 437, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-footer {
   border-color: rgba(0, 0, 0, 0.15);
   color: rgba(255, 255, 255, 0.3); }
@@ -963,7 +1101,7 @@ html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.m
 /*
   jQuery.mmenu header addon CSS
 */
-/* line 444, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 444, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header {
   background: inherit;
   border-bottom: 1px solid transparent;
@@ -978,11 +1116,11 @@ html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.m
   top: 0;
   left: 0; }
 
-/* line 460, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 460, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header .mm-title, .mm-header .mm-prev, .mm-header .mm-next, .mm-header .mm-close {
   padding-top: 30px; }
 
-/* line 462, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 462, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header .mm-title {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -991,7 +1129,7 @@ html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.m
   width: 100%;
   position: relative; }
 
-/* line 471, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 471, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header .mm-prev, .mm-header .mm-next, .mm-header .mm-close {
   text-decoration: none;
   display: block;
@@ -1002,19 +1140,19 @@ html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.m
   top: 0;
   z-index: 1; }
 
-/* line 480, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 480, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header .mm-prev {
   padding-left: 20px;
   padding-right: 10px;
   left: 0; }
 
-/* line 485, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 485, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header .mm-next, .mm-header .mm-close {
   padding-left: 10px;
   padding-right: 20px;
   right: 0; }
 
-/* line 489, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 489, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header [href].mm-prev:before, .mm-header [href].mm-next:after {
   content: '';
   border: 2px solid transparent;
@@ -1025,73 +1163,73 @@ html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.m
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/* line 500, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 500, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header [href].mm-prev:before {
   border-right: none;
   border-bottom: none;
   margin-left: 2px;
   margin-right: 5px; }
 
-/* line 505, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 505, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header [href].mm-next:after, .mm-header [href].mm-close:after {
   margin-left: 5px;
   margin-right: -2px; }
 
-/* line 508, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 508, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header [href].mm-next:after {
   border-top: none;
   border-left: none; }
 
-/* line 511, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 511, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-header [href].mm-close:after {
   content: 'x'; }
 
-/* line 514, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 514, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hassearch .mm-header {
   height: 50px;
   top: 50px; }
 
-/* line 520, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 520, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hassearch .mm-header .mm-title, .mm-menu.mm-hassearch .mm-header .mm-prev, .mm-menu.mm-hassearch .mm-header .mm-next, .mm-menu.mm-hassearch .mm-header .mm-close {
   padding-top: 20px; }
 
-/* line 523, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 523, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader li.mm-subtitle {
   display: none; }
 
-/* line 525, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 525, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader > .mm-panel {
   padding-top: 80px; }
 
-/* line 527, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 527, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader > .mm-panel.mm-list {
   padding-top: 60px; }
 
-/* line 529, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 529, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader > .mm-panel > .mm-list:first-child {
   margin-top: -20px; }
 
-/* line 531, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 531, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader.mm-hassearch > .mm-panel {
   padding-top: 120px; }
 
-/* line 533, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 533, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader.mm-hassearch > .mm-panel.mm-list {
   padding-top: 100px; }
 
-/* line 536, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 536, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-header {
   border-color: rgba(0, 0, 0, 0.15);
   color: rgba(255, 255, 255, 0.3); }
 
-/* line 541, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 541, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-header .mm-prev:before, .mm-menu .mm-header .mm-next:after, .mm-menu .mm-header .mm-close:after {
   border-color: rgba(255, 255, 255, 0.3); }
 
 /*
   jQuery.mmenu labels addon CSS
 */
-/* line 547, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 547, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list li.mm-label > span {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -1099,49 +1237,49 @@ html.mm-opened.mm-dragging .mm-menu, html.mm-opened.mm-dragging .mm-page, html.m
   padding: 0;
   line-height: 25px; }
 
-/* line 553, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 553, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list li.mm-label.mm-opened a.mm-subopen:after {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 559, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 559, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list li.mm-collapsed:not(.mm-uncollapsed) {
   display: none; }
 
-/* line 562, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 562, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li.mm-label > a.mm-subopen:after {
   top: 8.5px; }
 
-/* line 565, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 565, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list li.mm-label > div > div {
   background: rgba(255, 255, 255, 0.05); }
 
 /*
   jQuery.mmenu searchfield addon CSS
 */
-/* line 572, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 572, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-search, .mm-search input {
   box-sizing: border-box; }
 
-/* line 575, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 575, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-search {
   padding: 10px;
   margin-top: -20px; }
 
-/* line 578, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 578, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-subtitle + li.mm-search {
   margin-top: 0; }
 
-/* line 581, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 581, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 div.mm-panel > div.mm-search {
   padding: 0 0 10px 0; }
 
-/* line 584, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 584, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader .mm-list > li.mm-search {
   margin-top: 0; }
 
-/* line 587, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 587, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-search {
   background: inherit;
   width: 100%;
@@ -1150,11 +1288,11 @@ div.mm-panel > div.mm-search {
   left: 0;
   z-index: 2; }
 
-/* line 595, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 595, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-search {
   padding: 10px; }
 
-/* line 597, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 597, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-search input {
   border: none;
   border-radius: 30px;
@@ -1168,103 +1306,103 @@ div.mm-panel > div.mm-search {
   margin: 0;
   padding: 0 10px; }
 
-/* line 609, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 609, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-search input::-ms-clear {
   display: none; }
 
-/* line 612, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 612, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-noresultsmsg {
   text-align: center;
   font-size: 21px;
   display: none;
   padding: 60px 0; }
 
-/* line 617, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 617, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-noresultsmsg:after {
   border: none !important; }
 
-/* line 620, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 620, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-noresults .mm-noresultsmsg {
   display: block; }
 
-/* line 623, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 623, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu li.mm-nosubresults > a.mm-subopen {
   display: none; }
 
-/* line 626, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 626, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu li.mm-nosubresults > a.mm-subopen + a, .mm-menu li.mm-nosubresults > a.mm-subopen + span {
   padding-right: 10px; }
 
-/* line 628, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 628, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hassearch > .mm-panel {
   padding-top: 70px; }
 
-/* line 630, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 630, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hassearch > .mm-panel > .mm-list:first-child {
   margin-top: -20px; }
 
-/* line 632, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 632, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader > .mm-panel > div.mm-search:first-child {
   margin-top: -10px; }
 
-/* line 634, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 634, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-hasheader > .mm-panel > div.mm-search:first-child + .mm-list {
   padding-top: 0; }
 
-/* line 637, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 637, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-search input {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.6); }
 
-/* line 640, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 640, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-noresultsmsg {
   color: rgba(255, 255, 255, 0.3); }
 
 /*
   jQuery.mmenu toggles addon CSS
 */
-/* line 647, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 647, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 input.mm-toggle, input.mm-check {
   position: absolute;
   left: -10000px; }
 
-/* line 652, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 652, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-toggle, label.mm-check {
   margin: 0;
   position: absolute;
   bottom: 50%;
   z-index: 2; }
 
-/* line 658, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 658, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-toggle:before, label.mm-check:before {
   content: '';
   display: block; }
 
-/* line 662, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 662, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-toggle {
   border-radius: 30px;
   width: 50px;
   height: 30px;
   margin-bottom: -15px; }
 
-/* line 667, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 667, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-toggle:before {
   border-radius: 30px;
   width: 28px;
   height: 28px;
   margin: 1px; }
 
-/* line 673, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 673, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 input.mm-toggle:checked ~ label.mm-toggle:before {
   float: right; }
 
-/* line 676, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 676, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-check {
   width: 30px;
   height: 30px;
   margin-bottom: -15px; }
 
-/* line 680, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 680, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-check:before {
   border-left: 3px solid;
   border-bottom: 3px solid;
@@ -1276,137 +1414,137 @@ label.mm-check:before {
   -ms-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/* line 693, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 693, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 input.mm-check:checked ~ label.mm-check:before {
   opacity: 1; }
 
-/* line 696, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 696, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li label.mm-toggle, .mm-menu.mm-vertical .mm-list > li label.mm-check {
   bottom: auto;
   margin-bottom: 0; }
 
-/* line 699, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 699, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li label.mm-toggle {
   top: 5px; }
 
-/* line 701, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 701, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li label.mm-check {
   top: 5px; }
 
-/* line 704, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 704, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-toggle, label.mm-check {
   right: 20px; }
 
-/* line 708, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 708, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-toggle + a, label.mm-toggle + span {
   margin-right: 70px; }
 
-/* line 712, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 712, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 label.mm-check + a, label.mm-check + span {
   margin-right: 50px; }
 
-/* line 715, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 715, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 a.mm-subopen + label.mm-toggle, a.mm-subopen + label.mm-check {
   right: 50px; }
 
-/* line 719, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 719, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 a.mm-subopen + label.mm-toggle + a, a.mm-subopen + label.mm-toggle + span {
   margin-right: 100px; }
 
-/* line 723, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 723, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 a.mm-subopen + label.mm-check + a, a.mm-subopen + label.mm-check + span {
   margin-right: 80px; }
 
-/* line 726, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 726, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 em.mm-counter + a.mm-subopen + label.mm-toggle, em.mm-counter + a.mm-subopen + label.mm-check {
   right: 90px; }
 
-/* line 730, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 730, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 em.mm-counter + a.mm-subopen + label.mm-toggle + a, em.mm-counter + a.mm-subopen + label.mm-toggle + span {
   margin-right: 140px; }
 
-/* line 734, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 734, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 em.mm-counter + a.mm-subopen + label.mm-check + a, em.mm-counter + a.mm-subopen + label.mm-check + span {
   margin-right: 120px; }
 
-/* line 737, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 737, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu label.mm-toggle {
   background: rgba(0, 0, 0, 0.15); }
 
-/* line 739, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 739, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu label.mm-toggle:before {
   background: #333333; }
 
-/* line 741, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 741, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu input.mm-toggle:checked ~ label.mm-toggle {
   background: #4bd963; }
 
-/* line 744, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 744, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu label.mm-check:before {
   border-color: rgba(255, 255, 255, 0.6); }
 
 /*
   jQuery.mmenu effects extension CSS
 */
-/* line 750, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 750, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide .mm-menu {
   transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease; }
 
-/* line 753, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 753, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide.mm-opened .mm-menu {
   -webkit-transform: translateX(-30%);
   -ms-transform: translateX(-30%);
   transform: translateX(-30%); }
 
-/* line 759, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 759, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide.mm-opening .mm-menu {
   -webkit-transform: translateX(0%);
   -ms-transform: translateX(0%);
   transform: translateX(0%); }
 
-/* line 765, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 765, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide.mm-right.mm-opened .mm-menu {
   -webkit-transform: translateX(30%);
   -ms-transform: translateX(30%);
   transform: translateX(30%); }
 
-/* line 771, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 771, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide.mm-right.mm-opening .mm-menu {
   -webkit-transform: translateX(0%);
   -ms-transform: translateX(0%);
   transform: translateX(0%); }
 
-/* line 777, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 777, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide.mm-top.mm-opened .mm-menu {
   -webkit-transform: translateY(-30%);
   -ms-transform: translateY(-30%);
   transform: translateY(-30%); }
 
-/* line 783, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 783, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide.mm-top.mm-opening .mm-menu {
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
   transform: translateY(0%); }
 
-/* line 789, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 789, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide.mm-bottom.mm-opened .mm-menu {
   -webkit-transform: translateY(30%);
   -ms-transform: translateY(30%);
   transform: translateY(30%); }
 
-/* line 795, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 795, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-slide.mm-bottom.mm-opening .mm-menu {
   -webkit-transform: translateY(0%);
   -ms-transform: translateY(0%);
   transform: translateY(0%); }
 
-/* line 802, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 802, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu .mm-menu {
   transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease; }
 
-/* line 805, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 805, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu.mm-opened .mm-menu {
   -webkit-transform: scale(0.7, 0.7) translateX(-30%);
   -ms-transform: scale(0.7, 0.7) translateX(-30%);
@@ -1415,13 +1553,13 @@ html.mm-zoom-menu.mm-opened .mm-menu {
   -ms-transform-origin: left center;
   transform-origin: left center; }
 
-/* line 816, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 816, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu.mm-opening .mm-menu {
   -webkit-transform: scale(1, 1) translateX(0%);
   -ms-transform: scale(1, 1) translateX(0%);
   transform: scale(1, 1) translateX(0%); }
 
-/* line 822, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 822, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu.mm-right.mm-opened .mm-menu {
   -webkit-transform: scale(0.7, 0.7) translateX(30%);
   -ms-transform: scale(0.7, 0.7) translateX(30%);
@@ -1430,13 +1568,13 @@ html.mm-zoom-menu.mm-right.mm-opened .mm-menu {
   -ms-transform-origin: right center;
   transform-origin: right center; }
 
-/* line 833, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 833, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu.mm-right.mm-opening .mm-menu {
   -webkit-transform: scale(1, 1) translateX(0%);
   -ms-transform: scale(1, 1) translateX(0%);
   transform: scale(1, 1) translateX(0%); }
 
-/* line 839, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 839, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu.mm-top.mm-opened .mm-menu {
   -webkit-transform: scale(0.7, 0.7) translateY(-30%);
   -ms-transform: scale(0.7, 0.7) translateY(-30%);
@@ -1445,13 +1583,13 @@ html.mm-zoom-menu.mm-top.mm-opened .mm-menu {
   -ms-transform-origin: center top;
   transform-origin: center top; }
 
-/* line 850, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 850, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu.mm-top.mm-opening .mm-menu {
   -webkit-transform: scale(1, 1) translateY(0%);
   -ms-transform: scale(1, 1) translateY(0%);
   transform: scale(1, 1) translateY(0%); }
 
-/* line 856, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 856, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu.mm-bottom.mm-opened .mm-menu {
   -webkit-transform: scale(0.7, 0.7) translateY(30%);
   -ms-transform: scale(0.7, 0.7) translateY(30%);
@@ -1460,13 +1598,13 @@ html.mm-zoom-menu.mm-bottom.mm-opened .mm-menu {
   -ms-transform-origin: center bottom;
   transform-origin: center bottom; }
 
-/* line 867, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 867, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-menu.mm-bottom.mm-opening .mm-menu {
   -webkit-transform: scale(1, 1) translateY(0%);
   -ms-transform: scale(1, 1) translateY(0%);
   transform: scale(1, 1) translateY(0%); }
 
-/* line 874, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 874, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel {
   -webkit-transform: scale(1.5, 1.5) translateX(100%);
   -ms-transform: scale(1.5, 1.5) translateX(100%);
@@ -1477,13 +1615,13 @@ html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel {
   transition-property: -webkit-transform, left;
   transition-property: transform, left; }
 
-/* line 887, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 887, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel.mm-opened {
   -webkit-transform: scale(1, 1) translateX(0%);
   -ms-transform: scale(1, 1) translateX(0%);
   transform: scale(1, 1) translateX(0%); }
 
-/* line 893, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 893, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel.mm-opened.mm-subopened {
   -webkit-transform: scale(0.7, 0.7) translateX(-30%);
   -ms-transform: scale(0.7, 0.7) translateX(-30%);
@@ -1492,20 +1630,20 @@ html.mm-zoom-panels .mm-menu.mm-horizontal > .mm-panel.mm-opened.mm-subopened {
 /*
   jQuery.mmenu fullscreen extension CSS
 */
-/* line 903, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 903, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-fullscreen {
   width: 100%;
   min-width: 140px;
   max-width: 10000px; }
 
-/* line 908, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 908, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opening.mm-fullscreen .mm-slideout {
   -webkit-transform: translate(100%, 0);
   -ms-transform: translate(100%, 0);
   transform: translate(100%, 0); }
 
 @media all and (max-width: 140px) {
-  /* line 916, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  /* line 916, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
   html.mm-opening.mm-fullscreen .mm-slideout {
     -webkit-transform: translate(140px, 0);
     -ms-transform: translate(140px, 0);
@@ -1513,21 +1651,21 @@ html.mm-opening.mm-fullscreen .mm-slideout {
  }
 
 @media all and (min-width: 10000px) {
-  /* line 923, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  /* line 923, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
   html.mm-opening.mm-fullscreen .mm-slideout {
     -webkit-transform: translate(10000px, 0);
     -ms-transform: translate(10000px, 0);
     transform: translate(10000px, 0); }
  }
 
-/* line 929, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 929, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
   -webkit-transform: translate(-100%, 0);
   -ms-transform: translate(-100%, 0);
   transform: translate(-100%, 0); }
 
 @media all and (max-width: 140px) {
-  /* line 937, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  /* line 937, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
   html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
     -webkit-transform: translate(-140px, 0);
     -ms-transform: translate(-140px, 0);
@@ -1535,50 +1673,50 @@ html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
  }
 
 @media all and (min-width: 10000px) {
-  /* line 944, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  /* line 944, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
   html.mm-right.mm-opening.mm-fullscreen .mm-slideout {
     -webkit-transform: translate(-10000px, 0);
     -ms-transform: translate(-10000px, 0);
     transform: translate(-10000px, 0); }
  }
 
-/* line 950, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 950, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-front.mm-fullscreen.mm-top, .mm-menu.mm-front.mm-fullscreen.mm-bottom {
   height: 100%;
   min-height: 140px;
   max-height: 10000px; }
 
-/* line 955, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 955, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened.mm-fullscreen .mm-page {
   box-shadow: none !important; }
 
 /*
   jQuery.mmenu position extension CSS
 */
-/* line 962, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 962, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-top, .mm-menu.mm-bottom {
   width: 100%;
   min-width: 100%;
   max-width: 100%; }
 
-/* line 967, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 967, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-right {
   left: auto;
   right: 0; }
 
-/* line 971, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 971, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-bottom {
   top: auto;
   bottom: 0; }
 
-/* line 975, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 975, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-right.mm-opening .mm-slideout {
   -webkit-transform: translate(-80%, 0);
   -ms-transform: translate(-80%, 0);
   transform: translate(-80%, 0); }
 
 @media all and (max-width: 175px) {
-  /* line 983, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  /* line 983, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
   html.mm-right.mm-opening .mm-slideout {
     -webkit-transform: translate(-140px, 0);
     -ms-transform: translate(-140px, 0);
@@ -1586,7 +1724,7 @@ html.mm-right.mm-opening .mm-slideout {
  }
 
 @media all and (min-width: 550px) {
-  /* line 990, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+  /* line 990, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
   html.mm-right.mm-opening .mm-slideout {
     -webkit-transform: translate(-440px, 0);
     -ms-transform: translate(-440px, 0);
@@ -1596,23 +1734,23 @@ html.mm-right.mm-opening .mm-slideout {
 /*
   jQuery.mmenu z-position extension CSS
 */
-/* line 999, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 999, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-front .mm-slideout {
   -webkit-transform: none !important;
   -ms-transform: none !important;
   transform: none !important;
   z-index: 0 !important; }
 
-/* line 1007, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1007, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-front {
   z-index: 1;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); }
 
-/* line 1011, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1011, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened.mm-next .mm-page {
   box-shadow: none; }
 
-/* line 1014, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1014, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-front, .mm-menu.mm-next {
   transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease;
@@ -1620,31 +1758,31 @@ html.mm-opened.mm-next .mm-page {
   -ms-transform: translate(-100%, 0);
   transform: translate(-100%, 0); }
 
-/* line 1023, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1023, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-front.mm-right, .mm-menu.mm-next.mm-right {
   -webkit-transform: translate(100%, 0);
   -ms-transform: translate(100%, 0);
   transform: translate(100%, 0); }
 
-/* line 1029, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1029, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-front.mm-top {
   -webkit-transform: translate(0, -100%);
   -ms-transform: translate(0, -100%);
   transform: translate(0, -100%); }
 
-/* line 1035, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1035, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-front.mm-bottom {
   -webkit-transform: translate(0, 100%);
   -ms-transform: translate(0, 100%);
   transform: translate(0, 100%); }
 
-/* line 1042, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1042, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opening .mm-menu.mm-front, html.mm-opening .mm-menu.mm-next {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0); }
 
-/* line 1049, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1049, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-front.mm-top, .mm-menu.mm-front.mm-bottom {
   height: 80%;
   min-height: 140px;
@@ -1653,321 +1791,321 @@ html.mm-opening .mm-menu.mm-front, html.mm-opening .mm-menu.mm-next {
 /*
   jQuery.mmenu themes extension CSS
 */
-/* line 1057, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1057, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened.mm-light .mm-page {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
 
-/* line 1060, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1060, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light {
   background: #f3f3f3;
   color: rgba(0, 0, 0, 0.6); }
 
-/* line 1063, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1063, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-list > li:after {
   border-color: rgba(0, 0, 0, 0.1); }
 
-/* line 1065, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1065, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-list > li > a.mm-subclose {
   background: rgba(255, 255, 255, 0.6);
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1068, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1068, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-list > li > a.mm-subopen:after, .mm-menu.mm-light .mm-list > li > a.mm-subclose:before {
   border-color: rgba(0, 0, 0, 0.3); }
 
-/* line 1070, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1070, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-list > li > a.mm-subopen:before {
   border-color: rgba(0, 0, 0, 0.1); }
 
-/* line 1073, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1073, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-light .mm-list > li.mm-selected > span {
   background: rgba(255, 255, 255, 0.6); }
 
-/* line 1075, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1075, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-list > li.mm-label {
   background: rgba(0, 0, 0, 0.03); }
 
-/* line 1078, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1078, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-light.mm-vertical .mm-list li.mm-opened > ul {
   background: rgba(0, 0, 0, 0.03); }
 
-/* line 1081, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1081, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-buttonbar {
   border-color: rgba(0, 0, 0, 0.6);
   background: #f3f3f3; }
 
-/* line 1084, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1084, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-buttonbar > * {
   border-color: rgba(0, 0, 0, 0.6); }
 
-/* line 1086, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1086, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-buttonbar > input:checked + label {
   background: rgba(0, 0, 0, 0.6);
   color: #f3f3f3; }
 
-/* line 1090, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1090, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light label.mm-check:before {
   border-color: rgba(0, 0, 0, 0.6); }
 
-/* line 1093, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1093, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light em.mm-counter {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1096, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1096, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-footer {
   border-color: rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1100, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1100, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-header {
   border-color: rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1105, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1105, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-header .mm-prev:before, .mm-menu.mm-light .mm-header .mm-next:after, .mm-menu.mm-light .mm-header .mm-close:after {
   border-color: rgba(0, 0, 0, 0.3); }
 
-/* line 1108, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1108, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-list li.mm-label > div > div {
   background: rgba(0, 0, 0, 0.03); }
 
-/* line 1111, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1111, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-search input {
   background: rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.6); }
 
-/* line 1114, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1114, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light .mm-noresultsmsg {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1117, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1117, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light label.mm-toggle {
   background: rgba(0, 0, 0, 0.1); }
 
-/* line 1119, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1119, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light label.mm-toggle:before {
   background: #f3f3f3; }
 
-/* line 1121, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1121, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-light input.mm-toggle:checked ~ label.mm-toggle {
   background: #4bd963; }
 
-/* line 1124, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1124, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened.mm-white .mm-page {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
 
-/* line 1127, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1127, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white {
   background: white;
   color: rgba(0, 0, 0, 0.6); }
 
-/* line 1130, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1130, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-list > li:after {
   border-color: rgba(0, 0, 0, 0.1); }
 
-/* line 1132, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1132, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-list > li > a.mm-subclose {
   background: rgba(0, 0, 0, 0.06);
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1135, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1135, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-list > li > a.mm-subopen:after, .mm-menu.mm-white .mm-list > li > a.mm-subclose:before {
   border-color: rgba(0, 0, 0, 0.3); }
 
-/* line 1137, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1137, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-list > li > a.mm-subopen:before {
   border-color: rgba(0, 0, 0, 0.1); }
 
-/* line 1140, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1140, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-white .mm-list > li.mm-selected > span {
   background: rgba(0, 0, 0, 0.06); }
 
-/* line 1142, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1142, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-list > li.mm-label {
   background: rgba(0, 0, 0, 0.03); }
 
-/* line 1145, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1145, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-white.mm-vertical .mm-list li.mm-opened > ul {
   background: rgba(0, 0, 0, 0.03); }
 
-/* line 1148, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1148, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-buttonbar {
   border-color: rgba(0, 0, 0, 0.6);
   background: white; }
 
-/* line 1151, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1151, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-buttonbar > * {
   border-color: rgba(0, 0, 0, 0.6); }
 
-/* line 1153, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1153, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-buttonbar > input:checked + label {
   background: rgba(0, 0, 0, 0.6);
   color: white; }
 
-/* line 1157, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1157, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white label.mm-check:before {
   border-color: rgba(0, 0, 0, 0.6); }
 
-/* line 1160, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1160, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white em.mm-counter {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1163, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1163, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-footer {
   border-color: rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1167, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1167, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-header {
   border-color: rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1172, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1172, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-header .mm-prev:before, .mm-menu.mm-white .mm-header .mm-next:after, .mm-menu.mm-white .mm-header .mm-close:after {
   border-color: rgba(0, 0, 0, 0.3); }
 
-/* line 1175, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1175, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-list li.mm-label > div > div {
   background: rgba(0, 0, 0, 0.03); }
 
-/* line 1178, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1178, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-search input {
   background: rgba(0, 0, 0, 0.1);
   color: rgba(0, 0, 0, 0.6); }
 
-/* line 1181, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1181, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white .mm-noresultsmsg {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 1184, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1184, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white label.mm-toggle {
   background: rgba(0, 0, 0, 0.1); }
 
-/* line 1186, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1186, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white label.mm-toggle:before {
   background: white; }
 
-/* line 1188, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1188, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-white input.mm-toggle:checked ~ label.mm-toggle {
   background: #4bd963; }
 
-/* line 1191, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1191, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened.mm-black .mm-page {
   box-shadow: none; }
 
-/* line 1194, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1194, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black {
   background: black;
   color: rgba(255, 255, 255, 0.6); }
 
-/* line 1197, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1197, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-list > li:after {
   border-color: rgba(255, 255, 255, 0.2); }
 
-/* line 1199, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1199, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-list > li > a.mm-subclose {
   background: rgba(255, 255, 255, 0.25);
   color: rgba(255, 255, 255, 0.3); }
 
-/* line 1202, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1202, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-list > li > a.mm-subopen:after, .mm-menu.mm-black .mm-list > li > a.mm-subclose:before {
   border-color: rgba(255, 255, 255, 0.3); }
 
-/* line 1204, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1204, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-list > li > a.mm-subopen:before {
   border-color: rgba(255, 255, 255, 0.2); }
 
-/* line 1207, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1207, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu.mm-black .mm-list > li.mm-selected > span {
   background: rgba(255, 255, 255, 0.25); }
 
-/* line 1209, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1209, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-list > li.mm-label {
   background: rgba(255, 255, 255, 0.15); }
 
-/* line 1212, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1212, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-black.mm-vertical .mm-list li.mm-opened > ul {
   background: rgba(255, 255, 255, 0.15); }
 
-/* line 1215, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1215, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-buttonbar {
   border-color: rgba(255, 255, 255, 0.6);
   background: black; }
 
-/* line 1218, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1218, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-buttonbar > * {
   border-color: rgba(255, 255, 255, 0.6); }
 
-/* line 1220, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1220, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-buttonbar > input:checked + label {
   background: rgba(255, 255, 255, 0.6);
   color: black; }
 
-/* line 1224, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1224, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black label.mm-check:before {
   border-color: rgba(255, 255, 255, 0.6); }
 
-/* line 1227, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1227, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black em.mm-counter {
   color: rgba(255, 255, 255, 0.3); }
 
-/* line 1230, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1230, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-footer {
   border-color: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.3); }
 
-/* line 1234, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1234, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-header {
   border-color: rgba(255, 255, 255, 0.2);
   color: rgba(255, 255, 255, 0.3); }
 
-/* line 1239, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1239, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-header .mm-prev:before, .mm-menu.mm-black .mm-header .mm-next:after, .mm-menu.mm-black .mm-header .mm-close:after {
   border-color: rgba(255, 255, 255, 0.3); }
 
-/* line 1242, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1242, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-list li.mm-label > div > div {
   background: rgba(255, 255, 255, 0.15); }
 
-/* line 1245, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1245, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-search input {
   background: rgba(255, 255, 255, 0.3);
   color: rgba(255, 255, 255, 0.6); }
 
-/* line 1248, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1248, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black .mm-noresultsmsg {
   color: rgba(255, 255, 255, 0.3); }
 
-/* line 1251, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1251, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black label.mm-toggle {
   background: rgba(255, 255, 255, 0.2); }
 
-/* line 1253, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1253, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black label.mm-toggle:before {
   background: black; }
 
-/* line 1255, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1255, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-black input.mm-toggle:checked ~ label.mm-toggle {
   background: #4bd963; }
 
 /*
   jQuery.mmenu panels CSS
 */
-/* line 1262, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1262, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-horizontal > .mm-panel {
   transition: -webkit-transform 0.4s ease;
   transition: transform 0.4s ease; }
 
-/* line 1266, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1266, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-hidden {
   display: none; }
 
-/* line 1269, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1269, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-wrapper {
   overflow-x: hidden;
   position: relative; }
 
-/* line 1274, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1274, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu, .mm-menu > .mm-panel {
   width: 100%;
   height: 100%;
@@ -1976,14 +2114,14 @@ html.mm-opened.mm-black .mm-page {
   top: 0;
   z-index: 0; }
 
-/* line 1282, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1282, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu {
   background: inherit;
   display: block;
   overflow: hidden;
   padding: 0; }
 
-/* line 1287, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1287, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-panel {
   background: inherit;
   -webkit-overflow-scrolling: touch;
@@ -1996,66 +2134,66 @@ html.mm-opened.mm-black .mm-page {
   -ms-transform: translate(100%, 0);
   transform: translate(100%, 0); }
 
-/* line 1300, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1300, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-panel.mm-opened {
   -webkit-transform: translate(0%, 0);
   -ms-transform: translate(0%, 0);
   transform: translate(0%, 0); }
 
-/* line 1306, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1306, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-panel.mm-subopened {
   -webkit-transform: translate(-30%, 0);
   -ms-transform: translate(-30%, 0);
   transform: translate(-30%, 0); }
 
-/* line 1312, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1312, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-panel.mm-highest {
   z-index: 1; }
 
-/* line 1314, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1314, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list {
   padding: 20px 0; }
 
-/* line 1316, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1316, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-list {
   padding-bottom: 0; }
 
-/* line 1318, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1318, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu > .mm-list:after {
   content: '';
   display: block;
   height: 40px; }
 
-/* line 1323, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1323, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-panel > .mm-list {
   margin-left: -20px;
   margin-right: -20px; }
 
-/* line 1326, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1326, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-panel > .mm-list:first-child {
   padding-top: 0; }
 
-/* line 1330, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1330, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list, .mm-list > li {
   list-style: none;
   display: block;
   padding: 0;
   margin: 0; }
 
-/* line 1336, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1336, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list {
   font: inherit;
   font-size: 14px; }
 
-/* line 1340, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1340, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a, .mm-list a:hover {
   text-decoration: none; }
 
-/* line 1342, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1342, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li {
   position: relative; }
 
-/* line 1345, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1345, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li > a, .mm-list > li > span {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2066,7 +2204,7 @@ html.mm-opened.mm-black .mm-page {
   padding: 10px 10px 10px 20px;
   margin: 0; }
 
-/* line 1354, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1354, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
   content: '';
   border-bottom-width: 1px;
@@ -2077,14 +2215,14 @@ html.mm-opened.mm-black .mm-page {
   bottom: 0;
   left: 0; }
 
-/* line 1363, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1363, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-search):not(.mm-noresults):after {
   width: auto;
   margin-left: 20px;
   position: relative;
   left: auto; }
 
-/* line 1368, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1368, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen {
   background: rgba(3, 2, 1, 0);
   width: 40px;
@@ -2095,7 +2233,7 @@ html.mm-opened.mm-black .mm-page {
   top: 0;
   z-index: 2; }
 
-/* line 1377, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1377, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen:before {
   content: '';
   border-left-width: 1px;
@@ -2106,35 +2244,35 @@ html.mm-opened.mm-black .mm-page {
   left: 0;
   top: 0; }
 
-/* line 1386, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1386, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen.mm-fullsubopen {
   width: 100%; }
 
-/* line 1388, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1388, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen.mm-fullsubopen:before {
   border-left: none; }
 
-/* line 1391, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1391, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen + a, .mm-list a.mm-subopen + span {
   padding-right: 5px;
   margin-right: 40px; }
 
-/* line 1394, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1394, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-selected > a.mm-subopen {
   background: transparent; }
 
-/* line 1397, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1397, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-selected > a.mm-fullsubopen + a, .mm-list > li.mm-selected > a.mm-fullsubopen + span {
   padding-right: 45px;
   margin-right: 0; }
 
-/* line 1400, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1400, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subclose {
   text-indent: 20px;
   padding-top: 30px;
   margin-top: -20px; }
 
-/* line 1404, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1404, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-label {
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -2145,15 +2283,15 @@ html.mm-opened.mm-black .mm-page {
   line-height: 25px;
   padding-right: 5px; }
 
-/* line 1413, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1413, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-spacer {
   padding-top: 40px; }
 
-/* line 1415, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1415, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list > li.mm-spacer.mm-label {
   padding-top: 25px; }
 
-/* line 1418, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1418, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen:after, .mm-list a.mm-subclose:before {
   content: '';
   border: 2px solid transparent;
@@ -2167,85 +2305,85 @@ html.mm-opened.mm-black .mm-page {
   position: absolute;
   bottom: 50%; }
 
-/* line 1432, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1432, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subopen:after {
   border-top: none;
   border-left: none;
   right: 18px; }
 
-/* line 1436, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1436, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-list a.mm-subclose:before {
   border-right: none;
   border-bottom: none;
   margin-bottom: -15px;
   left: 22px; }
 
-/* line 1442, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1442, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list .mm-panel {
   display: none;
   padding: 10px 0 10px 10px; }
 
-/* line 1445, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1445, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list .mm-panel li:last-child:after {
   border-color: transparent; }
 
-/* line 1447, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1447, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list li.mm-opened > .mm-panel {
   display: block; }
 
-/* line 1449, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1449, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li > a.mm-subopen {
   height: 40px; }
 
-/* line 1451, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1451, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li > a.mm-subopen:after {
   top: 16px;
   bottom: auto; }
 
-/* line 1454, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1454, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li.mm-opened > a.mm-subopen:after {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 1460, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1460, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list > li.mm-label > a.mm-subopen {
   height: 25px; }
 
-/* line 1463, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1463, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 html.mm-opened .mm-page {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
-/* line 1466, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1466, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu {
   background: #333333;
   color: rgba(255, 255, 255, 0.6); }
 
-/* line 1469, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1469, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li:after {
   border-color: rgba(0, 0, 0, 0.15); }
 
-/* line 1471, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1471, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li > a.mm-subclose {
   background: rgba(0, 0, 0, 0.1);
   color: rgba(255, 255, 255, 0.3); }
 
-/* line 1474, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1474, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before {
   border-color: rgba(255, 255, 255, 0.3); }
 
-/* line 1476, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1476, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li > a.mm-subopen:before {
   border-color: rgba(0, 0, 0, 0.15); }
 
-/* line 1479, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1479, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen), .mm-menu .mm-list > li.mm-selected > span {
   background: rgba(0, 0, 0, 0.1); }
 
-/* line 1481, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1481, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li.mm-label {
   background: rgba(255, 255, 255, 0.05); }
 
-/* line 1484, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
+/* line 1484, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu.mm-vertical .mm-list li.mm-opened > a.mm-subopen, .mm-menu.mm-vertical .mm-list li.mm-opened > ul {
   background: rgba(255, 255, 255, 0.05); }
