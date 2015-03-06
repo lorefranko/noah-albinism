@@ -16,17 +16,11 @@ header{
 	list-style-type: none;
 	display: inline-block;
 	font-weight: 300;
-	padding: 8px;
+	padding: 2px;
 	&:hover{
 		background-color: rgba(218, 138, 11, 0.5);
 	}
 }
-
-.ul-nav-width{
-	float: right;
-	padding-right: 5%;
-}
-
 
 // #my-menu{
 // 	z-index: 999;
@@ -37,65 +31,65 @@ header{
 	margin-top: 0;
 	position: absolute;
 	width: 100%;
+	display: none;
 
-	a{
-		color: #fff;
-		text-decoration: none;
+		a{
+			color: #fff;
+			text-decoration: none;
+		}
+	ul {
+	  text-align: left;
+	  display: inline;
+	  margin: 0;
+	  padding: 15px 4px 17px 0;
+	  list-style: none;
+
 	}
-ul {
-  text-align: left;
-  display: inline;
-  margin: 0;
-  padding: 15px 4px 17px 0;
-  list-style: none;
+	ul li {
+	  display: inline-block;
+	  margin-right: -4px;
+	  position: relative;
+	  padding: 15px 20px;
+	  cursor: pointer;
+	  -webkit-transition: all 0.2s;
+	  -moz-transition: all 0.2s;
+	  -ms-transition: all 0.2s;
+	  -o-transition: all 0.2s;
+	  transition: all 0.2s;
+	}
 
-}
-ul li {
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  padding: 15px 20px;
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
-}
-ul li:hover {
-  background: #555;
-  color: #fff;
-}
-ul li ul {
-  padding: 0;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 150px;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
-}
-ul li ul li {
-  background: #555;
-  display: block;
-  color: #fff;
-  text-shadow: 0 -1px 0 #000;
-}
-ul li ul li:hover { background: #666; }
-ul li:hover ul {
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}
+	ul li ul {
+	  padding: 0;
+	  position: absolute;
+	  top: 48px;
+	  left: 0;
+	  width: 150px;
+	  -webkit-box-shadow: none;
+	  -moz-box-shadow: none;
+	  box-shadow: none;
+	  display: none;
+	  opacity: 0;
+	  visibility: hidden;
+	  -webkit-transiton: opacity 0.2s;
+	  -moz-transition: opacity 0.2s;
+	  -ms-transition: opacity 0.2s;
+	  -o-transition: opacity 0.2s;
+	  -transition: opacity 0.2s;
+	}
+	ul li ul li {
+	  background: #898782;
+	  display: block;
+	  color: #fff;
+	}
+	ul li ul li:hover { background: rgba(218, 138, 11, 0.5); }
+	ul li:hover ul {
+	  display: block;
+	  opacity: 1;
+	  visibility: visible;
+	}
+	@media only screen and (min-width: 50em){
+		display: inline-block;
+	}
 
 }
 
