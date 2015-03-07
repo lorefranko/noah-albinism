@@ -9,14 +9,13 @@ header{
 
   background: transparent url("../images/angel.jpg") no-repeat  center;
   background-size: cover;
-  height: 200px;
-  @media only screen and (min-width: 50em){
   height: 300px;
+  @media only screen and (min-width: 50em){
+  height: 600px;
   }
 }
 
 .ul-nav-width li{
-  font-size: 34em;
   list-style-type: none;
   display: inline-block;
   font-weight: 300;
