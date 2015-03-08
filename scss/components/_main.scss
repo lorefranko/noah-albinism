@@ -48,7 +48,6 @@ header{
     text-align: right;
     display: inline;
     margin: 0;
-    padding: 15px 4px 17px 0;
     list-style: none;
     float: right;
     margin-top: 20px;
@@ -128,10 +127,10 @@ header{
   display: block;
 }
 .logo{
-
   z-index: 999;
   width: 120px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 
@@ -193,6 +192,14 @@ header{
 
 
 /* ----------Donate Button-----------*/
+
+.donate-top{
+  font-size: 1.2em;
+  font-weight: 600;
+  border-style: solid;
+  border-width: medium;
+  padding: 5px;
+}
 
 .donateContainer{
   position: relative;
@@ -941,6 +948,135 @@ margin-bottom: -5px;
   background: rgba(255, 255, 255, 0.7);
 }
 
+/* ----------Login-----------*/
+.bg {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+}
+
+form {
+  background-color: rgb(59,59,59);
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+  width: 285px;
+  padding-top: 42px;
+  margin: 50px auto;
+  border-radius: 4px;
+}
+
+.head {
+  color: rgb(252,174,0);
+  font-weight: 700;
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+
+.optional {
+  display: inline-block;
+  background: F2F3F5;
+}
+
+#space {
+  padding: 1em;
+}
+
+.foot {
+  background: rgb(59,59,59);
+  height: 45px;
+  border-radius: 0 0 4px 4px;
+  font-size: 12px;
+  margin-top: 88px;
+  padding-top: 3px;
+}
+
+.foot span {
+  color: rgb(252,174,0);
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: black;
+}
+
+
+
+/* Fields and Button */
+
+.buttons {
+  width: 80%;
+  height: 42px;
+  margin: 13px 0px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  background: #F2F3F5;
+  background-repeat: no-repeat;
+  background-position: 15px 17px;
+  text-indent: 17%;
+  font-family: inherit;
+  font-size: 16px;
+  color: rgb(252,174,0);
+}
+
+#submit {
+  background-color: rgb(252,174,0);
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: 300;
+  color: white;
+  margin-bottom: 8px;
+  text-indent: 0;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+#submit:hover {
+  background-color: rgb(0,0,1);
+}
+
+
+
+/* Username & Password Icons */
+
+#username {
+  background-image: url('http://static.tumblr.com/mnsbkhd/24dms3lei/male.png');
+}
+
+#password {
+  background-image: url('http://static.tumblr.com/mnsbkhd/5IMms3ldm/locked.png');
+}
+
+
+
+/* Checkbox */
+
+input[type='checkbox'] {
+  visibility: hidden;
+}
+
+input[type='checkbox'] + label span {
+  display: inline-block;
+  background: inherit;
+  border: 2px solid rgb(252,174,0);
+  border-radius: 35%;
+  margin: -1px 4px 0 0;
+  width: 10px;
+  height: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: background .3s ease-in-out;
+}
+
+input[type='checkbox']:checked + label span {
+  background: rgb(252,174,0);
+  border: 2px solid rgb(252,174,0);
+}
 
 
 /* ----------FOOTER-----------*/
