@@ -199,6 +199,10 @@ header{
   border-style: solid;
   border-width: medium;
   padding: 5px;
+  border-color: rgb(252, 173, 23);
+  &:hover{
+    background: #3A3A3C;
+  }
 }
 
 .donateContainer{
@@ -260,8 +264,8 @@ header{
 }
 
 .donatehere{
-  width:80px;
-  margin-left: 40px;
+  width: 100px;
+  margin-left: 25px;
 }
 
 .donate-footer{
