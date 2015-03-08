@@ -209,22 +209,28 @@ header {
   position: absolute;
   right: 0;
   top: 0;
-  z-index: 1000; }
+  z-index: 1000;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff; }
+  /* line 113, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  #my-button:hover {
+    color: #FCAE00; }
   @media only screen and (min-width: 50em) {
     #my-button {
       display: none; } }
 
-/* line 116, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 122, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #top {
   display: block; }
 
-/* line 119, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 125, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .logo {
   z-index: 999;
   width: 120px;
   margin: 20px; }
 
-/* line 127, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 133, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #my-menu .mm-list a.mm-subopen {
   right: 40px; }
 
@@ -233,7 +239,7 @@ header {
     display: none; } }
 
 /* ----------Section-1--------*/
-/* line 141, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 147, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .section-1 {
   overflow: hidden;
   margin-left: 5%;
@@ -249,50 +255,50 @@ header {
   /* line 99, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/mixins */
   .section-1:after {
     clear: both; }
-  /* line 147, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 153, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   .section-1 .image-2-3 {
     width: 100%; }
   @media only screen and (min-width: 50em) {
-    /* line 152, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 158, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     .section-1 .screen-10 {
       width: 10%; }
 
-    /* line 156, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 162, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     .section-1 .screen-2-3 {
       width: 60%;
       float: right;
       display: block; }
 
-    /* line 161, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 167, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     .section-1 .screen-1-3 {
       width: 33.3%;
       float: left;
       padding-right: 30px; }
 
-    /* line 167, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 173, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     .section-1 .screen-1-2 {
       width: 45%;
       float: left;
       padding-right: 40px; }
 
-    /* line 173, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 179, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     .section-1 .screen-1 {
       width: 90%; }
 
-    /* line 177, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 183, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     .section-1 .image-2-3 {
       width: 100%; }
  }
 
 /* ----------Donate Button-----------*/
-/* line 186, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 192, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .donateContainer {
   position: absolute;
   width: 207px;
   margin: -300px 100px 0 100px;
   z-index: 999; }
 
-/* line 192, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 198, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .donate {
   margin: auto;
   position: relative;
@@ -301,18 +307,18 @@ header {
   z-index: 2;
   display: block; }
 
-/* line 201, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 207, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .donate-here {
   width: 50%; }
 
-/* line 204, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 210, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .donate:hover + .rays {
   height: 200px;
   width: 200px;
   opacity: 1;
   margin-top: -105px; }
 
-/* line 210, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 216, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .rays {
   -webkit-transform-origin: center;
       -ms-transform-origin: center;
@@ -333,18 +339,18 @@ header {
           animation: godrays 10s ease-in-out alternate infinite; }
 
 @-webkit-keyframes godrays {
-  /* line 224, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 230, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
 @keyframes godrays {
-  /* line 224, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 230, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   to {
     -webkit-transform: rotate(360deg);
             transform: rotate(360deg); } }
 
-/* line 229, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 235, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .donate-footer {
   font-size: 2em;
   background-size: 200px;
@@ -352,15 +358,15 @@ header {
   margin-left: 5%;
   width: 160px;
   text-align: center; }
-  /* line 236, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 242, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   .donate-footer a {
     text-decoration: none;
     color: #fff; }
-  /* line 240, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 246, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   .donate-footer:hover {
     background-color: #da8a0b; }
 
-/* line 245, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 251, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .h1-feeds {
   color: #F7AD50;
   font-size: 0.9em;
@@ -368,30 +374,30 @@ header {
 
 /* ----------Donate-form-----------*/
 /* quick and dirty (no box-sizing though) */
-/* line 253, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 259, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 * {
   margin: 0;
   padding: 0;
   border: 0; }
 
-/* line 258, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 264, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 form {
   margin: 20px;
   padding: 20px;
   border: 10px solid #fcae00; }
-  /* line 262, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 268, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   form p {
     clear: left;
     margin: 1em 0; }
-  /* line 266, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 272, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   form legend {
     display: none; }
-  /* line 269, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 275, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   form h2 {
     font-size: 1.4em;
     font-weight: normal;
     color: #3b3b3b; }
-  /* line 274, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 280, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   form h2:before {
     content: "1";
     font-weight: bold;
@@ -411,7 +417,7 @@ form {
  * I am using aria-labelledby instead
  */
 /* radio fieldset */
-/* line 297, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 303, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons {
   position: relative;
   padding-top: 2.5em;
@@ -420,23 +426,23 @@ form {
   float: left; }
 
 /* hide and remove the radio buttons from the flow */
-/* line 305, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 311, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons input {
   opacity: 0;
   position: absolute; }
 
 /* the circles */
-/* line 311, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 317, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons label {
   float: left;
   margin: 10px 10px 0 0;
   text-align: center; }
 
-/* line 316, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 322, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons input:focus + label:before {
   text-decoration: underline; }
 
-/* line 320, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 326, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons label, #for500:after {
   width: 4em;
   height: 4em;
@@ -450,7 +456,7 @@ form {
   cursor: pointer; }
 
 /* other amount */
-/* line 336, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 342, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #other-amount {
   text-align: center;
   color: #3b3b3b;
@@ -466,60 +472,60 @@ form {
   cursor: pointer; }
 
 /* no need for this */
-/* line 351, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 357, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 ::-webkit-inner-spin-button {
   -webkit-appearance: none; }
 
-/* line 354, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 360, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 ::-webkit-input-placeholder {
   color: #3b3b3b;
   font-weight: 300; }
 
-/* line 359, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 365, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #other-amount:focus::-webkit-input-placeholder {
   opacity: 0;
   transition: opacity 0.3s; }
 
-/* line 363, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 369, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #other-amount::-webkit-textfield-decoration-container:before {
   content: "$";
   color: #3b3b3b; }
 
 /* text in circles */
-/* line 370, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 376, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons label:before {
   color: #3b3b3b;
   font-size: 1.3em;
   font-weight: bold;
   transition: all 0.3s ease; }
 
-/* line 377, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 383, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons input:checked + label:before, #radio-buttons label:hover:before {
   font-size: 1em; }
 
 /* labels */
-/* line 382, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 388, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for25:before {
   content: '$25'; }
 
-/* line 383, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 389, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for50:before {
   content: '$50'; }
 
-/* line 384, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 390, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for100:before {
   content: '$100'; }
 
-/* line 385, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 391, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for250:before {
   content: '$250'; }
 
-/* line 386, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 392, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for500:before {
   content: '$500'; }
 
 /* content in labels */
-/* line 389, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 395, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons label b {
   text-align: left;
   /* reset */
@@ -533,38 +539,38 @@ form {
   /* stacked together */
   display: none; }
 
-/* line 399, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 405, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons label:hover b {
   z-index: 1
   /* put it on top of the stack */ }
 
 /* labels pop-up */
-/* line 405, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 411, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D25:focus + label b, #D25:hover + label b {
   display: block; }
 
-/* line 409, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 415, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D50:focus + label b, #D50:hover + label b {
   display: block; }
 
-/* line 413, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 419, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D100:focus + label b, #D100:hover + label b {
   display: block; }
 
-/* line 417, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 423, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D250:focus + label b, #D250:hover + label b {
   display: block; }
 
-/* line 421, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 427, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D500:focus + label b, #D500:hover + label b {
   display: block; }
 
-/* line 424, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 430, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons :checked + label b {
   display: block !important; }
 
 /* the 'marker' */
-/* line 429, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 435, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for500:after {
   content: " ";
   position: absolute;
@@ -574,66 +580,66 @@ form {
 
 /* COLORS */
 /* the circles */
-/* line 440, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 446, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons label {
   background: #fcae00;
   border-color: transparent; }
 
-/* line 445, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 451, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #radio-buttons :checked + label {
   background: #fff; }
 
 /* the 'marker' (moving circle) */
-/* line 450, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 456, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for500:after {
   border-color: #fcae00; }
 
 /* OFFSETS */
-/* line 455, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 461, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for25:hover ~ label:last-child::after {
   left: 0 !important;
   margin-left: 0 !important; }
 
-/* line 456, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 462, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for50:hover ~ label:last-child::after {
   left: 4em !important;
   margin-left: 10px !important; }
 
-/* line 457, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 463, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for100:hover ~ label:last-child::after {
   left: 8em !important;
   margin-left: 20px !important; }
 
-/* line 458, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 464, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for250:hover ~ label:last-child::after {
   left: 12em !important;
   margin-left: 30px !important; }
 
-/* line 460, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 466, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #for500:hover ~ label:last-child::after, #for500:hover:after {
   left: 16em !important;
   margin-left: 40px !important; }
 
-/* line 462, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 468, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D25:focus ~ label:last-child::after, #D25:checked ~ label:last-child::after {
   left: 0; }
 
-/* line 464, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 470, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D50:focus ~ label:last-child::after, #D50:checked ~ label:last-child::after {
   left: 4em;
   margin-left: 10px; }
 
-/* line 466, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 472, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D100:focus ~ label:last-child::after, #D100:checked ~ label:last-child::after {
   left: 8em;
   margin-left: 20px; }
 
-/* line 468, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 474, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D250:focus ~ label:last-child::after, #D250:checked ~ label:last-child::after {
   left: 12em;
   margin-left: 30px; }
 
-/* line 470, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 476, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #D500:focus ~ label:last-child::after, #D500:checked ~ label:last-child::after {
   left: 16em;
   margin-left: 40px; }
@@ -641,7 +647,7 @@ form {
 /* CHECKBOX */
 /* could play with this for IE10 */
 /* checkbox */
-/* line 479, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 485, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #donate-monthly {
   -webkit-appearance: none;
   margin: 0 10px;
@@ -653,21 +659,21 @@ form {
   outline: 0;
   cursor: pointer; }
 
-/* line 490, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 496, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #donate-monthly:focus + label {
   text-decoration: underline; }
 
-/* line 493, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 499, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #donate-monthly:checked {
   border: 0;
   background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjwhRE9DVFlQRSBzdmcgIFBVQkxJQyAnLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4nICAnaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkJz48c3ZnIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDI0IDI0IiBoZWlnaHQ9IjI0cHgiIGlkPSJMYXllcl8xIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAyNCAyNCIgd2lkdGg9IjI0cHgiIHhtbDpzcGFjZT0icHJlc2VydmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxnPjxnPjxwYXRoIGQ9Ik0xMiwwQzUuMzczLDAsMCw1LjM3MywwLDEyYzAsNi42MjgsNS4zNzMsMTIsMTIsMTJjNi42MjcsMCwxMi01LjM3MiwxMi0xMkMyNCw1LjM3MywxOC42MjcsMCwxMiwweiBNMTkuNzU0LDkuNTYxICAgIGwtOC42MDcsOC42MDdjLTAuMTc2LDAuMTc3LTAuNDYyLDAuMTc3LTAuNjM3LDBsLTEuMjcyLTEuMjg1Yy0wLjE3NS0wLjE3Ni0wLjQ2Mi0wLjQ2NC0wLjYzNi0wLjY0MmwtMi45Ni0zLjExMiAgICBjLTAuMDg3LTAuMDg3LTAuMTMzLTAuMjEtMC4xMzMtMC4zMjdjMC0wLjExNSwwLjA0Ni0wLjIyNywwLjEzMy0wLjMxNGwxLjI5Ny0xLjE2OWMwLjA4OC0wLjA5LDAuMjA1LTAuMTM0LDAuMzIxLTAuMTM0ICAgIGMwLjExNCwwLjAwMSwwLjIyOCwwLjA0NiwwLjMxNSwwLjEzNGwyLjkzNiwyLjk5NWMwLjE3NSwwLjE3OCwwLjQ2MSwwLjE3OCwwLjYzNywwbDYuNjk5LTYuNjgxYzAuMTc2LTAuMTc3LDAuNDYxLTAuMTc3LDAuNjM2LDAgICAgbDEuMjcyLDEuMjg1QzE5LjkzLDkuMDk0LDE5LjkzLDkuMzg0LDE5Ljc1NCw5LjU2MXoiLz48L2c+PC9nPjwvc3ZnPg==); }
 
-/* line 498, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 504, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #donate-monthly, #donate-monthly + label {
   vertical-align: middle; }
 
 /* SUBMIT BUTTON */
-/* line 503, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 509, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .btn {
   padding: 0.2em 0.8em;
   font-size: 1.5em;
@@ -685,7 +691,7 @@ form {
   transition: all 0.3s ease; }
 
 /* http://cssmojo.com/hide-content-from-sighted-users/ */
-/* line 524, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 530, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .visually-hidden {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
@@ -699,34 +705,34 @@ form {
 
 /* quick and dirty to avoid breakage */
 @media screen and (max-width: 585px) {
-  /* line 536, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 542, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #other-amount {
     margin-top: 0; }
  }
 
 @media screen and (max-width: 469px) {
-  /* line 541, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 547, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #radio-buttons {
     width: 100%; }
 
-  /* line 544, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 550, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #radio-buttons label:last-child:after {
     display: none; }
 
-  /* line 547, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 553, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #for25, #for50, #for250, #for500 {
     width: 45% !important;
     margin-right: 10% !important; }
 
-  /* line 548, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 554, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #for50, #for100, #for500 {
     margin-right: 0 !important; }
 
-  /* line 549, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 555, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #for100 {
     width: 100% !important; }
 
-  /* line 550, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 556, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #radio-buttons input:checked + label:before, #radio-buttons label:hover:before {
     font-size: 1.3em
     /* reset */ }
@@ -734,13 +740,13 @@ form {
 
 @media screen and (min-width: 470px) {
   /* hover effect */
-  /* line 558, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 564, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #radio-buttons label:hover ~ label:last-child::after, #radio-buttons label:last-child:hover::after {
     -webkit-transform: scale(1.1); }
  }
 
 /* ----------Thank-you-Donation--------*/
-/* line 564, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 570, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 h4 {
   font-size: 3em;
   text-align: center; }
@@ -751,7 +757,7 @@ h4 {
       margin-top: 6%;
       color: #3b3b3b; } }
 
-/* line 575, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 581, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .progress-bg {
   margin: 0 auto;
   width: 65%;
@@ -761,7 +767,7 @@ h4 {
   background: url("http://www.atsu.edu/stlclinic/images/progress-bar-bg.jpg") repeat;
   box-shadow: inset 0 0 10px #fcae00; }
 
-/* line 587, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 593, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .progress-bar {
   height: 78px;
   border-radius: 10px;
@@ -775,7 +781,7 @@ h4 {
   /* IE 10 */
   /* Opera 11.10+ */ }
 
-/* line 611, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 617, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .progress-bg h3.goal, .progress-bg h3.raised {
   font-size: 2.7em;
   font-weight: 600;
@@ -785,18 +791,18 @@ h4 {
   text-align: center;
   display: inline; }
 
-/* line 622, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 628, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .progress-bg h3.raised {
   color: #fcae00;
   margin: 14px 25px 0 50px;
   padding: 0 25px 0 0; }
 
-/* line 628, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 634, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .progress-bg h3.goal {
   color: #3b3b3b;
   text-align: center; }
 
-/* line 633, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 639, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 body .progress-bg h3.raised {
   -webkit-animation: fadein 4s;
   /* Safari and Chrome */
@@ -807,11 +813,11 @@ body .progress-bg h3.raised {
   animation: fadein 4s; }
 
 @keyframes fadein {
-  /* line 642, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 648, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   from {
     opacity: 0; }
 
-  /* line 643, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 649, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   to {
     opacity: 1; } }
 
@@ -819,73 +825,73 @@ body .progress-bg h3.raised {
 
 /* Safari and Chrome */
 @-webkit-keyframes fadein {
-  /* line 654, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 660, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   from {
     opacity: 0; }
 
-  /* line 655, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 661, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   to {
     opacity: 1; } }
 
-/* line 658, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 664, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .progress-bg h3.goal {
   float: right;
   display: inline;
   padding: 0 25px 0 0;
   text-align: center; }
 
-/* line 665, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 671, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 body .progress-bg div {
   -webkit-animation: progress-bar 2s ease forwards;
   animation: progress-bar 2s ease forwards; }
 
 @-webkit-keyframes progress-bar {
-  /* line 673, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 679, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   from {
     width: 0%; }
 
-  /* line 674, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 680, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   to {
     width: 50%; } }
 
 @keyframes progress-bar {
-  /* line 688, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 694, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   from {
     width: 0%; }
 
-  /* line 689, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 695, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   to {
     width: 50%; } }
 
 /* ---------SOCIAL - FEED ----*/
 @-webkit-keyframes orangeBG {
-  /* line 695, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 701, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   0% {
     background-size: 0%; }
 
-  /* line 696, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 702, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   100% {
     background-color: #FF8300;
     background-size: 100%; } }
 @keyframes orangeBG {
-  /* line 695, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 701, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   0% {
     background-size: 0%; }
 
-  /* line 696, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 702, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   100% {
     background-color: #FF8300;
     background-size: 100%; } }
 
 @-webkit-keyframes slideInLeft {
-  /* line 700, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 706, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
     -ms-transform: translateX(-2000px);
     transform: translateX(-2000px); }
 
-  /* line 707, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 713, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
@@ -893,46 +899,46 @@ body .progress-bg div {
     transform: translateX(0); } }
 
 @keyframes slideInLeft {
-  /* line 700, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 706, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
     -ms-transform: translateX(-2000px);
     transform: translateX(-2000px); }
 
-  /* line 707, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 713, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   100% {
     opacity: 1;
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0); } }
 
-/* line 715, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 721, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both; }
 
-/* line 722, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 728, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .slideInLeft {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft; }
 
-/* line 727, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 733, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 body {
   background-color: #f3f3f3; }
 
-/* line 730, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 736, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #socialFeed {
   overflow: hidden;
   width: 200px; }
-  /* line 734, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 740, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #socialFeed .update {
     background-color: #fff;
     margin: 10px 0px;
     overflow: hidden; }
-    /* line 740, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 746, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     #socialFeed .update .bodyText {
       font-size: 0.7em;
       margin: 0.5% 0 0;
@@ -940,20 +946,20 @@ body {
       @media only screen and (min-width: 50em) {
         #socialFeed .update .bodyText {
           font-size: 0.9em; } }
-    /* line 749, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 755, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     #socialFeed .update .account {
       font-size: 0.7em;
       margin: 0;
       padding: 0 10px 5px; }
-      /* line 754, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+      /* line 760, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
       #socialFeed .update .account a {
         color: #FF8300;
         font-weight: 700;
         text-decoration: none; }
-        /* line 759, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+        /* line 765, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
         #socialFeed .update .account a:hover {
           color: #000; }
-    /* line 765, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 771, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     #socialFeed .update .socialNet {
       background-color: #b7b7b7;
       color: #fff;
@@ -962,52 +968,52 @@ body {
       position: relative;
       font-size: 0.75em;
       font-weight: 700; }
-      /* line 776, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+      /* line 782, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
       #socialFeed .update .socialNet .socialBG {
         background-color: #F7AD50;
         height: 30px;
         width: 100%;
         position: absolute;
         z-index: 1; }
-      /* line 785, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+      /* line 791, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
       #socialFeed .update .socialNet p {
         margin: 0;
         padding: 5px 10px;
         position: relative;
         z-index: 5; }
-      /* line 793, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+      /* line 799, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
       #socialFeed .update .socialNet .icon {
         font-size: 1.2em;
         margin-right: 10px; }
-  /* line 800, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 806, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #socialFeed .selected {
     border-left-color: #888; }
-  /* line 807, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 813, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #socialFeed .facebook .socialNet .icon {
     color: #3B5998; }
-  /* line 813, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 819, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #socialFeed .twitter .socialNet .icon {
     color: #55ACEE; }
 
 /* ----------INFORMATION-SWAP--------------- */
 /* Quick Info Swap*/
-/* line 824, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 830, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-links-container {
   width: 100%;
   margin: 20px 0px;
   padding: 10px 0px; }
 
-/* line 825, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 831, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-links-container #quick-links {
   width: 100%;
   display: block;
   float: left; }
 
-/* line 826, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 832, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-links ul {
   list-style: none;
   margin-left: -30%; }
-  /* line 827, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 833, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   #quick-info-swap #quick-links ul a {
     text-decoration: none; }
   @media only screen and (min-width: 40em) {
@@ -1020,7 +1026,7 @@ body {
     #quick-info-swap #quick-links ul {
       margin-left: 20%; } }
 
-/* line 840, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 846, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-links ul li span {
   margin-right: 40px;
   cursor: pointer;
@@ -1034,29 +1040,28 @@ body {
   color: #fff;
   text-decoration: none;
   text-align: center;
-  font-family: Palatino Linotype;
   font-size: 18px;
   border-radius: 20px; }
   @media only screen and (min-width: 40em) {
     #quick-info-swap #quick-links ul li span {
       width: 50%; } }
 
-/* line 860, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 865, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-links ul li span:hover {
   position: relative; }
 
-/* line 864, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 869, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-links li span.active {
   background-color: #fcae00;
   color: #FFFFFF; }
 
-/* line 869, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 874, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-links ul li span.active:hover {
   position: relative;
   top: 0px;
   left: 0px; }
 
-/* line 876, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 881, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-information {
   overflow: hidden;
   width: 100%;
@@ -1072,24 +1077,22 @@ body {
   #quick-info-swap #quick-information:after {
     clear: both; }
 
-/* line 884, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 889, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-information h3 {
   color: #fcae00;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-weight: 100;
-  font-size: 24px;
+  font-size: 20px;
   margin-left: 20px;
   margin-top: 10px;
   margin-bottom: -5px; }
 
-/* line 893, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 897, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-information p {
   color: #333;
   padding: 0px 10px 0 20px;
-  font-family: Palatino Linotype;
   font-size: 17px; }
 
-/* line 894, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 898, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #quick-info-swap #quick-information .button {
   color: #FFFFFF;
   background-color: #3B3B3B;
@@ -1099,24 +1102,23 @@ body {
   margin-left: 20px;
   padding: 8px;
   text-decoration: none;
-  font-family: Palatino Linotype;
   font-size: 18px; }
 
-/* line 905, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 908, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .what-is-albinism {
   background: rgba(255, 255, 255, 0.6); }
 
-/* line 908, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 911, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .children {
   background: rgba(255, 255, 255, 0.7); }
 
-/* line 911, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 914, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .students {
   position: relative;
   background: rgba(255, 255, 255, 0.7); }
 
 /* ----------FOOTER-----------*/
-/* line 920, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 923, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 footer {
   background-color: #3a3835;
   background: url("../images/footer-bg-dark_dotted.png");
@@ -1132,17 +1134,17 @@ footer {
   /* line 99, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/mixins */
   footer:after {
     clear: both; }
-  /* line 926, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 929, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   footer li {
     list-style-type: none;
     margin: 5px; }
 
-/* line 932, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 935, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 #my-footer a {
   color: #fff;
   font-size: 3em; }
 
-/* line 937, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 940, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .touch {
   float: right;
   margin: -20px;
@@ -1151,25 +1153,25 @@ footer {
   padding-right: 10%;
   color: #fff; }
 
-/* line 946, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 949, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .social {
   font-size: 0.3em;
   font-weight: 300;
   float: right;
   padding-right: 5%; }
-  /* line 951, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 954, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   .social a {
     text-decoration: none; }
-  /* line 954, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 957, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   .social li {
     border: solid #fff 1px;
     display: inline-block;
     padding: 6px; }
-    /* line 958, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 961, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     .social li:hover {
       background-color: rgba(218, 138, 11, 0.5); }
 
-/* line 963, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 966, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .copyright {
   font-weight: 300;
   color: #fff;
