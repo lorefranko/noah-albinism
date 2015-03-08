@@ -103,16 +103,21 @@ header{
 }
 
 #my-button{
-  position: absolute;
+    position: absolute;
   right: 0;
-  top: 0;
+  margin-top: 15px;
   z-index: 1000;
   font-weight: 600;
   text-decoration: none;
-  color: #fff;
-  &:hover{
-    color: #FCAE00;
-  }
+  color: #FBE56B;
+  font-size: 1.5em;
+  /* background-size: 100px; */
+  /* background-color: #FCE45F; */
+  margin-left: 5%;
+  width: 130px;
+  text-align: center;
+
+
   @media only screen and (min-width: 50em){
     display: none;
   }
@@ -238,7 +243,6 @@ header{
 
 
 .bg-donate-rays{
-  height: 200px;
   @media only screen and (min-width: 50em){
   height: 0;
   z-index: 99999;
