@@ -108,7 +108,7 @@ header{
   z-index: 1000;
   font-weight: 600;
   text-decoration: none;
-  color: #FBE56B;
+  color: #FCAD17;
   font-size: 1.5em;
   /* background-size: 100px; */
   /* background-color: #FCE45F; */
@@ -133,6 +133,17 @@ header{
   margin-left: 20px;
 }
 
+.logo-mobile{
+  height: 20px;
+  margin: 22px;
+}
+
+.mobile-top{
+  background: rgb(59, 59, 59);
+  li{
+    list-style-type: none;
+  }
+}
 
 #my-menu .mm-list a.mm-subopen{
   right: 40px;
