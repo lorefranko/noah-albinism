@@ -1,11 +1,43 @@
 ---
 layout: default
 ---
-  <h1>Donate</h1>
-  <p>NOAH needs your help to continue its service to the albinism community.
-  </p>
-  <p>NOAH’s core programs include biannual conferences, a toll free information number, a newsletter and this website – all of which cost money to operate. NOAH’s primary source of funds is member dues and donations
-NOAH seeks to expand service to the albinism community by publishing comprehensive information for parents of young children with albinism, publishing grade level specific materials for children with albinism in the regular classroom and bringing on more paid professional staff. Your NOAH contributions are fully IRS tax deductible as a charitable gift.  Please think of what “magic” NOAH has brought to you, your children and or your family and be as generous as you can.
-</p>
-<p>There are many ways to contribute! Please remember NOAH is a is a 501(c)3 non-profit that is federally tax exempt. NOAH is a not for profit corporation chartered in Pennsylvania.</p>
-</p>
+
+
+    <div>
+      <h1>Donate</h1>
+      <p>NOAH needs your help to continue its service to the albinism community.  NOAH’s core programs include biannual conferences, a toll free information number, a newsletter and this website – all of which cost money to operate. NOAH’s primary source of funds is member dues and donations
+      NOAH seeks to expand service to the albinism community by publishing comprehensive information for parents of young children with albinism, publishing grade level specific materials for children with albinism in the regular classroom and bringing on more paid professional staff. Your NOAH contributions are fully IRS tax deductible as a charitable gift.  Please think of what “magic” NOAH has brought to you, your children and or your family and be as generous as you can.
+      There are many ways to contribute! Please remember NOAH is a is a 501(c)3 non-profit that is federally tax exempt. NOAH is a not for profit corporation chartered in Pennsylvania.</p>
+    </div>
+
+    <form action="/use-radio-buttons-for-single-option/">
+      <div>
+          <h2 id="step-1">Choose an amount to donate</h2>
+          <fieldset id="radio-buttons" aria-labelledby="step-1">
+              <legend>Amount to donate</legend>
+       	    <input type="radio" name="donation" id="D25" value="25">
+            <label id="for25" for="D25">
+    	      <b>$25 can feed a family for a day</b>
+            </label>
+         <input type="radio" name="donation" id="D50" value="50" checked="checked">
+         <label id="for50" for="D50">
+    	      <b>$50 can feed a family for a week</b></label>
+         <input type="radio" name="donation" id="D100" value="100">
+         <label id="for100" for="D100">
+    	      <b>$100 can feed a family of 4 for a week</b>
+            </label>
+         <input type="radio" name="donation" id="D250" value="250">
+         <label id="for250" for="D250">
+    	      <b>$250 can feed a family of 4 for two weeks</b>
+            </label>
+         <input type="radio" name="donation" id="D500" value="500">
+         <label id="for500" for="D500">
+    	      <b>$500 can feed a family of 4 for four weeks</b>
+            </label>
+          </fieldset>
+          <input type="number" value="" id="other-amount" name="other-amount" placeholder="Other"><label for="other-amount" class="visually-hidden">Other amount</label>
+    	  <p><input type="checkbox" id="donate-monthly" name="donate-monthly" />
+    	  <label for="donate-monthly">I would like to make this a monthly donation</label></p>
+    	 <a href="{{site.baseurl}}/donate-thankyou.html" class="{% if page.url == '/donate-thankyou.html' %}current{% endif %} btn" input type="submit" value="Submit">submit</a>
+      </div>
+
