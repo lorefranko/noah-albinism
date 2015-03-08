@@ -229,12 +229,11 @@ ul li:hover ul {
     margin: 0;
     padding: 0;
     border: 0;
-    font-family: 'Oswald', sans-serif;
   }
   form {
     margin: 20px;
     padding: 20px;
-    border: 10px solid rgba(0,17,255,.2);
+    border: 10px solid rgb(252,174,0);
   }
   form p {
     clear: left;
@@ -252,7 +251,7 @@ ul li:hover ul {
     h2 {
         font-size: 1.4em;
         font-weight: normal;
-        color: #555;
+        color: rgb(59,59,59);
     }
     h2:before {
     content: "1";
@@ -264,7 +263,7 @@ ul li:hover ul {
     height: 1.4em;
     line-height: 1.4em;
     text-align: center;
-    background: rgba(0,0,0,.1);
+    background: rgb(252,174,0);
     border-radius: 100px;
   }
 
@@ -310,7 +309,7 @@ ul li:hover ul {
 /* other amount */
   #other-amount {
     text-align: center;
-    color: purple;
+    color: rgb(59,59,59);
     font-weight: bold;
     width: 4em;
     line-height: 2.2;
@@ -327,7 +326,7 @@ ul li:hover ul {
       -webkit-appearance: none;
   }
   ::-webkit-input-placeholder {
-    color: mediumpurple;
+    color: rgb(59,59,59);
     font-weight: 300;
 
     }
@@ -337,22 +336,20 @@ ul li:hover ul {
   }
   #other-amount::-webkit-textfield-decoration-container:before {
     content: "$";
-    color: purple;
+    color: rgb(59,59,59);
   }
 
 
 /* text in circles */
   #radio-buttons label:before {
-    color: purple;
+    color: rgb(59,59,59);
     font-size: 1.3em;
     font-weight: bold;
-    text-shadow: 1px 1px #fff;
     transition: all .3s ease;
   }
   #radio-buttons input:checked + label:before,
   #radio-buttons label:hover:before {
     font-size: 1em;
-    text-shadow: none;
   }
 
 /* labels */
@@ -415,17 +412,17 @@ ul li:hover ul {
 
 /* the circles */
   #radio-buttons label {
-    background: rgba(0,17,255,.2);
+    background: rgb(252,174,0);
     border-color: transparent;
   }
 
   #radio-buttons :checked + label {
-    background: rgba(255,255,255,.2);
+    background: #fff;
   }
 
 /* the 'marker' (moving circle) */
   #for500:after {
-    border-color: mediumpurple;
+    border-color: rgb(252,174,0);
   }
 
 /* OFFSETS */
@@ -457,7 +454,7 @@ ul li:hover ul {
         -webkit-appearance: none;
         margin: 0 10px;
         background: rgba(0,0,0,.1);
-        border: 5px solid mediumpurple;
+        border: 5px solid rgb(252,174,0);
         border-radius: 100%;
         width: 24px;
         height: 24px;
@@ -486,12 +483,10 @@ ul li:hover ul {
   border: 0 !important;
   position: relative;
   text-decoration: none;
-  background-color: mediumpurple;
+  background-color: rgb(59,59,59);
   display: inline-block;
   text-align: center;
-  box-shadow: 0 3px #21487F;
   border-radius: 3px;
-  text-shadow: 1px 1px purple;
   letter-spacing: 1px;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease;
