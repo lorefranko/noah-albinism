@@ -785,7 +785,7 @@ h4 {
   text-align: center; }
 
 /* line 607, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
-body .progress-bg h3.raised {
+section .progress-bg h3.raised {
   -webkit-animation: fadein 4s;
   /* Safari and Chrome */
   /* Firefox */
@@ -823,7 +823,7 @@ body .progress-bg h3.raised {
   text-align: center; }
 
 /* line 639, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
-body .progress-bg div {
+section .progress-bg div {
   -webkit-animation: progress-bar 2s ease forwards;
   animation: progress-bar 2s ease forwards; }
 
@@ -907,45 +907,41 @@ body .progress-bg div {
   -webkit-animation-name: slideInLeft;
   animation-name: slideInLeft; }
 
-/* line 706, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
-body {
-  background-color: #f3f3f3; }
-
-/* line 709, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+/* line 707, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 #socialFeed {
   background-color: #d7d7d7;
   margin: 50px auto;
   overflow: hidden;
   padding: 10px;
   width: 320px; }
-  /* line 716, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  /* line 714, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #socialFeed .update {
     background-color: #fff;
     border-left: 5px solid #888;
     margin: 10px 0px;
     max-height: 100px;
     overflow: hidden; }
-    /* line 724, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    /* line 722, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
     #socialFeed .update:hover {
       border-left: 5px solid #FF8300; }
-    /* line 728, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    /* line 726, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
     #socialFeed .update .bodyText {
       margin: 0.5% 0 0;
       padding: 5px 10px 0.5%; }
-    /* line 733, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    /* line 731, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
     #socialFeed .update .account {
       font-size: 0.7em;
       margin: 0;
       padding: 0 10px 5px; }
-      /* line 738, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+      /* line 736, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
       #socialFeed .update .account a {
         color: #FF8300;
         font-weight: 700;
         text-decoration: none; }
-        /* line 743, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+        /* line 741, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
         #socialFeed .update .account a:hover {
           color: #000; }
-    /* line 749, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    /* line 747, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
     #socialFeed .update .socialNet {
       background-color: #b7b7b7;
       color: #fff;
@@ -954,53 +950,53 @@ body {
       position: relative;
       font-size: 0.75em;
       font-weight: 700; }
-      /* line 760, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+      /* line 758, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
       #socialFeed .update .socialNet .socialBG {
         background-color: #FF8300;
         height: 30px;
         width: 100%;
         position: absolute;
         z-index: 1; }
-      /* line 769, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+      /* line 767, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
       #socialFeed .update .socialNet p {
         margin: 0;
         padding: 5px 10px;
         text-shadow: 2px 2px 3px #555;
         position: relative;
         z-index: 5; }
-      /* line 778, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+      /* line 776, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
       #socialFeed .update .socialNet .icon {
         font-size: 1.2em;
         margin-right: 10px;
         text-shadow: 1px 1px 1px #888; }
-  /* line 786, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  /* line 784, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #socialFeed .selected {
     border-left-color: #888; }
-  /* line 793, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  /* line 791, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #socialFeed .facebook .socialNet .icon {
     color: #3B5998; }
-  /* line 799, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  /* line 797, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   #socialFeed .twitter .socialNet .icon {
     color: #55ACEE; }
 
 /* ----------FOOTER-----------*/
-/* line 806, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+/* line 804, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 footer {
   background-color: #3a3835;
   background: url("../images/footer-bg-dark_dotted.png");
   background-size: cover;
   padding: 40px 0px 20px 0px; }
-  /* line 811, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  /* line 809, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   footer li {
     list-style-type: none;
     margin: 5px; }
 
-/* line 817, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+/* line 815, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 #my-footer a {
   color: #fff;
   font-size: 3em; }
 
-/* line 822, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+/* line 820, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .touch {
   float: right;
   margin: -20px;
@@ -1009,25 +1005,25 @@ footer {
   padding-right: 10%;
   color: #fff; }
 
-/* line 831, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+/* line 829, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .social {
   font-size: 0.3em;
   font-weight: 300;
   float: right;
   padding-right: 5%; }
-  /* line 836, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  /* line 834, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   .social a {
     text-decoration: none; }
-  /* line 839, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+  /* line 837, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
   .social li {
     border: solid #fff 1px;
     display: inline-block;
     padding: 6px; }
-    /* line 843, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+    /* line 841, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
     .social li:hover {
       background-color: rgba(218, 138, 11, 0.5); }
 
-/* line 849, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
+/* line 847, /Users/pipeclap/Desktop/Final Web Development/noah-albinism/scss/components/main */
 .copyright {
   font-weight: 300;
   color: #fff;

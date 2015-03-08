@@ -604,7 +604,7 @@ h4{
   text-align: center;
 }
 
-body .progress-bg h3.raised {
+section .progress-bg h3.raised {
     -webkit-animation: fadein 4s; /* Safari and Chrome */
        -moz-animation: fadein 4s; /* Firefox */
         -ms-animation: fadein 4s; /* Internet Explorer */
@@ -636,7 +636,7 @@ body .progress-bg h3.raised {
   text-align: center;
 }
 
-body .progress-bg div {
+section .progress-bg div {
   -webkit-animation: progress-bar 2s ease forwards;
   -moz-animation: progress-bar 2s ease forwards;
   -o-animation: progress-bar 2s ease forwards;
@@ -703,9 +703,7 @@ body .progress-bg div {
   animation-name: slideInLeft;
 }
 
-body{
-  background-color:#f3f3f3;
-}
+
 #socialFeed{
   background-color:#d7d7d7;
   margin: 50px auto;
