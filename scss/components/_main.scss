@@ -139,9 +139,10 @@ header{
 
 .section-1{
   @include clearfix-micro();
+  overflow: hidden;
   margin-left: 5%;
   margin-right: 5%;
-  margin-top: 50px;
+  margin-top: 20px;
   .image-2-3{
   width: 100%;
   }
@@ -372,10 +373,110 @@ body{
   }
 }
 
+/* ----------INFORMATION-SWAP--------------- */
+
+
+
+/* Quick Info Swap*/
+
+#quick-info-swap #quick-links-container{width:100%; margin:20px 0px; padding:10px 0px;}
+#quick-info-swap #quick-links-container #quick-links{width: 100%; display:block; float:left;}
+#quick-info-swap #quick-links ul{
+  a{
+    text-decoration: none;
+   }
+  list-style: none;
+  margin-left: -30%;
+  @media only screen and (min-width: 40em){
+  margin-left: 10%;
+  display: inline-flex;
+  }
+  @media only screen and (min-width: 70em){
+  margin-left: 20%;
+  }
+}
+#quick-info-swap #quick-links ul li span{
+    margin-right: 40px;
+    cursor:pointer;
+    width:100%;
+    height:35px;
+    line-height:35px;
+    display:block;
+    margin-bottom:10px;
+    padding:10px 30px;
+    background-color: #79808A;
+    color:#fff;
+    text-decoration:none;
+    text-align: center;
+    font-family:Palatino Linotype;
+    font-size:18px;
+    border-radius:20px;
+    @media only screen and (min-width: 40em){
+    width: 50%;
+    }
+}
+#quick-info-swap #quick-links ul li span:hover{
+position:relative;
+}
+
+#quick-info-swap #quick-links li span.active{
+    background-color: #fcae00;
+    color:#FFFFFF;
+}
+
+#quick-info-swap #quick-links ul li span.active:hover{
+position:relative;
+  top: 0px;
+  left: 0px;
+}
+
+
+#quick-info-swap #quick-information{
+@include clearfix-micro();
+overflow: hidden;
+width: 100%;
+background: rgba(255, 255, 255, 0.5);
+}
+
+
+#quick-info-swap #quick-information h3{
+color: #fcae00;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+font-weight: 100;
+font-size: 24px;
+margin-left: 20px;
+margin-top: 10px;
+margin-bottom: -5px;
+}
+#quick-info-swap #quick-information p{color:#333; padding:0px 10px 0 20px; font-family:Palatino Linotype; font-size:17px;}
+#quick-info-swap #quick-information .button{
+  color: #FFFFFF; background-color: #3B3B3B;
+  width: 120px;
+  text-align: center;
+  display: block;
+  margin-left: 20px; padding: 8px;
+  text-decoration: none;
+  font-family: Palatino Linotype;
+  font-size: 18px;
+}
+
+.what-is-albinism {
+  background: rgba(255, 255, 255, 0.6);
+}
+.children{
+  background: rgba(255, 255, 255, 0.7);
+}
+.students{
+  position: relative;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+
 
 /* ----------FOOTER-----------*/
 
 footer{
+  @include clearfix-micro();
   background-color: #3a3835;
   background: url("../images/footer-bg-dark_dotted.png");
   background-size: cover;
