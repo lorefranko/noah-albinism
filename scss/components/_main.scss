@@ -115,8 +115,6 @@ header{
   margin-left: 5%;
   width: 130px;
   text-align: center;
-
-
   @media only screen and (min-width: 50em){
     display: none;
   }
@@ -138,8 +136,17 @@ header{
   margin: 22px;
 }
 
+.logo-mobile-footer{
+  display: block;
+  height: 20px;
+  margin-left: 20px;
+  @media only screen and (min-width: 50em){
+  height: 30px;
+  }
+}
+
 .mobile-top{
-  background: rgb(59, 59, 59);
+  background: url("../images/footer-bg-dark_dotted.png");
   li{
     list-style-type: none;
   }
@@ -278,13 +285,29 @@ header{
   width: 100px;
   margin-left: 25px;
 }
+.donatef{
+    display: block;
+  margin-left: 20px;
+  @media only screen and (min-width: 50em){
+    /* float: right; */
+  /* display: inline-block; */
+  /* text-align: center; */
+  margin-left: 42%;
+  }
+}
+.donatehere-footer{
+  width: 90px;
+  @media only screen and (min-width: 50em){
+   width: 130px;
+ }
+}
 
 .donate-footer{
   font-size: 2em;
   background-size: 200px;
   background-color: rgba(218, 138, 11, 0.5);
-  margin-left: 5%;
-  width: 160px;
+  margin: 15% 0;
+  width: 100%;
   text-align: center;
   a{
     text-decoration: none;
@@ -293,6 +316,10 @@ header{
   &:hover{
     background-color: rgba(218, 138, 11, 1);
   }
+}
+
+.donate-btn-footer{
+  width:12px;
 }
 
 .h1-feeds{
@@ -886,8 +913,14 @@ body{
   margin-left: 10%;
   display: inline-flex;
   }
+  @media only screen and (min-width: 60em){
+  margin-left: 18%;
+  }
   @media only screen and (min-width: 70em){
-  margin-left: 20%;
+  margin-left: 25%;
+  }
+  @media only screen and (min-width: 90em){
+  margin-left: 30%;
   }
 }
 #quick-info-swap #quick-links ul li span{
@@ -1098,9 +1131,7 @@ input[type='checkbox']:checked + label span {
 
 footer{
   @include clearfix-micro();
-  background-color: #3a3835;
   background: url("../images/footer-bg-dark_dotted.png");
-  background-size: cover;
   padding: 40px 0px 20px 0px;
   li{
     list-style-type: none;
@@ -1114,26 +1145,30 @@ footer{
 }
 
 .touch{
-  float: right;
-  margin: -20px;
   font-size: 1em;
   font-weight: 400;
-  padding-right: 10%;
-  color: #fff;
+  color: #FCAD17;
+  float: right;
+  margin-right: 22px;
 }
 
 .social{
   font-size: .3em;
   font-weight: 300;
+  text-align: center;
   float: right;
-  padding-right: 5%;
+  margin-right: 18px;
   a{
     text-decoration: none;
   }
   li{
     border: solid #fff 1px;
-    display: inline-block;
+    display: block;
     padding: 6px;
+    width: 100px;
+    @media only screen and (min-width: 40em){
+    width: 150px;
+    }
   &:hover{
     background-color: rgba(218, 138, 11, 0.5);
     }
