@@ -139,6 +139,7 @@ header{
 
 .section-1{
   @include clearfix-micro();
+  overflow: hidden;
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 50px;
@@ -378,10 +379,18 @@ body{
 
 /* Quick Info Swap*/
 
-#quick-info-swap #quick-links-container{width:960px; height:205px; margin:20px 0px; padding:10px 0px;}
-#quick-info-swap #quick-links-container #quick-links{width:240px; display:block; float:left;}
-#quick-info-swap #quick-links ul{list-style: none;}
+#quick-info-swap #quick-links-container{width:100%; margin:20px 0px; padding:10px 0px;}
+#quick-info-swap #quick-links-container #quick-links{width: 100%; display:block; float:left;}
+#quick-info-swap #quick-links ul{
+  list-style: none;
+  margin-left: 15%;
+  @media only screen and (min-width: 50em){
+  margin-left: 0;
+  display: inline-flex;
+  }
+}
 #quick-info-swap #quick-links ul li span{
+    margin-right: 40px;
     cursor:pointer;
     width:130px;
     height:35px;
@@ -391,53 +400,34 @@ body{
     padding:10px 30px;
     background-color: #79808A;
     color:#fff;
-    text-shadow: 1px 1px 1px #FFF;
     text-decoration:none;
+    text-align: center;
     font-family:Palatino Linotype;
-    font-style:italic;
     font-size:18px;
-    border-radius:10px;
+    border-radius:20px;
    box-shadow:
 
 }
 #quick-info-swap #quick-links ul li span:hover{
 position:relative;
-
-  box-shadow:
-  1px 1px 0px #CCC,
-  2px 2px 0px #CCC,
-  3px 3px 0px #CCC,
-  4px 4px 0px #CCC,
-  5px 5px 0px #CCC;
 }
 
 #quick-info-swap #quick-links li span.active{
     background-color: #fcae00;
     color:#FFFFFF;
-    text-shadow: 1px 1px 1px #eea607;
-  box-shadow:
-    1px 1px 0px #DE9900,
-  2px 2px 0px #DE9900,
-  3px 3px 0px #DE9900,
-  4px 4px 0px #DE9900,
-  5px 5px 0px #DE9900;
 }
 
 #quick-info-swap #quick-links ul li span.active:hover{
 position:relative;
-  top: 0px; left: 0px;
-   box-shadow:
-    1px 1px 0px #DE9900,
-    2px 2px 0px #DE9900,
-    3px 3px 0px #DE9900,
-    4px 4px 0px #DE9900,
-    5px 5px 0px #DE9900;
+  top: 0px;
+  left: 0px;
 }
 
 
 #quick-info-swap #quick-information{
+@include clearfix-micro();
 overflow: hidden;
-width: 630px;
+width: 100%;
 background: rgba(255, 255, 255, 0.5);
 }
 
@@ -446,7 +436,6 @@ background: rgba(255, 255, 255, 0.5);
 color: #fcae00;
 font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 font-weight: 100;
-font-style: italic;
 font-size: 24px;
 margin-left: 20px;
 margin-top: 10px;
@@ -461,7 +450,6 @@ margin-bottom: -5px;
   margin-left: 20px; padding: 8px;
   text-decoration: none;
   font-family: Palatino Linotype;
-  font-style: oblique; font-style: italic;
   font-size: 18px;
 }
 
@@ -481,6 +469,7 @@ margin-bottom: -5px;
 /* ----------FOOTER-----------*/
 
 footer{
+  @include clearfix-micro();
   background-color: #3a3835;
   background: url("../images/footer-bg-dark_dotted.png");
   background-size: cover;
