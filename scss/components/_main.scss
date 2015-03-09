@@ -663,7 +663,7 @@ header{
 /* ----------Thank-you-Donation--------*/
 
 h4{
-  font-size: 3em;
+  font-size: 2.5em;
   text-align: center;
     @media only screen and (min-width: 30em){
     font-size: 6em;
@@ -675,7 +675,7 @@ h4{
 
 .progress-bg {
   margin: 0 auto;
-  width: 65%;
+  width: 100%;
   height: 78px;
   border-radius: 10px;
   text-align: center;
@@ -721,14 +721,25 @@ h4{
 
 
 .progress-bg h3.raised {
+  text-align: center;
+  font-size: 1.4em;
   color: rgb(252,174,0);
   margin: 14px 25px 0 50px;
   padding: 0 25px 0 0;
+  @media only screen and (min-width: 23em){
+    font-size: 2.3em;
+    margin-left: 50%;
+  }
 }
 
-.progress-bg h3.goal {
+ .goal {
+   display: block;
+  padding-top: 20px;
+  h3{
+  font-size: 2em;
   color: rgb(59,59,59);
   text-align: center;
+  }
 }
 
 body .progress-bg h3.raised {
