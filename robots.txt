@@ -1,0 +1,2 @@
+User-Agent: *
+Disallow: /lorenafranco.ca/noah-albinism/index.html

@@ -1,0 +1,22 @@
+# TEAM
+
+Designer & Developer: Lorena Franco & Felipe Clavijo
+Site: http://lorenafranco.ca/noah-albinism/index.html
+GitHub: http://github.com/lorefranko  http://github.com/pipeclap
+Twitter: @loreclap
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+nav, donate-form, log in, social feeds from Some Person ,http://codepen.com>
+
+
+---
+
+# TECHNOLOGY
+
+- Sublime Text
+- GitHub
+- Jekyll
