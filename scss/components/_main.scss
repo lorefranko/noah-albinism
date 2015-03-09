@@ -318,7 +318,8 @@ header{
   }
 }
 .donatehere-footer{
-  width: 90px;
+    width: 100px;
+  margin-top: 25px;
   @media only screen and (min-width: 40em){
    width: 130px;
  }
@@ -1226,4 +1227,28 @@ footer{
   font-size: .5em;
   text-align: center;
   margin-top: 60px;
+  @media only screen and (min-width: 45em){
+   margin-top: 150px;
+   font-size: .7em;
+ }
+}
+
+.copyright-1{
+  font-size: .8em;
+  text-align: center;
+  color: rgba(218, 138, 11, 0.5);
+  margin-top: 60px;
+  a{
+    color: rgba(218, 138, 11, 0.6);
+  }
+  @media only screen and (min-width: 46em){
+    font-size: .8em;
+    text-align: left;
+    margin-top: -200px;
+    color: #fff;
+    margin-left: 20px;
+    a{
+      color: #fff;
+    }
+  }
 }
