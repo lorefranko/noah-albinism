@@ -342,10 +342,8 @@ header {
   border-style: solid;
   border-width: medium;
   padding: 5px;
-  border-color: #fcad17; }
-  /* line 243, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
-  .donate-top:hover {
-    background: #3A3A3C; }
+  border-color: #fcad17;
+  background: #3A3A3C; }
 
 /* line 248, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .donateContainer {
@@ -3245,7 +3243,7 @@ html.mm-opened .mm-page {
 /* line 1466, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu {
   background: #333333;
-  color: rgba(255, 255, 255, 0.6); }
+  color: #fcae00; }
 
 /* line 1469, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/jquery-mmenu */
 .mm-menu .mm-list > li:after {
