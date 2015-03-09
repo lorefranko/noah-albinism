@@ -3,12 +3,25 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  color: rgb(59, 59,59)
 }
 
 h1{
   font-weight: 600;
-  padding: 20px;
 }
+
+.image-comment{
+  width: 40%;
+}
+
+blockquote{
+  width:50%;
+  float:right;
+  em{
+    font-size: .85em;
+  }
+}
+
 header{
 
   background: transparent url("../images/angel.jpg") no-repeat  center;
@@ -179,6 +192,7 @@ header{
 
   .screen-10{
     width: 10%;
+    padding-bottom: 5%;
   }
 
   .screen-2-3{
@@ -323,9 +337,15 @@ header{
 }
 
 .h1-feeds{
-  color: #F7AD50;
-  font-size: .9em;
+  color: #3B3B3B;
+  font-size: 1.3em;
   width: 200%;
+  padding: 10px;
+  margin-top: 30px;
+  background: rgb(247, 173, 80);
+  @media only screen and (min-width: 50em){
+  width: 180px;
+  }
 }
 
 /* ----------Donate-form-----------*/
@@ -339,6 +359,7 @@ header{
     margin: 20px;
     padding: 20px;
     border: 10px solid rgb(252,174,0);
+    background-color: rgb(255, 246, 224);
      p {
     clear: left;
     margin: 1em 0;
@@ -809,8 +830,10 @@ body{
 }
 #socialFeed{
   overflow:hidden;
+  width: 100%;
+@media only screen and (min-width: 50em){
   width: 200px;
-
+}
   .update {
     background-color:#fff;
     margin: 10px 0px;
@@ -821,7 +844,7 @@ body{
       font-size: .7em;
       margin:.5% 0 0;
       padding: 5px 10px .5%;
-       @media only screen and (min-width: 50em){
+       @media only screen and (min-width: 30em){
         font-size: .9em;
       }
     }
@@ -1115,7 +1138,10 @@ a:hover {
 /* Checkbox */
 
 input[type='checkbox'] {
-  visibility: hidden;
+  visibility: visible;
+  a{
+    text-decoration: none;
+  }
 }
 
 input[type='checkbox'] + label span {
