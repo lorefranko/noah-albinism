@@ -10,6 +10,13 @@ h1{
   font-weight: 600;
 }
 
+h2{
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #fcae00;
+  padding: 15px;
+}
+
 .image-comment{
   width: 40%;
 }
@@ -19,6 +26,7 @@ blockquote{
   float:right;
   em{
     font-size: .85em;
+    color: #fcae00;
   }
 }
 
@@ -732,15 +740,6 @@ h4{
   }
 }
 
- .goal {
-   display: block;
-  padding-top: 20px;
-  h3{
-  font-size: 2em;
-  color: rgb(59,59,59);
-  text-align: center;
-  }
-}
 
 body .progress-bg h3.raised {
     -webkit-animation: fadein 4s; /* Safari and Chrome */
