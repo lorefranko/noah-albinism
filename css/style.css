@@ -1402,11 +1402,12 @@ footer {
   font-weight: 300;
   text-align: center;
   float: right;
-  margin-right: 18px; }
-  /* line 1206, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  margin-top: 20px;
+  margin-right: -140px; }
+  /* line 1207, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   .social a {
     text-decoration: none; }
-  /* line 1209, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+  /* line 1210, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
   .social li {
     border: solid #fff 1px;
     display: block;
@@ -1415,11 +1416,11 @@ footer {
     @media only screen and (min-width: 40em) {
       .social li {
         width: 150px; } }
-    /* line 1217, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+    /* line 1218, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
     .social li:hover {
       background-color: rgba(218, 138, 11, 0.5); }
 
-/* line 1222, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
+/* line 1223, /Users/LorenaFranco/Documents/GDx6/Interactive 5/noah-albinism/scss/components/main */
 .copyright {
   font-weight: 300;
   color: #fff;
